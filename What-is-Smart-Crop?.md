@@ -1,4 +1,4 @@
-Smart crop uses the Trim feature from Imagemagick to find the content in a solid background color wallpaper. You can enable this by changing ```$crop_mode``` to ```fit``` or ```fill``` or by using the launch flag ```--crop_mode```. the fill mode should only be used when fit doesn't work correctly.
+Smart crop uses the Trim feature from Imagemagick to find the content in a solid background color wallpaper. You can enable this by changing ```$crop_mode``` to ```fit``` or ```fill``` or by using the launch flag ```--crop_mode```. The fill mode should only be used when fit doesn't work correctly as you lose part of the content.
 
 Here are some comparisons between the three crop modes (normal, fit and fill).
 

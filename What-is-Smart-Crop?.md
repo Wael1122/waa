@@ -27,3 +27,19 @@ Here are some comparisons between the three crop modes (normal, fit and fill).
 ### Fill Crop Mode
 ![](http://i.imgur.com/2u5uywi.png)
 
+
+## An instance where Fill mode yields a better result.
+
+
+### Original Wallpaper
+<img src="http://i.imgur.com/8OWJfWD.png" width="700">
+
+### Normal Crop Mode
+![](http://i.imgur.com/W4cliWN.png)
+
+### Fit Crop Mode
+![](http://i.imgur.com/FugyUTd.png)
+
+### Fill Crop Mode
+![](http://i.imgur.com/vJgRret.png)
+

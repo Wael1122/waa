@@ -25,7 +25,7 @@ printinfo () {
 
 ## Adding Custom Info
 
-The script also has two helper functions that make it easier to add more info to the function.
+The script comes with two helper functions that make it easier to display more info.
 
 #### info
 

@@ -38,9 +38,6 @@ info "Memory" memory
 # Print Uptime and color the subtitle Orange
 info "$(color 5)Uptime" uptime
 
-# Print uptime without a subtitle
-info uptime
-
 ```
 
 #### prin

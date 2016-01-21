@@ -70,7 +70,7 @@ printinfo () {
     
     # ...
 
-    if [ ! -z "$DISPLAY" ]; then
+    if [ "$DISPLAY" ]; then
         info "Window Manager" windowmanager
         info "GTK Theme" gtktheme
         info "Icons" gtkicons

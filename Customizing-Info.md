@@ -79,3 +79,22 @@ printinfo () {
     # ...
 }
 ```
+
+#### Only show GTK theme if there's one in use
+
+```sh
+printinfo () {
+    info title
+    info underline
+    
+    # ...
+
+    getgtktheme
+    if [ "$gtktheme" != "None" ]; then
+        prin "GTK Theme: $gtktheme"
+        info "Icons" gtkicons
+    fi
+
+    # ...
+}
+```

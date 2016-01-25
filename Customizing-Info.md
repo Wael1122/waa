@@ -105,6 +105,8 @@ You can make the script 2x faster by gathering the info asynchronously, the only
 
 ```sh
 printinfo () {
+    # Lines without an '&' sign will be displayed in 
+    # the order they appear here.
     info title
     info underline
 

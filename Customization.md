@@ -294,3 +294,10 @@ Take a screenshot on script end.
 Possible values: '/path/to/save/scrot.png`
 
 **Note**: An empty value will save the screenshots in `scrot_dir`/`scrot_name`.
+
+
+#### scrot_cmd
+
+Screenshot program to launch.
+
+Possible values: `program name`

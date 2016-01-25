@@ -123,6 +123,7 @@ printinfo () {
     info linebreak
     info cols
 
+    # Wait for the functions to complete
     wait
 }
 ```

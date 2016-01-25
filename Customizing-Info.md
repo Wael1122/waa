@@ -98,3 +98,31 @@ printinfo () {
     # ...
 }
 ```
+
+#### Speed up thte script by running the functions asynchronously
+
+You can make the script 2x faster by gathering the info asynchronously, the only caveat is that the order that all of the info is printed in will be based on what completes first. You can add this to your printinfo function by adding an `&` sign to the info lines you want to be asynchronous then by adding a single `wait` to the bottom of the function.
+
+```sh
+printinfo () {
+    info title
+    info underline
+
+    info "OS" distro &
+    info "Kernel" kernel &
+    info "Uptime" uptime &
+    info "Packages" packages &
+    info "Shell" shell &
+    info "Window Manager" windowmanager
+    info "GTK Theme" gtktheme &
+    info "Icons" gtkicons &
+    info "CPU" cpu &
+    info "GPU" gpu &
+    info "Memory" memory &
+
+    info linebreak
+    info cols
+
+    wait
+}
+```

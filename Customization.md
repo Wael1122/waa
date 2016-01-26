@@ -18,7 +18,7 @@ Possible values: `current`, `min`, `max`, `bios`, `scaling_current`,<br \>
 
 Shorten the output of uptime.
 
-Possible values: `on`, `off`
+Possible values: `tiny`, `on`, `off`
 
 
 #### gpu_shorthand

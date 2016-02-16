@@ -11,3 +11,5 @@
 - [Color Blocks](https://github.com/dylanaraps/fetch/wiki/Customization#color-blocks)
 - [Image](https://github.com/dylanaraps/fetch/wiki/Customization#image)
 - [Screenshot](https://github.com/dylanaraps/fetch/wiki/Customization#screenshot)
+
+### [Following HEAD](https://github.com/dylanaraps/fetch/wiki/Following-HEAD)

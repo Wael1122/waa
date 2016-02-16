@@ -3,7 +3,7 @@ of any breaking changes to config files.
 
 ### 17/02/2016
 
-- `wmctrl` is now a required dependency. See **[#75](https://github.com/dylanaraps/fetch/issues/75)** for my reasoning
+- `wmctrl` is now a required dependency on Linux / BSD. See **[#75](https://github.com/dylanaraps/fetch/issues/75)** <br \>for my reasoning
 for doing this.
 - Dropped the `gtk` from these printinfo functions `gtktheme`, `gtkicons`<br \>
 and `gtkfont`. Theme output will be blank until you make these changes:

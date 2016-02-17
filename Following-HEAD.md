@@ -3,7 +3,7 @@ of any breaking changes to config files.
 
 ### 17/02/2016
 
-- `wmctrl` is now a required dependency on Linux / BSD. See **[#75](https://github.com/dylanaraps/fetch/issues/75)** <br \>for my reasoning for doing this.
+- `xprop` is now a required dependency. See **[#79](https://github.com/dylanaraps/fetch/issues/79)** <br \>for my reasoning for doing this.
 - `windowmanager` was renamed to `wm` so you'll need to update your printinfo<br \>
 function in your config file.
 - Dropped the `gtk` from these printinfo functions `gtktheme`, `gtkicons`<br \>

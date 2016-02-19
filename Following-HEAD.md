@@ -4,6 +4,7 @@ of any breaking changes to config files.
 ### 19/02/2016
 
 - You no longer need to set `font_width`, fetch does it automatically.<br \>
+- `image_size=half` was renamed to `image_size=auto`.
 - `st` and `konsole` no longer work with `w3m-img` mode.
     - See my comment here: **[#82](https://github.com/dylanaraps/fetch/pull/82#issuecomment-185973761)**
 - Removed `--stdout_separator` (Separator is now 2 spaces)

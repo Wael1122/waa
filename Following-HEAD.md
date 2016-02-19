@@ -7,6 +7,19 @@ of any breaking changes to config files.
 - `st` and `konsole` no longer work with `w3m-img` mode.
     - See my comment here: **[#82](https://github.com/dylanaraps/fetch/pull/82#issuecomment-185973761)**
 
+**Windows**
+- `getvisualstyle` has been merged with `getstyle`. Make the following change:
+
+```sh
+# The title inside the quotes can be
+# whatever you like.
+
+# Old
+info "Visual Style" visualstyle
+
+# New
+info "Theme" theme
+```
 
 ### 17/02/2016
 

@@ -1,6 +1,15 @@
 This page is here to inform people using the master branch
 of any breaking changes to config files.
 
+### 21/02/2016
+
+Image mode no longer supports `gnu screen` as it doesn't support the<br \>
+escape sequence we're using to get the window dimensions.
+
+I'm going to add back support for the old behaviour meaning those using<br \>
+`konsole`, `st` and `gnu screen` will have to manually set their font<br \>
+size to get image mode working.
+
 ### 19/02/2016
 
 - You no longer need to set `font_width`, fetch does it automatically.<br \>

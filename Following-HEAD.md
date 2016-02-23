@@ -3,7 +3,7 @@ of any breaking changes to config files.
 
 ### 23/02/2016
 
-- Removed `$*_color` variables/flags in favour of a general `$colors`<br \>
+Removed `$*_color` variables/flags in favour of a general `$colors`<br \>
 variable/flag. See my writeup here: **https://github.com/dylanaraps/fetch/pull/96**
 
 ### 21/02/2016

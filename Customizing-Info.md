@@ -57,7 +57,7 @@ prin "$(color 4)That's not my name"
 
 ## More complex examples
 
-#### Only show window manager and gtk themes if X is running.
+#### ~~Only show window manager and gtk themes if X is running.~~ (In master)
 
 ```sh
 printinfo () {

@@ -3,9 +3,8 @@ of any breaking changes to config files.
 
 ### 23/02/2016
 
-In ascii mode, text is now colored according to your distros ascii logo's<br \>
-colors. It's enabled by default and you can turn it off by changing the<br \> 
-value of `$text_color_auto` or `--text_color_auto` to `off`.
+- Removed `$*_color` variables/flags in favour of a general `$colors`<br \>
+variable/flag. See my writeup here: **https://github.com/dylanaraps/fetch/pull/96**
 
 ### 21/02/2016
 

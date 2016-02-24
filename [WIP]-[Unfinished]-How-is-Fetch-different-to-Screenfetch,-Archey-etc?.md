@@ -7,6 +7,9 @@ below.
 
 ## General
 
+**Fetch supports bash 3.0+**
+Screenfetch requires at least bash 4.0 to be installed.
+
 **Fetch is more actively developed.**<br \>
 I'm working on fetch everyday whereas Screenfetch and Archey haven't been updated<br \> 
 in months. 

@@ -7,7 +7,7 @@ below.
 
 ## General
 
-**Fetch supports bash 3.0+**
+**Fetch supports bash 3.0+**<br \>
 Screenfetch requires at least bash 4.0 to be installed.
 
 **Fetch is more actively developed.**<br \>

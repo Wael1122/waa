@@ -1,12 +1,9 @@
 This page is here to inform people using the master branch
 of any breaking changes to config files.
 
-### 23/02/2016
-
+### 1.3
 Removed `$*_color` variables/flags in favour of a general `$colors`<br \>
 variable/flag. See my writeup here: **https://github.com/dylanaraps/fetch/pull/96**
-
-### 21/02/2016
 
 Image mode no longer supports `gnu screen` as it doesn't support the<br \>
 escape sequence we're using to get the window dimensions.
@@ -14,8 +11,6 @@ escape sequence we're using to get the window dimensions.
 I'm going to add back support for the old behaviour meaning those using<br \>
 `konsole`, `st` and `gnu screen` will have to manually set their font<br \>
 size to get image mode working.
-
-### 19/02/2016
 
 - You no longer need to set `font_width`, fetch does it automatically.<br \>
 - `image_size=half` was renamed to `image_size=auto`.
@@ -39,7 +34,7 @@ info "Visual Style" visualstyle
 info "Theme" theme
 ```
 
-### 17/02/2016
+### 1.2
 
 - `xprop` is now a required dependency. See **[#79](https://github.com/dylanaraps/fetch/issues/79)** <br \>for my reasoning for doing this.
 - `windowmanager` was renamed to `wm` so you'll need to update your printinfo<br \>

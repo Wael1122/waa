@@ -5,17 +5,9 @@ of any breaking changes to config files.
 Removed `$*_color` variables/flags in favour of a general `$colors`<br \>
 variable/flag. See my writeup here: **https://github.com/dylanaraps/fetch/pull/96**
 
-Image mode no longer supports `gnu screen` as it doesn't support the<br \>
-escape sequence we're using to get the window dimensions.
-
-I'm going to add back support for the old behaviour meaning those using<br \>
-`konsole`, `st` and `gnu screen` will have to manually set their font<br \>
-size to get image mode working.
-
 - You no longer need to set `font_width`, fetch does it automatically.<br \>
 - `image_size=half` was renamed to `image_size=auto`.
-- `st` and `konsole` no longer work with `w3m-img` mode.
-    - See my comment here: **[#82](https://github.com/dylanaraps/fetch/pull/82#issuecomment-185973761)**
+- `gnu screen`, `st` and `konsole` no longer work with `w3m-img` mode. See **[#82](https://github.com/dylanaraps/fetch/pull/82#issuecomment-185973761)**
 - Removed `--stdout_separator` (Separator is now 2 spaces)
 - Removed `--stdout_subtitles`
 - Removed `--stdout_title`

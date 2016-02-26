@@ -1,6 +1,6 @@
 ## Welcome to the fetch wiki!
 
-#### [What is Smart Crop?](https://github.com/dylanaraps/fetch/wiki/What-is-Smart-Crop%3F)
+#### [What is Smart Crop / Waifu Crop?](https://github.com/dylanaraps/fetch/wiki/What-is-Smart-Crop-%5C--Waifu-Crop%3F)
 
 #### [Customizing Info](https://github.com/dylanaraps/fetch/wiki/Customizing-Info)
 

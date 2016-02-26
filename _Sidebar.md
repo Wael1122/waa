@@ -1,4 +1,4 @@
-### [What Is Smart Crop?](https://github.com/dylanaraps/fetch/wiki/What-is-Smart-Crop%3F)
+### [What Is Smart Crop / Waifu Crop?](https://github.com/dylanaraps/fetch/wiki/What-is-Smart-Crop-%5C--Waifu-Crop%3F)
 
 ### [Customizing Info](https://github.com/dylanaraps/fetch/wiki/Customizing-Info)
 - [Adding Custom Info](https://github.com/dylanaraps/fetch/wiki/Customizing-Info#adding-custom-info)

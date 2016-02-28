@@ -3,7 +3,7 @@ of any breaking changes to config files.
 
 ### 1.4
 
-- Fetch has been renamed to `Neofetch`.
+- `Fetch` has been renamed to `Neofetch`.
 
 ### 1.3
 Removed `$*_color` variables/flags in favour of a general `$colors`<br \>

@@ -1,6 +1,10 @@
 This page is here to inform people using the master branch
 of any breaking changes to config files.
 
+### 1.4
+
+- Fetch has been renamed to `Neofetch`.
+
 ### 1.3
 Removed `$*_color` variables/flags in favour of a general `$colors`<br \>
 variable/flag. See my writeup here: **https://github.com/dylanaraps/fetch/pull/96**

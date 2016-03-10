@@ -57,44 +57,6 @@ prin "$(color 4)That's not my name"
 
 ## More complex examples
 
-#### ~~Only show window manager and gtk themes if X is running.~~ (In master)
-
-```sh
-printinfo () {
-    info title
-    info underline
-    
-    # ...
-
-    if [ "$DISPLAY" ]; then
-        info "Window Manager" windowmanager
-        info "GTK Theme" gtktheme
-        info "Icons" gtkicons
-    fi
-
-    # ...
-}
-```
-
-#### Only show GTK theme if there's one in use
-
-```sh
-printinfo () {
-    info title
-    info underline
-    
-    # ...
-
-    getgtktheme
-    if [ "$gtktheme" != "None" ]; then
-        prin "GTK Theme: $gtktheme"
-        info "Icons" gtkicons
-    fi
-
-    # ...
-}
-```
-
 #### Speed up thte script by running the functions asynchronously
 
 You can make the script 2x faster by gathering the info asynchronously, the only caveat is that the order that all of the info is printed in will be based on what completes first. You can add this to your printinfo function by adding an `&` sign to the info lines you want to be asynchronous then by adding a single `wait` to the bottom of the function.

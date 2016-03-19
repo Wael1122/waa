@@ -1,6 +1,18 @@
 This page is here to inform people using the master branch
 of any breaking changes to config files.
 
+### 1.6
+
+**NOTE**: `scrot_dir` now needs to end with a `/`.
+
+```sh
+# NEW default
+scrot_dir="$HOME/Pictures/"
+
+# OLD default
+scrot_dir="$HOME/Pictures"
+```
+
 ### 1.4
 
 - `Fetch` has been renamed to `Neofetch`.

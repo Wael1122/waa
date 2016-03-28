@@ -73,7 +73,7 @@ printinfo () {
     info "Uptime" uptime &
     info "Packages" packages &
     info "Shell" shell &
-    info "Window Manager" windowmanager
+    info "Window Manager" windowmanager &
     info "GTK Theme" gtktheme &
     info "Icons" gtkicons &
     info "CPU" cpu &

@@ -1,5 +1,4 @@
-This page is here to inform people using the master branch
-of any breaking changes to config files.
+This page lists any breaking changes from release to release.
 
 ### 1.6
 

@@ -3,7 +3,10 @@ of any breaking changes to config files.
 
 ### 1.6
 
-**NOTE**: `scrot_dir` now needs to end with a `/`.
+- Remove shuffledir in favor of '--image path/to/dir/'<br \>
+You now need to use `--image path/to/dir/` or `image="path/to/dir/"`.
+
+- `scrot_dir` now needs to end with a `/`.
 
 ```sh
 # NEW default

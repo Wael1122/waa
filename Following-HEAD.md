@@ -2,7 +2,7 @@ This page lists any breaking changes from release to release.
 
 ### 1.6
 
-- Remove shuffledir in favor of '--image path/to/dir/'<br \>
+- Remove `shuffledir` in favor of `--image path/to/dir/`<br \>
 You now need to use `--image path/to/dir/` or `image="path/to/dir/"`.
 
 - `scrot_dir` now needs to end with a `/`.

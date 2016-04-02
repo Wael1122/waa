@@ -1,5 +1,20 @@
 This page lists any breaking changes from release to release.
 
+### 1.7
+
+**prin**<br \>
+- Format changes to fix issues with colons in string. This change also makes<br \>
+`prin` use the same args as `info`.
+
+```sh
+# OLD Format
+prin "Subtitle: Text goes here"
+
+# NEW Format
+prin "Subtitle" "Text goes here"
+```
+
+
 ### 1.6
 
 - Remove `shuffledir` in favor of `--image path/to/dir/`<br \>

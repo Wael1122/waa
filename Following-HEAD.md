@@ -1,6 +1,6 @@
 This page lists any breaking changes from release to release.
 
-### 1.7
+# 1.7
 
 **prin**<br \>
 - Format changes to fix issues with colons in string. This change also makes<br \>
@@ -29,7 +29,7 @@ underline_enabled="on"
 
 
 
-### 1.6
+# 1.6
 
 - Remove `shuffledir` in favor of `--image path/to/dir/`<br \>
 You now need to use `--image path/to/dir/` or `image="path/to/dir/"`.
@@ -44,11 +44,11 @@ scrot_dir="$HOME/Pictures/"
 scrot_dir="$HOME/Pictures"
 ```
 
-### 1.4
+# 1.4
 
 - `Fetch` has been renamed to `Neofetch`.
 
-### 1.3
+# 1.3
 Removed `$*_color` variables/flags in favour of a general `$colors`<br \>
 variable/flag. See my writeup here: **https://github.com/dylanaraps/fetch/pull/96**
 
@@ -73,7 +73,7 @@ info "Visual Style" visualstyle
 info "Theme" theme
 ```
 
-### 1.2
+# 1.2
 
 - `xprop` is now a required dependency. See **[#79](https://github.com/dylanaraps/fetch/issues/79)** <br \>for my reasoning for doing this.
 - `windowmanager` was renamed to `wm` so you'll need to update your printinfo<br \>

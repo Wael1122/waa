@@ -14,6 +14,20 @@ prin "Subtitle: Text goes here"
 prin "Subtitle" "Text goes here"
 ```
 
+**Underline**<br \>
+- Underlining is no longer hardcoded to title length meaning you can now<br \>
+underline any part of the output and the length will match.
+- `$underline` was renamed to `$underline_enabled`.
+
+```sh
+# OLD Variable
+underline="on"
+
+# NEW Variable
+underline_enabled="on"
+```
+
+
 
 ### 1.6
 

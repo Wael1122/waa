@@ -42,7 +42,7 @@ You can also just use `printf` or `echo -e` but you'll have to format/color<br \
 the text yourself.
 
 ```sh
-Usage: prin "Custom message" or "Subtitle: Custom message"
+Usage: prin "Custom message" or "Subtitle" "Custom message"
 
 # Print a custom message
 prin "They call me Stacy"

@@ -1,4 +1,4 @@
-## Welcome to the fetch wiki!
+## Welcome to the neofetch wiki!
 
 #### [What is Smart Crop / Waifu Crop?](https://github.com/dylanaraps/fetch/wiki/What-is-Smart-Crop-%5C--Waifu-Crop%3F)
 

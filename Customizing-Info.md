@@ -48,7 +48,7 @@ Usage: prin "Custom message" or "Subtitle: Custom message"
 prin "They call me Stacy"
 
 # Print a custom info line
-prin "Date: $(date)"
+prin "Date" "$(date)"
 
 # Print a custom message and color it blue
 prin "$(color 4)That's not my name"

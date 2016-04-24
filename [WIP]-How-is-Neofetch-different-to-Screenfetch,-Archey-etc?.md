@@ -5,11 +5,11 @@ the list.
 
 **NOTE**: These comparisons below apply to both Screenfetch and Archey3
 
-| Program     | Distro Ascii | Images | License | In Active Development? | 
-| -------     | ------------ | ------ | ------- | ---------------------- | 
-| Neofetch    | Yes          | Yes    | MIT     | Yes
-| Screenfetch | Yes          | No     | GPLv3   | No
-| Archey3     | Yes          | No     | GPL     | No
+| Program     | Distro Ascii | Images | Language | License | Single File | In Active Development? | 
+| -------     | ------------ | ------ | -------- | ------- | ----------- | ---------------------- | 
+| Neofetch    | Yes          | Yes    | Bash 3   | MIT     | No          | Yes                    |
+| Screenfetch | Yes          | No     | Bash 4   | GPLv3   | Yes         | No                     |
+| Archey3     | Yes          | No     | Python 3 | GPL     | Yes         | No                     |
 
 
 ## General

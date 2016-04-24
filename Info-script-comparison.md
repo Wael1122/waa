@@ -13,7 +13,7 @@ the list.
 | Screenfetch | Yes          | No     | Bash 4   | GPLv3   | Yes         | No                     |
 | Archey3     | Yes          | No     | Python 3 | GPL     | Yes         | No                     |
 
-
+we're
 ## General
 
 **Neofetch supports bash 3.0+**<br \>
@@ -50,7 +50,7 @@ The image is dynamically sized based on your font width and window size.
 Neofetch can display any ascii art from a file next to the info!
 
 **Neofetch stores all of the ascii art is in seperate files**<br \> 
-We're storing the ascii art as seperate files instead of taking up a huge amount<br \>
+I'm storing the ascii art as seperate files instead of taking up a huge amount<br \>
 of space inside the script.
 
 ## Info

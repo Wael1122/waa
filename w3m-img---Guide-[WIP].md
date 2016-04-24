@@ -46,7 +46,7 @@ Note: For image mode to work, both columns need to be `Yes`.
 
 Neofetch by default will try to use your current wallpaper as the image. If the<br \>
 wallpaper detection fails we fallback to ascii mode, when ths happens you should<br \>
-try and launch neofetch with `--image path/to/image`.
+try and launch neofetch with `--image path/to/image` or `--image path/to/dir/`.
 
 The list below shows the current wallpaper setters we support.
 
@@ -65,3 +65,11 @@ the current wallpaper is stored, open an issue and I'll gladly add support for
 it.
 
 
+## Usage
+
+Once you've installed `w3m-img`, `imagemagick`, have a terminal emulator that<br \>
+meets the criteria above and have a working image source, neofetch should<br \>
+display images correctly.
+
+If neofetch still won't display the images then you should open a new issue on<br \>
+github and provide me with a verbose log.

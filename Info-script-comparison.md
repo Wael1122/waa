@@ -24,7 +24,7 @@ I'm working on Neofetch almost everyday whereas Screenfetch and Archey haven't b
 in months. 
 
 **Neofetch is faster.**<br \>
-I'm heavily using bash builtins and we're only spawning external processes <br \>
+I'm heavily using bash builtins and I'm only spawning external processes <br \>
 when necessary. 
 
 **Neofetch is more customizable.**<br \>

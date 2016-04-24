@@ -55,8 +55,21 @@ of space inside the script.
 
 ## Info
 
+**Neofetch can display much more info than the other tools**<br \>
+Neofetch can display the following information:
+
+`Distro` `Kernel` `Uptime` `Packages` `Shell` `Resolution`<br\>
+`Desktop Environment` `Window Manager` `Window Manager Theme`<br \>
+`System Theme` `System Icons` `CPU` `GPU` `Memory`<br \>
+`System Font` `Disk` `Battery` `Current Song` `Local IP`<br \>
+`Public IP` `Users` `Birthday`
+
+
 **Neofetch has a more stylized output**<br \>
 Neofetch aims to have a prettier and more configurable output, almost every info<br \>
 function has config options to customize the output.
 
+**Neofetch can display a progress bar next to certain info**<br \>
+Neofetch can show a progress bar next to the following info:
 
+`CPU Usage` `Memory` `Disk` `Battery`

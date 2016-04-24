@@ -1,3 +1,5 @@
+How does Neofetch differ from X?
+
 This question comes up quite a lot when I post update threads and this wiki page<br \>
 aims to answer this. Neofetch is different in a lot of ways and I'm going to try<br \>
 and summarize them below. If I've missed anything, let me know and I'll add it to<br \>

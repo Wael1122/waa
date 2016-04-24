@@ -11,7 +11,7 @@ the list.
 Screenfetch requires at least bash 4.0 to be installed.
 
 **Neofetch is more actively developed.**<br \>
-I'm working on fetch almost everyday whereas Screenfetch and Archey haven't been updated<br \> 
+I'm working on fetch almost everyday whereas Screenfetch and Archey haven't been updated
 in months. 
 
 **Neofetch is faster.**<br \>

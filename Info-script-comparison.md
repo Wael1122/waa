@@ -13,7 +13,7 @@ the list.
 | Screenfetch | Yes          | No     | Bash 4   | GPLv3   | Yes         | No                     |
 | Archey3     | Yes          | No     | Python 3 | GPL     | Yes         | No                     |
 
-we're
+
 ## General
 
 **Neofetch supports bash 3.0+**<br \>

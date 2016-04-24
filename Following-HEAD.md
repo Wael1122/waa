@@ -2,6 +2,15 @@ This page lists any breaking changes from release to release.
 
 # 1.7
 
+**progress bars**<br \>
+These breaking changes were made to make the progress bars more customizable<br \>
+and to fix a bug with the previous default and older systems.
+
+- The progress bar character is now split into `progress_char_elapsed` and<br \>
+`progress_char_total` so you'll have to edit your config to add these in.
+- `progress_border` was added to surround the progress bar with `[ ]`, it's<br \>
+on by default so set it to `off` to get the old behaviour back.
+
 **prin**<br \>
 - Format changes to fix issues with colons in string. This change also makes<br \>
 `prin` use the same args as `info`.

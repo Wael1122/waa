@@ -5,20 +5,25 @@ the list.
 
 **NOTE**: These comparisons below apply to both Screenfetch and Archey3
 
+| Program     | Distro Ascii | Images | License | In Active Development? | 
+| -------     | ------------ | ------ | ------- | ---------------------- | 
+| Neofetch    | Yes          | Yes    | MIT     | Yes
+| Screenfetch | Yes          | No     | GPLv3   | No
+| Archey3     | Yes          | No     | GPL     | No
+
+
 ## General
 
 **Neoetch supports bash 3.0+**<br \>
 Screenfetch requires at least bash 4.0 to be installed.
 
 **Neofetch is more actively developed.**<br \>
-I'm working on fetch almost everyday whereas Screenfetch and Archey haven't been updated
+I'm working on Neofetch almost everyday whereas Screenfetch and Archey haven't been updated
 in months. 
 
 **Neofetch is faster.**<br \>
 We're heavily using bash builtins and we're only spawning external processes <br \>
 when necessary. 
-
-This makes us much faster.
 
 **Neofetch is more customizable.**<br \>
 There are config options to customize almost everything, see the default config<br \>

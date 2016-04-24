@@ -40,7 +40,7 @@ https://github.com/dylanaraps/neofetch/wiki/Customizing-Info
 
 ## Images
 
-**Neoetch supports displaying a full color image next to the info.**<br \>
+**Neofetch supports displaying a full color image next to the info.**<br \>
 Using `w3m-img` or `iTerm2` neofetch can display an image of your choice, your<br \>
 current wallpaper or even shuffle through a directory of images.
 

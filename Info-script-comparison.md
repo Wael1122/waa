@@ -16,7 +16,7 @@ the list.
 
 ## General
 
-**Neoetch supports bash 3.0+**<br \>
+**Neofetch supports bash 3.0+**<br \>
 Screenfetch requires at least bash 4.0 to be installed.
 
 **Neofetch is more actively developed.**<br \>

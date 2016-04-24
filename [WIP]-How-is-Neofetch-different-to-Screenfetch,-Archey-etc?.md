@@ -42,7 +42,6 @@ The image is dynamically sized based on your font width and window size.
 **Neofetch supports displaying custom ascii art from a file.**<br \>
 Neofetch can display any ascii art from a file next to the info!
 
-
 **Neofetch stores all of the ascii art is in seperate files**<br \> 
 We're storing the ascii art as seperate files instead of taking up a huge amount<br \>
 of space inside the script.

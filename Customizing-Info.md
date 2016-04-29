@@ -52,6 +52,13 @@ Usage: info "subtitle" function
 info "Memory" memory
 ```
 
+Full list of functions:
+
+`distro` `kernel` `uptime` `packages` `shell` `resolution`<br\>
+`de` `wm` `wmtheme` `theme` `icons` `cpu` `gpu` `memory`<br \>
+`font` `disk` `battery` `song` `localip` `publicip` `users`<br \>
+`birthday`
+
 #### prin
 
 You can also just use `printf` or `echo -e` but you'll have to format/color<br \>

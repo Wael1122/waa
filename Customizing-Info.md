@@ -12,15 +12,31 @@ printinfo () {
     info "Uptime" uptime
     info "Packages" packages
     info "Shell" shell
-    info "Window Manager" windowmanager
-    info "GTK Theme" gtktheme
-    info "Icons" gtkicons
+    info "Resolution" resolution
+    info "DE" de
+    info "WM" wm
+    info "WM Theme" wmtheme
+    info "Theme" theme
+    info "Icons" icons
     info "CPU" cpu
+    info "GPU" gpu
     info "Memory" memory
+
+    # info "Font" font
+    # info "Disk" disk
+    # info "Battery" battery
+    # info "Song" song
+    # info "Local IP" localip
+    # info "Public IP" publicip
+    # info "Users" users
+    # info "Birthday" birthday
 
     info linebreak
     info cols
+    info linebreak
+    info linebreak
 }
+
 ```
 
 ## Adding Custom Info

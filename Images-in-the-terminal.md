@@ -37,6 +37,7 @@ what doesn't.
 | Termite           | Yes     | Yes        |
 | Terminator        | Yes     | Yes        | Image disappears on window focus and resize |
 | st                | Yes     | No         | Image disappears on window focus and resize |
+| konsole           | Yes     | No         |
 | tilda             | No      | Yes        |
 
 Note: For image mode to work, both columns need to be `Yes`.

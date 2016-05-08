@@ -40,7 +40,7 @@ ascii art.
 - Openmandriva
 - Opensuse
 - Parabola
-- Pclinuxos
+- PclinuxOS
 - Peppermint
 - Puppy Linux
 - Qubes
@@ -51,7 +51,7 @@ ascii art.
 - Scientific
 - Slackware
 - Solus
-- Steamos
+- SteamOS
 - Tails
 - Trisquel
 - Ubuntu

@@ -1,7 +1,7 @@
-### Linux
-
 This wiki page lists all of the OS/Distros that neofetch officially supports.
 If your OS/Distro isn't here, open an issue on github and I'll gladly add support.
+
+### Linux
 
 - Alpine
 - Antergos

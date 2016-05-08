@@ -10,7 +10,7 @@ the list.
 | Program     | Distro Ascii | Images | Language | License | Single File | In Active Development? | 
 | -------     | ------------ | ------ | -------- | ------- | ----------- | ---------------------- | 
 | Neofetch    | Yes          | Yes    | Bash 3   | MIT     | No          | Yes                    |
-| Screenfetch | Yes          | No     | Bash 4   | GPLv3   | Yes         | No                     |
+| Screenfetch | Yes          | No     | Bash 4   | GPLv3   | Yes         | Yes                    |
 | Archey3     | Yes          | No     | Python 3 | GPL     | Yes         | No                     |
 
 

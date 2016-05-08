@@ -1,4 +1,4 @@
-As of commit [9daacdd](https://github.com/dylanaraps/fetch/commit/9daacddda1d0adca9df1ff8e9aad13d974c09314) the info array at the top of the script has changed to a regular function. The benefits of this are pretty cool, you can now use **any** bash syntax to customize what gets displayed. You could have an if statment and only print window manager and gtk themes if X is running or only show current song if there's one playing.
+As of commit [9daacdd](https://github.com/dylanaraps/fetch/commit/9daacddda1d0adca9df1ff8e9aad13d974c09314) the info array at the top of the script has changed to a regular function. The benefits of this are pretty cool, you can now use **any** bash syntax to customize what gets displayed. This makes it really easy to add your own custom info to neofetch.
 
 Here's what the function looks like, it's very similar to the array we had before.
 

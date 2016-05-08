@@ -65,8 +65,8 @@ All iOS versions should be supported.
 ### BSD
 
 - Freebsd
-- Openbsd
 - Netbsd
+- Openbsd
 
 ### Windows
 

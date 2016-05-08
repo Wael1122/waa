@@ -1,5 +1,3 @@
-# Coming soon
-
 ### Linux
 
 - Alpine

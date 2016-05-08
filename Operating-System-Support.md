@@ -1,5 +1,9 @@
-This wiki page lists all of the OS/Distros that neofetch officially supports.
+This wiki page lists all of the OS/Distros that neofetch officially supports.<br \>
 If your OS/Distro isn't here, open an issue on github and I'll gladly add support.
+
+**Note**: If your OS/Distro isn't listed below then that doesn't mean that neofetch<br \>
+won't work with it. Adding support for your OS/Distro is most likely just adding<br \> 
+ascii art.
 
 ### Linux
 

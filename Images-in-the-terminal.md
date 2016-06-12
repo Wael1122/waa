@@ -31,14 +31,15 @@ what doesn't.
 
 | Terminal Emulator | w3m-img | `\033[14t` | Quirks |
 | ----------------- | ------- | ---------- | ------ |
-| URxvt             | Yes     | Yes        | Display problems with xft fonts  |
-| Xterm             | Yes     | Yes        |
-| Xfce4-terminal    | Yes     | Yes        |
-| Termite           | Yes     | Yes        |
-| Terminator        | Yes     | Yes        | Image disappears on window focus and resize |
-| st                | Yes     | No         | Image disappears on window focus and resize |
+| Gnome-terminal    | Yes     | Yes        |
 | konsole           | Yes     | No         |
+| st                | Yes     | No         | Image disappears on window focus and resize |
+| Terminator        | Yes     | Yes        | Image disappears on window focus and resize |
+| Termite           | Yes     | Yes        |
 | tilda             | No      | Yes        |
+| URxvt             | Yes     | Yes        | Display problems with xft fonts  |
+| Xfce4-terminal    | Yes     | Yes        |
+| Xterm             | Yes     | Yes        |
 
 Note: For image mode to work, both columns need to be `Yes`.
 

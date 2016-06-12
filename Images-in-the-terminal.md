@@ -35,11 +35,15 @@ what doesn't.
 | konsole           | Yes     | No         |
 | st                | Yes     | No         | Image disappears on window focus and resize |
 | Terminator        | Yes     | Yes        | Image disappears on window focus and resize |
+| Terminology       | N/A     | `\033}qs\000` | See \[1\] |
 | Termite           | Yes     | Yes        |
 | tilda             | No      | Yes        |
 | URxvt             | Yes     | Yes        | Display problems with xft fonts  |
 | Xfce4-terminal    | Yes     | Yes        |
 | Xterm             | Yes     | Yes        |
+
+\[1\] Terminology doesn't require `w3m-img` to display images. Instead it uses<br\> 
+a builtin program called `tycat`.
 
 Note: For image mode to work, both columns need to be `Yes`.
 

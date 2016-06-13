@@ -1,5 +1,10 @@
 This page lists any breaking changes from release to release.
 
+# 1.8
+
+**CPU Usage**<br \>
+The args for `cpu_display` now match all of the other `*_display` options.
+
 # 1.7
 
 **progress bars**<br \>

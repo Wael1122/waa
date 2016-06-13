@@ -20,11 +20,11 @@ the list.
 Screenfetch requires at least bash 4.0 to be installed.
 
 **Neofetch is more actively developed.**<br \>
-I'm working on Neofetch almost everyday whereas Screenfetch and Archey haven't been updated
+I'm working on Neofetch almost everyday whereas ~~Screenfetch~~ and Archey haven't been updated
 in months. 
 
 **Neofetch is faster.**<br \>
-I'm heavily using bash builtins and I'm only spawning external processes <br \>
+Neofetch heavily uses bash builtins and we only spawning external processes <br \>
 when necessary. 
 
 **Neofetch is more customizable.**<br \>
@@ -41,8 +41,9 @@ https://github.com/dylanaraps/neofetch/wiki/Customizing-Info
 ## Images
 
 **Neofetch supports displaying a full color image next to the info.**<br \>
-Using `w3m-img` or `iTerm2` neofetch can display an image of your choice, your<br \>
-current wallpaper or even shuffle through a directory of images.
+Using `w3m-img`, `Terminology` or `iTerm2` neofetch can display an image<br \>
+of your choice, your current wallpaper or even shuffle through a directory<br \> 
+of images.
 
 The image is dynamically sized based on your font width and window size.
 

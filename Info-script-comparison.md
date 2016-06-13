@@ -14,7 +14,7 @@ the list.
 | Archey3     | Yes          | No     | Python 3 | GPL     | Yes         | No                     |
 
 
-## General
+## Generalo
 
 **Neofetch supports bash 3.0+**<br \>
 Screenfetch requires at least bash 4.0 to be installed.
@@ -67,7 +67,8 @@ Neofetch can display the following information:
 `Desktop Environment` `Window Manager` `Window Manager Theme`<br \>
 `System Theme` `System Icons` `CPU` `GPU` `Memory`<br \>
 `System Font` `Disk` `Battery` `Current Song` `Local IP`<br \>
-`Public IP` `Users` `Birthday`
+`Public IP` `Users` `Birthday` `Terminal Emulator`<br \>
+`Terminal Emulator Font`
 
 **Neofetch can display a progress bar next to certain info**<br \>
 Neofetch can show a progress bar next to the following info:

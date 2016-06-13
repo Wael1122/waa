@@ -11,6 +11,7 @@ will try to explain the various quirks of this mode.
 - `w3m-img`
     - Image rendering in the terminal.
     - This is sometimes bundled together with `w3m`.
+    - `Terminology` and `iTerm` users don't need to install w3m-img.
 
 - `imagemagick`
     - Generating thumbnails and cropping the images.
@@ -32,22 +33,26 @@ what doesn't.
 | Terminal Emulator | w3m-img | `\033[14t` | Quirks |
 | ----------------- | ------- | ---------- | ------ |
 | Gnome-terminal    | Yes     | Yes        |
+| iTerm             | N/A     | Yes        | See \[1\] |
 | konsole           | Yes     | No         |
 | st                | Yes     | No         | Image disappears on window focus and resize |
 | Terminator        | Yes     | Yes        | Image disappears on window focus and resize |
-| Terminology       | N/A     | `\033}qs\000` | See \[1\] |
+| Terminology       | N/A     | `\033}qs\000` | See \[2\] |
 | Termite           | Yes     | Yes        |
 | tilda             | No      | Yes        |
 | URxvt             | Yes     | Yes        | Display problems with xft fonts  |
 | Xfce4-terminal    | Yes     | Yes        |
 | Xterm             | Yes     | Yes        |
 
-\[1\] Terminology doesn't require `w3m-img` to display images. Instead it uses<br\> 
+\[1\] iTerm doesn't require `w3m-img` to display images. Instead it uses a<br \>
+set of escape sequences built into iTerm.
+
+\[2\] Terminology doesn't require `w3m-img` to display images. Instead it uses<br\> 
 a builtin program called `tycat`.
 
 Note: For image mode to work, both columns need to be `Yes`.
 
-
+Yes  
 ## Image source
 
 Neofetch by default will try to use your current wallpaper as the image. If the<br \>
@@ -91,10 +96,10 @@ Neofetch has various flags/options that let you customize the image output.
 | ----------- | ----------- | ------------- | ---- | ----- |
 | Source      | --image     | image         | `wall` `ascii` `/path/to/img` `/path/to/dir/` `off` | If an invalid image mode is specified neofetch will fallback to ascii mode. |
 | Size        | --size      | image_size    | `auto` `00px` `00%` `none` | 
-| Position    | --image_position | image_position | `left` `right` | Doesn't work with iTerm2
+| Position    | --image_position | image_position | `left` `right` | Doesn't work with iTerm2 and Terminology
 | Crop Mode   | --crop_mode | crop_mode     | `normal` `fit` `fill` | See this wiki page for more info. [What is waifu crop?](https://github.com/dylanaraps/neofetch/wiki/What-is-Waifu-Crop%3F#)
 | Crop Offset | --crop_offset | crop_offset | `northwest` `north` `northeast` `west` `center` `east` `southwest` `south` `southeast` | How this works: [crop_gravity](http://www.imagemagick.org/Usage/crop/#crop_gravity)
-| X offset    | --xoffset     | xoffset     | `num` | Doesn't work with iTerm2
-| Y offset    | --yoffset     | yoffset     | `num` | Doesn't work with iTerm2
+| X offset    | --xoffset     | xoffset     | `num` | Doesn't work with iTerm2 and Terminology
+| Y offset    | --yoffset     | yoffset     | `num` | Doesn't work with iTerm2 and Terminology
 | Gap         | --gap         | gap         | `num` | Gap between image and text
 | Clean       | --clean       | N/A         | N/A   | Remove all cropped images

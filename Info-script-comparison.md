@@ -14,7 +14,7 @@ the list.
 | Archey3     | Yes          | No     | Python 3 | GPL     | Yes         | No                     |
 
 
-## Generalo
+## General
 
 **Neofetch supports bash 3.0+**<br \>
 Screenfetch requires at least bash 4.0 to be installed.

@@ -32,7 +32,7 @@ what doesn't.
 
 | Terminal Emulator | w3m-img | `\033[14t` | Quirks |
 | ----------------- | ------- | ---------- | ------ |
-| Gnome-terminal    | Yes     | Yes        | Image disappears on window focus and resize |
+| Gnome-terminal    | Yes     | Yes        | - Image disappears on window focus and resize<br\>- Possible issues on Fedora, see #295
 | iTerm             | N/A     | Yes        | See \[1\] |
 | konsole           | Yes     | No         |
 | st                | Yes     | No         | Image disappears on window focus and resize |

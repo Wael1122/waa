@@ -19,11 +19,13 @@ ascii art.
 - Crux
 - Debian
 - Deepin
+- Devuan Linux
 - Elementary
 - Exherbo
 - Fedora
 - Frugalware
 - Funtoo
+- GalliumOS
 - Gentoo
 - Gnewsense
 - Kali
@@ -71,9 +73,17 @@ All iOS versions should be supported.
 
 ### BSD
 
+- DragonflyBSD
 - Freebsd
 - Netbsd
 - Openbsd
+- PacBSD
+- PCBSD
+
+### Solaris
+
+- OpenIndiana
+- Oracle
 
 ### Windows
 

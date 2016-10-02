@@ -60,7 +60,7 @@ Full list of functions:
 `distro` `kernel` `uptime` `packages` `shell` `resolution`<br\>
 `de` `wm` `wmtheme` `theme` `icons` `cpu` `gpu` `memory`<br \>
 `font` `disk` `battery` `song` `localip` `publicip` `users`<br \>
-`birthday` `term` `termfont`
+`birthday` `term` `termfont`  `cpu_usage`
 
 #### prin
 

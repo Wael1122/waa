@@ -7,6 +7,7 @@ printinfo () {
     info title
     info underline
 
+    info "Model" model
     info "OS" distro
     info "Kernel" kernel
     info "Uptime" uptime
@@ -18,13 +19,16 @@ printinfo () {
     info "WM Theme" wmtheme
     info "Theme" theme
     info "Icons" icons
+    info "Terminal" term
+    info "Terminal Font" termfont
     info "CPU" cpu
     info "GPU" gpu
     info "Memory" memory
 
-    # info "Font" font
+    # info "CPU Usage" cpu_usage
     # info "Disk" disk
     # info "Battery" battery
+    # info "Font" font
     # info "Song" song
     # info "Local IP" localip
     # info "Public IP" publicip
@@ -33,7 +37,6 @@ printinfo () {
 
     info linebreak
     info cols
-    info linebreak
     info linebreak
 }
 

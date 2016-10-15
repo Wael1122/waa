@@ -53,6 +53,7 @@ ascii art.
 - Scientific
 - Slackware
 - Solus
+- Sparky Linux
 - SteamOS
 - Tails
 - Trisquel

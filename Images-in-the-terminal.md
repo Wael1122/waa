@@ -40,7 +40,7 @@ what doesn't.
 | Terminology       | N/A     | `\033}qs\000` | See \[2\] |
 | Termite           | Yes     | Yes        |
 | tilda             | No      | Yes        |
-| URxvt             | Yes     | Yes        | Display problems with xft fonts  |
+| URxvt             | Yes     | Yes        | ~~Display problems with xft fonts~~ Fixed! See: [Changelog](https://github.com/dylanaraps/neofetch/blob/a699c430de6dacb38a55f851157a226a9d470078/Changelog.md#images)   |
 | Xfce4-terminal    | Yes     | Yes        |
 | Xterm             | Yes     | Yes        |
 

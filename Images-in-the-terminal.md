@@ -16,33 +16,36 @@ will try to explain the various quirks of this mode.
 - `imagemagick`
     - Generating thumbnails and cropping the images.
 
+- A terminal emulator that supports `\033[14t` or `xdotool` or<br \>
+`xwininfo + xprop` or `xwininfo + xdpyinfo`
+    - Getting the terminal window size in pixels so that we can size the image correctly.
 
 #### Terminal Emulator
 
-Image mode requires a terminal emulator that plays nicely with w3m-img and<br \>
-supports the following escape sequence.
+~~Image mode requires a terminal emulator that plays nicely with w3m-img and<br \>
+supports the following escape sequence.~~
 
-- `\033[14t`
-    - Prints terminal window size in pixels.
-    - Used to dynamically size the images.
-    - Used to dynamically pad the text.
+- ~~`\033[14t`~~
+    - ~~Prints terminal window size in pixels.~~
+    - ~~Used to dynamically size the images.~~
+    - ~~Used to dynamically pad the text.~~
 
 The table below lists my testing of various terminal emulators, what works and<br \>
 what doesn't.
 
-| Terminal Emulator | w3m-img | `\033[14t` | Quirks |
-| ----------------- | ------- | ---------- | ------ |
-| Gnome-terminal    | Yes     | Yes        | - Image disappears on window focus and resize<br\>- Possible issues on Fedora, see #295
-| iTerm             | N/A     | Yes        | See \[1\] |
-| konsole           | Yes     | No         |
-| st                | Yes     | No         | Image disappears on window focus and resize |
-| Terminator        | Yes     | Yes        | Image disappears on window focus and resize |
-| Terminology       | N/A     | `\033}qs\000` | See \[2\] |
-| Termite           | Yes     | Yes        |
-| tilda             | No      | Yes        |
-| URxvt             | Yes     | Yes        | ~~Display problems with xft fonts~~ Fixed! See: [Changelog](https://github.com/dylanaraps/neofetch/blob/a699c430de6dacb38a55f851157a226a9d470078/Changelog.md#images)   |
-| Xfce4-terminal    | Yes     | Yes        |
-| Xterm             | Yes     | Yes        |
+| Terminal Emulator | w3m-img | Quirks |
+| ----------------- | ------- | ------ |
+| Gnome-terminal    | Yes     | - Image disappears on window focus and resize<br\>- Possible issues on Fedora, see #295
+| iTerm             | N/A     | See \[1\] |
+| konsole           | Yes     |
+| st                | Yes     | Image disappears on window focus and resize |
+| Terminator        | Yes     | Image disappears on window focus and resize |
+| Terminology       | N/A     | See \[2\] |
+| Termite           | Yes     |
+| tilda             | No      |
+| URxvt             | Yes     | ~~Display problems with xft fonts~~ Fixed! See: [Changelog](https://github.com/dylanaraps/neofetch/blob/a699c430de6dacb38a55f851157a226a9d470078/Changelog.md#images)   |
+| Xfce4-terminal    | Yes     |
+| Xterm             | Yes     |
 
 \[1\] iTerm doesn't require `w3m-img` to display images. Instead it uses a<br \>
 set of escape sequences built into iTerm.
@@ -50,9 +53,9 @@ set of escape sequences built into iTerm.
 \[2\] Terminology doesn't require `w3m-img` to display images. Instead it uses<br\> 
 a builtin program called `tycat`.
 
-Note: For image mode to work, both columns need to be `Yes`.
+Note: For image mode to work, the `w3m-img` column must say `yes` and you must have<br \>
+the dependencies installed.
 
-Yes  
 ## Image source
 
 Neofetch by default will try to use your current wallpaper as the image. If the<br \>

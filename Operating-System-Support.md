@@ -63,6 +63,9 @@ ascii art.
 - Xubuntu
 - Zorin
 
+### Android
+
+All Android versions should be supported.
 
 ### Mac OS X
 

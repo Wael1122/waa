@@ -1,25 +1,36 @@
-As of [#298](https://github.com/dylanaraps/neofetch/pull/298) neofetch now uses the distro ascii
-format for custom ascii files.
+This is the format neofetch uses for it's ascii art files and the format you should follow when adding ascii art to neofetch or when specifying custom ascii art with: `--ascii /path/to/ascii_file`.
+
+The ascii art is read as plaintext so the only character you have to escape is the backslash `\`.
 
 Here's an example:
 
 ```sh
-"\
-${c1}                 ;\'-.
-     \`;-._        )  \'---.._
-       >  \`-.__.-\'          \`'\'__
-      /_.-\'-._         _,  ${c2} ^${c1} ---)
-      \`       \`\'------/_.\'----\`\`\`
-"
+${c1}                    ..
+                  .oK0l
+                 :0KKKKd.
+               .xKO0KKKKd
+              ,Od' .d0000l
+             .c;.   .'''...           ..'.
+.,:cloddxxxkkkkOOOOkkkkkkkkxxxxxxxxxkkkx:
+;kOOOOOOOkxOkc'...',;;;;,,,'',;;:cllc:,.
+ .okkkkd,.lko  .......',;:cllc:;,,'''''.
+   .cdo. :xd' cd:.  ..';'',,,'',,;;;,'.
+      . .ddl.;doooc'..;oc;'..';::;,'.
+        coo;.oooolllllllcccc:'.  .
+       .ool''lllllccccccc:::::;.
+       ;lll. .':cccc:::::::;;;;'
+       :lcc:'',..';::::;;;;;;;,,.
+       :cccc::::;...';;;;;,,,,,,.
+       ,::::::;;;,'.  ..',,,,'''.
+        ........          ......
 ```
 
 Rules:
 
-- The ascii art must be kept inside quotes like above.
-    - `"\` as the opening
-    - `"` as the ending
-- You have to escape these characters:
-    - `\`, `'`, `"`, `` ` `` 
+- You have to escape `\`. (eg `\\`)
+
+Features:
+
 - You can use `${c1}` to `${c6}`to color the ascii.
 - You can pass the flag `--ascii_colors 1 2 3 4 5 6` to set the colors.
     - This changes the values of `${c1}` to `${c6}`

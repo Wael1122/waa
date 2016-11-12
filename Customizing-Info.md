@@ -16,11 +16,11 @@ printinfo () {
     info "Resolution" resolution
     info "DE" de
     info "WM" wm
-    info "WM Theme" wmtheme
+    info "WM Theme" wm_theme
     info "Theme" theme
     info "Icons" icons
     info "Terminal" term
-    info "Terminal Font" termfont
+    info "Terminal Font" term_font
     info "CPU" cpu
     info "GPU" gpu
     info "Memory" memory
@@ -30,8 +30,8 @@ printinfo () {
     # info "Battery" battery
     # info "Font" font
     # info "Song" song
-    # info "Local IP" localip
-    # info "Public IP" publicip
+    # info "Local IP" local_ip
+    # info "Public IP" public_ip
     # info "Users" users
     # info "Birthday" birthday
 
@@ -88,7 +88,7 @@ prin "$(color 4)That's not my name"
 You can make the script 2x faster by gathering the info asynchronously, the only caveat is that the order that all of the info is printed in will be based on what completes first. You can add this to your printinfo function by adding an `&` sign to the info lines you want to be asynchronous then by adding a single `wait` to the bottom of the function.
 
 ```sh
-printinfo () {
+print_info () {
     # Lines without an '&' sign will be displayed in 
     # the order they appear here.
     info title
@@ -106,8 +106,9 @@ printinfo () {
     info "GPU" gpu &
     info "Memory" memory &
 
-    info linebreak
+    info line_break
     info cols
+    info line_break
 
     # Wait for the functions to complete
     wait

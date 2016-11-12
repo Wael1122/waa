@@ -59,8 +59,8 @@ Full list of functions:
 
 `distro` `kernel` `uptime` `packages` `shell` `resolution`<br\>
 `de` `wm` `wmtheme` `theme` `icons` `cpu` `gpu` `memory`<br \>
-`font` `disk` `battery` `song` `localip` `publicip` `users`<br \>
-`birthday` `term` `termfont`  `cpu_usage`
+`font` `disk` `battery` `song` `local_ip` `public_ip` `users`<br \>
+`birthday` `term` `term_font`  `cpu_usage`
 
 #### prin
 

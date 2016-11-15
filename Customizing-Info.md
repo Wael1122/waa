@@ -99,9 +99,9 @@ print_info () {
     info "Uptime" uptime &
     info "Packages" packages &
     info "Shell" shell &
-    info "Window Manager" windowmanager &
-    info "GTK Theme" gtktheme &
-    info "Icons" gtkicons &
+    info "Window Manager" wm &
+    info "GTK Theme" theme &
+    info "Icons" icons &
     info "CPU" cpu &
     info "GPU" gpu &
     info "Memory" memory &

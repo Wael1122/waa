@@ -22,14 +22,6 @@ will try to explain the various quirks of this mode.
 
 #### Terminal Emulator
 
-~~Image mode requires a terminal emulator that plays nicely with w3m-img and<br \>
-supports the following escape sequence.~~
-
-- ~~`\033[14t`~~
-    - ~~Prints terminal window size in pixels.~~
-    - ~~Used to dynamically size the images.~~
-    - ~~Used to dynamically pad the text.~~
-
 The table below lists my testing of various terminal emulators, what works and<br \>
 what doesn't.
 

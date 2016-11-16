@@ -1,3 +1,5 @@
+This page lists the programs/dependencies neofetch needs to run.
+
 - [Required dependencies](#required-dependencies)
 - [Image mode dependencies](#image-mode-dependencies)
 - [Optional dependencies](#optional-dependencies)

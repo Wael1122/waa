@@ -2,6 +2,24 @@ This wiki page will guide you through getting neofetch working on your system.<b
 The first and most universal way of installing neofetch is by downloading/cloning<br \>
 the latest release and running the Makefile. 
 
+### Table of Contents
+
+- [Universal Install](#universal-install)
+- [Distro/OS Packages](#osdistro-packages)
+    - [Android (Termux)](#android-termux)
+    - [Arch Linux](#arch)
+    - [BunsenLabs](#bunsenlabs)
+    - [CRUX](#crux)
+    - [Debian](#debian)
+    - [Fedora / RHEL / CentOS](#fedora--rhel--centos)
+    - [Gentoo / Funtoo](#gentoo--funtoo)
+    - [iOS](##ios-1)
+    - [macOS](#mac-os-x)
+    - [Slackware](#slackware)
+    - [Solus](#solus)
+    - [Ubuntu](#ubuntu)
+    - [Void Linux](#void-linux)
+
 ## Universal Install
 
 **Latest Release**
@@ -32,6 +50,8 @@ does is move the files to a "sane" location. The Makefile is optional.
 ## OS/Distro Packages
 
 This section lists neofetch packages that have been made for specific OS/Distros.<br \>
+
+### Table of Contents
 
 - [Android (Termux)](#android-termux)
 - [Arch Linux](#arch)

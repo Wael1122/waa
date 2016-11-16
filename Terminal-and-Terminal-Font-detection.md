@@ -31,6 +31,7 @@ Font detection works by parsing the terminal emulator's config file.
 | st                | None        | No             |
 | Terminal.app      | N/A         | Yes            |
 | Terminator        | Profile     | No             |
+| Terminology       | Profile     | No             |
 | Termite           | Global      | Yes            |
 | URxvt             | N/A         | Yes            |
 | Xfce4-terminal    | Global      | Yes            |

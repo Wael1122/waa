@@ -33,20 +33,19 @@ does is move the files to a "sane" location. The Makefile is optional.
 
 This section lists neofetch packages that have been made for specific OS/Distros.<br \>
 
+- [Android (Termux)](#android-termux)
 - [Arch Linux](#arch)
-- [Gentoo / Funtoo](#gentoo--funtoo)
+- [BunsenLabs](#bunsenlabs)
 - [CRUX](#crux)
-- [Ubuntu](#ubuntu)
 - [Debian](#debian)
 - [Fedora / RHEL / CentOS](#fedora--rhel--centos)
-- [Void Linux](#void-linux)
-- [BunsenLabs](#bunsenlabs)
-- [Solus](#solus)
-- [Slackware](#slackware)
-- [macOS](#mac-os-x)
+- [Gentoo / Funtoo](#gentoo--funtoo)
 - [iOS](##ios-1)
-- [Android (Termux)](#android-termux)
-- [Manual](#manual)
+- [macOS](#mac-os-x)
+- [Slackware](#slackware)
+- [Solus](#solus)
+- [Ubuntu](#ubuntu)
+- [Void Linux](#void-linux)
 
 
 ### Android (Termux)

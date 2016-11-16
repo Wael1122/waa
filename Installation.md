@@ -2,10 +2,12 @@ This wiki page will guide you through getting neofetch working on your system.<b
 The first and most universal way of installing neofetch is by downloading/cloning<br \>
 the latest release and running the Makefile. 
 
-### Table of Contents
+## Table of Contents
 
-- [Universal Install](#universal-install)
-- [Distro/OS Packages](#osdistro-packages)
+- **[Universal Install](#universal-install)**
+    - [Latest Release](#latest-release)
+    - [Latest Git Master (Bleeding Edge)](#latest-git-master-bleeding-edge)
+- **[Distro/OS Packages](#osdistro-packages)**
     - [Android (Termux)](#android-termux)
     - [Arch Linux](#arch)
     - [BunsenLabs](#bunsenlabs)
@@ -22,7 +24,7 @@ the latest release and running the Makefile.
 
 ## Universal Install
 
-**Latest Release**
+### Latest Release
 
 1. Download the latest release.
     - https://github.com/dylanaraps/neofetch/archive/1.9.1.zip
@@ -30,7 +32,7 @@ the latest release and running the Makefile.
     - **El Capitan**: `PREFIX=/usr/local make install`
     - **NOTE**: You may have to run this as root.
 
-**Latest Git Master (Bleeding Edge)**
+### Latest Git Master (Bleeding Edge) 
 
 1. Git clone the repo.
     - `git clone https://github.com/dylanaraps/neofetch`
@@ -50,23 +52,6 @@ does is move the files to a "sane" location. The Makefile is optional.
 ## OS/Distro Packages
 
 This section lists neofetch packages that have been made for specific OS/Distros.<br \>
-
-### Table of Contents
-
-- [Android (Termux)](#android-termux)
-- [Arch Linux](#arch)
-- [BunsenLabs](#bunsenlabs)
-- [CRUX](#crux)
-- [Debian](#debian)
-- [Fedora / RHEL / CentOS](#fedora--rhel--centos)
-- [Gentoo / Funtoo](#gentoo--funtoo)
-- [iOS](##ios-1)
-- [macOS](#mac-os-x)
-- [Slackware](#slackware)
-- [Solus](#solus)
-- [Ubuntu](#ubuntu)
-- [Void Linux](#void-linux)
-
 
 ### Android (Termux)
 

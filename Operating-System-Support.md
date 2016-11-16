@@ -5,94 +5,117 @@ If your OS/Distro isn't here, open an issue on github and I'll gladly add suppor
 won't work with it. Adding support for your OS/Distro is most likely just adding<br \> 
 ascii art.
 
-### Linux
-
-- Alpine
-- Antergos
-- Arch Linux
-- Blag
-- Bunsenlabs
-- Centos
-- Chakra
-- Chapeau
-- Chrome
-- Crux
-- Debian
-- Deepin
-- Devuan Linux
-- Elementary
-- Exherbo
-- Fedora
-- Frugalware
-- Funtoo
-- GalliumOS
-- Gentoo
-- Gnewsense
-- Kali
-- Kaos
-- KDE Neon
-- Kogaion
-- Kubuntu
-- Lmde
-- Lubuntu
-- Mageia
-- Manjaro
-- Linux Mint
-- Nixos
-- Openmandriva
-- Opensuse
-- Parabola
-- PclinuxOS
-- Peppermint
-- Puppy Linux
-- Qubes
-- Raspbian
-- Redhat
-- Sabayon
-- Sailfishos
-- Scientific
-- Slackware
-- Solus
-- Sparky Linux
-- SteamOS
-- Tails
-- Trisquel
-- Ubuntu
-- Ubuntu-GNOME
-- Void
-- Xubuntu
-- Zorin
-
 ### Android
 
-All Android versions should be supported.
+All versions of Android should be supported.
 
-### Mac OS X
-
-All OS X versions should be supported.
-
-### iOS
-
-All iOS versions should be supported.
 
 ### BSD
 
-- DragonflyBSD
-- Freebsd
-- Netbsd
-- Openbsd
-- PacBSD
-- PCBSD
+- `DragonflyBSD`
+- `FreeBSD`
+- `NetBSD`
+- `OpenBSD`
+- `PacBSD`
 
-### Solaris
 
-- OpenIndiana
-- Oracle
+### GNU Hurd
+
+All Hurd distros should be supported.
+
+
+### Haiku
+
+All versions of Haiku should be supported.
+
+
+### iOS
+
+All versions of iOS should be supported.
+
+
+### Linux
+
+- `Alpine`
+- `AntergOS`
+- `Arch`
+- `Bitrig`
+- `Blag`
+- `Blankon`
+- `Bunsenlabs`
+- `CentOS`
+- `Chakra`
+- `ChaletOS`
+- `Chapeau`
+- `Chrome`
+- `Crux`
+- `Debian`
+- `Deepin`
+- `Devuan`
+- `DracOS`
+- `Elementary OS`
+- `Exherbo`
+- `Fedora`
+- `Frugalware`
+- `Funtoo`
+- `GalliumOS`
+- `Gentoo`
+- `Gnewsense`
+- `Guixsd`
+- `KDE Neon`
+- `Kali`
+- `KaOS`
+- `Kogaion`
+- `Korora`
+- `Kubuntu`
+- `LMDE`
+- `Linux Mint`
+- `Lubuntu`
+- `Mageia`
+- `Manjaro`
+- `Netrunner`
+- `NixOS`
+- `OpenSuse`
+- `OpenIndiana`
+- `Openmandriva`
+- `Openwrt`
+- `Oracle`
+- `Parabola`
+- `Pardus`
+- `PclinuxOS`
+- `Peppermint`
+- `Porteus`
+- `Puppy`
+- `Qubes OS`
+- `Raspbian`
+- `Redhat`
+- `Redstar OS`
+- `Rosa`
+- `Sabayon`
+- `SailfishOS`
+- `Scientific`
+- `Slackware`
+- `Solaris`
+- `Solus`
+- `Sparky`
+- `SteamOS`
+- `Tails`
+- `Travis`
+- `Trisquel`
+- `Ubuntu-GNOME`
+- `Ubuntu`
+- `Void`
+- `Xubuntu`
+- `Zorin`
+
+
+### Mac OS
+
+All versions of Mac OS / OS X should be supported.
+
 
 ### Windows
 
-- Windows XP
-- Windows 7
-- Windows 8
-- Windows 8.1
-- Windows 10
+All versions of Windows (After XP) should be supported.
+
+

@@ -1,7 +1,7 @@
 **[#252](https://github.com/dylanaraps/neofetch/pull/252)** added support for displaying the terminal emulator in use as well as the font<br \>
 the terminal emulator is currently using.
 
-# Terminal Detection
+## Terminal Detection
 
 #### Mac OS X
 
@@ -15,7 +15,7 @@ isn't `$SHELL`, `*sh`, `screen` or `tmux`.
 This method of detection doesn't work with `tmux` as the parent processes aren't<br \>
 the current shell or the terminal emulator.
 
-# Font Detection
+## Font Detection
 
 Font detection works by parsing the terminal emulator's config file.
 

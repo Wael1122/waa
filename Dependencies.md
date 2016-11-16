@@ -38,13 +38,15 @@ These dependencies are required for image mode to work.
 
 - Google Play Music Desktop Player: [`gpmdp-remote`](https://github.com/iAndrewT/gpmdp-remote)
 - MPD: `mpc`
-- CMUS: `cmus`
-- MOC: `moc`
-- Spotify: `spotify`
-- Rhythmbox: `rhythmbox`
-- Banshee: `banshee`
-- Amarok: `amarok`
-- Deadbeef: `deadbeef`
+- CMUS
+- MOC
+- Spotify
+- Rhythmbox
+- Banshee
+- Amarok
+- Deadbeef
+- GNOME Music
+- Lollypop
 
 ### Desktop Environment and Window Manager
 
@@ -111,7 +113,7 @@ Note: The cydia package installs these dependencies for you.
 - `bash`
 - `busybox`
 
-Note: I recommend installing `termux` from the Play Store or F-Droid. Termux provides you with a fully working Linux environment, doesn't require root acess and includes all dependencies.
+**Note:** I recommend installing `termux` from the Play Store or F-Droid. Termux provides you with a fully working Linux environment, doesn't require root acess and includes all dependencies.
 
-Note2: Neofetch is in Termux's official repos.
+**Note:** Neofetch is in Termux's official repos.
 

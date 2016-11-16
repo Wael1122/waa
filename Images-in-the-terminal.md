@@ -79,22 +79,3 @@ display images correctly.
 
 If neofetch still won't display the images then you should open a new issue on<br \>
 github and provide me with a verbose log.
-
-
-## Customization
-
-Neofetch has various flags/options that let you customize the image output. 
-
-#### Options
-
-| Option Name | Launch Flag | Config Option | Args | Notes |
-| ----------- | ----------- | ------------- | ---- | ----- |
-| Source      | --image     | image         | `wall` `ascii` `/path/to/img` `/path/to/dir/` `off` | If an invalid image mode is specified neofetch will fallback to ascii mode. |
-| Size        | --size      | image_size    | `auto` `00px` `00%` `none` | 
-| Position    | --image_position | image_position | `left` `right` | Doesn't work with iTerm2 and Terminology
-| Crop Mode   | --crop_mode | crop_mode     | `normal` `fit` `fill` | See this wiki page for more info. [What is waifu crop?](https://github.com/dylanaraps/neofetch/wiki/What-is-Waifu-Crop%3F#)
-| Crop Offset | --crop_offset | crop_offset | `northwest` `north` `northeast` `west` `center` `east` `southwest` `south` `southeast` | How this works: [crop_gravity](http://www.imagemagick.org/Usage/crop/#crop_gravity)
-| X offset    | --xoffset     | xoffset     | `num` | Doesn't work with iTerm2 and Terminology
-| Y offset    | --yoffset     | yoffset     | `num` | Doesn't work with iTerm2 and Terminology
-| Gap         | --gap         | gap         | `num` | Gap between image and text
-| Clean       | --clean       | N/A         | N/A   | Remove all cropped images

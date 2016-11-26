@@ -187,6 +187,32 @@ print_info() {
 
 ## More complex examples
 
+### Print color blocks on the top and bottom
+
+```sh
+print_info () {
+    info line_break
+    info cols
+    info line_break
+
+    info "Model" model
+    info "OS" distro
+    info "Kernel" kernel
+    info "Uptime" uptime
+    info "Packages" packages
+    info "Shell" shell
+    info "Resolution" resolution
+    info "DE" de
+    info "WM" wm
+    info "WM Theme" wm_theme
+
+    info line_break
+    info cols
+    info line_break
+}
+
+```
+
 ### Speed up the script by running the functions asynchronously
 
 You can make the script 2x faster by gathering the info asynchronously, the only caveat is that the order that all of the info is printed in will be based on what completes first. You can add this to your printinfo function by adding an `&` sign to the info lines you want to be asynchronous then by adding a single `wait` to the bottom of the function.

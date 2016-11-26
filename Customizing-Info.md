@@ -106,6 +106,22 @@ prin "$(color 4)That's not my name"
 
 ```
 
+### color
+
+This function allows you to add color to strings.
+
+```sh
+Usage: color num
+       color fg # fg is the default foreground color of your colorscheme.
+
+# Print a custom message and color it blue
+prin "$(color 4)That's not my name"
+
+# Print a custom message and color it.
+prin "$(color 1)Hi, $(color 2)They $(color 3)call $(color 4)me $(color 5)Stacy!"
+
+```
+
 ### Other
 
 ```sh

@@ -3,7 +3,7 @@ As of commit [9daacdd](https://github.com/dylanaraps/fetch/commit/9daacddda1d0ad
 Here's what the function looks like, it's very similar to the array we had before.
 
 ```sh
-printinfo () {
+print_info () {
     info title
     info underline
 
@@ -57,7 +57,7 @@ info "Memory" memory
 
 Full list of functions:
 
-`distro` `kernel` `uptime` `packages` `shell` `resolution`<br\>
+`distro` `model` `kernel` `uptime` `packages` `shell` `resolution`<br\>
 `de` `wm` `wm_theme` `theme` `icons` `cpu` `gpu` `memory`<br \>
 `font` `disk` `battery` `song` `local_ip` `public_ip` `users`<br \>
 `birthday` `term` `term_font`  `cpu_usage`
@@ -79,6 +79,57 @@ prin "Date" "$(date)"
 # Print a custom message and color it blue
 prin "$(color 4)That's not my name"
 
+```
+
+## Removing Info 
+
+You can easily disable info from printing by adding a `#` to the start of the line. See below where I disable **Packages** from printing:
+
+```sh
+print_info() {
+    info title
+    info underline
+
+    info "Model" model
+    info "OS" distro
+    info "Kernel" kernel
+    info "Uptime" uptime
+    # info "Packages" packages
+    info "Shell" shell
+    info "Resolution" resolution
+    info "DE" de
+    info "WM" wm
+    info "WM Theme" wm_theme
+    info "Theme" theme
+    # ...
+}
+```
+
+## Rearranging info
+
+You can also move the lines inside the `print_info()` function around to change the order they get printed in. See this custom ordering below:
+
+```sh
+print_info() {
+    info cols
+    info linebreak
+
+    info "OS" distro
+    info "Uptime" uptime
+    info "Kernel" kernel
+
+    info linebreak
+
+    info "Model" model
+    info "Packages" packages
+    info "Shell" shell
+    info "Resolution" resolution
+    info "DE" de
+    info "WM" wm
+    info "WM Theme" wm_theme
+    info "Theme" theme
+    # ... 
+}
 ```
 
 ## More complex examples

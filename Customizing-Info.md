@@ -12,6 +12,8 @@ I've also created a few "helper" functions to make customization easier. The fun
 
 ## Print Info Function
 
+The strings in double quotes ("Model") are the subtitles for each info line and can be changed to whatever title you like or just removed altogether. 
+
 Here's what the function looks like:
 
 ```sh

@@ -54,9 +54,7 @@ These dependencies are required for image mode to work.
 
 ### Desktop Environment and Window Manager
 
-- Desktop Environment and Window Manager: `xprop` \[1\]
-
-\[1\] See **[#79](https://github.com/dylanaraps/neofetch/issues/79)** about why this is now a required dependency.
+- Desktop Environment and Window Manager: `xprop`
 
 ### Wallpaper
 
@@ -78,8 +76,7 @@ These dependencies are required for image mode to work.
 
 - Resolution (quicker): `screenresolution` \[2\]
 
-\[1\] Xrandr is prefered over xdpyinfo as Xrandr supports multi monitor and refresh rate display in the<br \>
-output.
+\[1\] Xrandr is prefered over xdpyinfo as Xrandr supports multi monitor and refresh rate display in the output.
 
 \[2\] `screenresolution` is installed for you when using homebrew.
 

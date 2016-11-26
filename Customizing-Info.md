@@ -58,13 +58,13 @@ info "Memory" memory
 Full list of functions:
 
 `distro` `kernel` `uptime` `packages` `shell` `resolution`<br\>
-`de` `wm` `wmtheme` `theme` `icons` `cpu` `gpu` `memory`<br \>
+`de` `wm` `wm_theme` `theme` `icons` `cpu` `gpu` `memory`<br \>
 `font` `disk` `battery` `song` `local_ip` `public_ip` `users`<br \>
 `birthday` `term` `term_font`  `cpu_usage`
 
 #### prin
 
-You can also just use `printf` or `echo -e` but you'll have to format/color<br \>
+You can also just use `printf` or `echo` but you'll have to format/color<br \>
 the text yourself.
 
 ```sh

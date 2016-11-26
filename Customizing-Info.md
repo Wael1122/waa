@@ -2,6 +2,16 @@ The neofetch config file contains a function near the top which gives you total 
 
 I've also created a few "helper" functions to make customization easier. The functions are called `prin`, `info` and `color`. 
 
+## Table of Contents
+
+- **[Print Info Function](#required-dependencies)**
+- **[Adding Custom Info](#image-mode-dependencies)**
+- **[Removing Info](#optional-dependencies)**
+- **[Rearranging Info](#ios)**
+- **[More Complex Examples](#android)**
+
+## Print Info Function
+
 Here's what the function looks like:
 
 ```sh

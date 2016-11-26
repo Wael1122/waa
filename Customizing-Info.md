@@ -67,9 +67,11 @@ The script comes with two helper functions that make it easier to display more i
 
 ```sh
 Usage: info "subtitle" function
+Usage: info function
 
 # Print Memory
-info "Memory" memory
+info "Memory" memory # Memory: 100MB / 1000MB
+info memory          # 100MB / 1000MB
 ```
 
 Full list of functions:
@@ -79,7 +81,7 @@ Full list of functions:
 `font` `disk` `battery` `song` `local_ip` `public_ip` `users`<br \>
 `birthday` `term` `term_font`  `cpu_usage`
 
-Other functions:
+Special functions:
 
 `underline` `linebreak` `title`
 

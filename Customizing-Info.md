@@ -6,6 +6,10 @@ I've also created a few "helper" functions to make customization easier. The fun
 
 - **[Print Info Function](#print-info-function)**
 - **[Adding Custom Info](#adding-custom-info)**
+    - [info](#info)
+    - [prin](#prin)
+    - [color](#color)
+    - [Other](#other)
 - **[Removing Info](#removing-info)**
 - **[Rearranging Info](#rearranging-info)**
 - **[More Complex Examples](#more-complex-examples)**

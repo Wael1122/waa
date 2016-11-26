@@ -1,6 +1,8 @@
-As of commit [9daacdd](https://github.com/dylanaraps/fetch/commit/9daacddda1d0adca9df1ff8e9aad13d974c09314) the info array at the top of the script has changed to a regular function. The benefits of this are pretty cool, you can now use **any** bash syntax to customize what gets displayed. This makes it really easy to add your own custom info to neofetch.
+The neofetch config file contains a function near the top which gives you total freedom over customizing how info is displayed in the info column. Since the config file is a bash script and this is a function, you can use any bash syntax to customize it. 
 
-Here's what the function looks like, it's very similar to the array we had before.
+I've also created a few "helper" functions to make customization easier. The functions are called `prin`, `info` and `color`. 
+
+Here's what the function looks like:
 
 ```sh
 print_info () {
@@ -25,6 +27,11 @@ print_info () {
     info "GPU" gpu
     info "Memory" memory
 
+    # The lines below with a '#' in front are additional info functions
+    # that are disabled by default. Removing the '#' enables them and adding
+    # a '#' to the start disables them again. You can add a '#' to any of the
+    # lines in this function to disable their output.
+
     # info "CPU Usage" cpu_usage
     # info "Disk" disk
     # info "Battery" battery
@@ -46,7 +53,7 @@ print_info () {
 
 The script comes with two helper functions that make it easier to display more info.
 
-#### info
+### info
 
 ```sh
 Usage: info "subtitle" function
@@ -62,7 +69,7 @@ Full list of functions:
 `font` `disk` `battery` `song` `local_ip` `public_ip` `users`<br \>
 `birthday` `term` `term_font`  `cpu_usage`
 
-#### prin
+### prin
 
 You can also just use `printf` or `echo` but you'll have to format/color<br \>
 the text yourself.
@@ -79,6 +86,18 @@ prin "Date" "$(date)"
 # Print a custom message and color it blue
 prin "$(color 4)That's not my name"
 
+```
+
+### Other
+
+```sh
+# Using echo
+echo "hello, world"
+echo -e "$(color 3)Date: $(color 7)$(date)"
+
+# Using printf
+printf "%s\n" "hello, world"
+printf "%s\n" "$(color 3)Date: $(color 7)$(date)"
 ```
 
 ## Removing Info 

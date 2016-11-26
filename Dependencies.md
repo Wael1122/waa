@@ -84,8 +84,7 @@ These dependencies are required for image mode to work.
 
 - Screenshot: `scrot` \[1\]
 
-\[1\] You can use the launch flag `--scrot_cmd` or change the config option `$scrot_cmd` to your screenshot<br \>
-program's cmd and neofetch will use it instead of scrot.
+\[1\] You can use the launch flag `--scrot_cmd` or change the config option `$scrot_cmd` to your screenshot program's cmd and neofetch will use it instead of scrot.
 
 ### GPU
 

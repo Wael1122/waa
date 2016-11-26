@@ -4,11 +4,11 @@ I've also created a few "helper" functions to make customization easier. The fun
 
 ## Table of Contents
 
-- **[Print Info Function](#required-dependencies)**
-- **[Adding Custom Info](#image-mode-dependencies)**
-- **[Removing Info](#optional-dependencies)**
-- **[Rearranging Info](#ios)**
-- **[More Complex Examples](#android)**
+- **[Print Info Function](#print-info-function)**
+- **[Adding Custom Info](#adding-custom-info)**
+- **[Removing Info](#removing-info)**
+- **[Rearranging Info](#rearranging-info)**
+- **[More Complex Examples](#more-complex-examples)**
 
 ## Print Info Function
 

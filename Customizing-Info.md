@@ -79,6 +79,10 @@ Full list of functions:
 `font` `disk` `battery` `song` `local_ip` `public_ip` `users`<br \>
 `birthday` `term` `term_font`  `cpu_usage`
 
+Other functions:
+
+`underline` `linebreak` `title`
+
 ### prin
 
 You can also just use `printf` or `echo` but you'll have to format/color<br \>

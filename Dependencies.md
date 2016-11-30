@@ -56,13 +56,13 @@ These dependencies are required for image mode to work.
 
 ### Desktop Environment and Window Manager
 
-- Desktop Environment and Window Manager: `xprop`
+- `xprop`
 
 ### Wallpaper
 
 **Linux, BSD and Solaris**
 
-- Wallpaper: `feh`, `nitrogen` or `gsettings`
+- `feh`, `nitrogen` or `gsettings`
 
 **Windows and macOS**
 
@@ -72,19 +72,21 @@ These dependencies are required for image mode to work.
 
 **Linux, BSD and Solaris**
 
-- Resolution: `xorg-xrandr` or `xorg-xdpyinfo` \[1\]
+- `xorg-xrandr` or `xorg-xdpyinfo` \[1\]
 
 **macOS**
 
-- Resolution (quicker): `screenresolution` \[2\]
+- `screenresolution` \[2\] \[3\]
 
 \[1\] Xrandr is prefered over xdpyinfo as Xrandr supports multi monitor and refresh rate display in the output.
 
-\[2\] `screenresolution` is installed for you when using homebrew.
+\[2\] `screenresolution` is faster than the built in Mac OS tools.
+
+\[3\] `screenresolution` is installed for you when using homebrew.
 
 ### Screenshot
 
-- Screenshot: `scrot` \[1\]
+- `scrot` \[1\]
 
 \[1\] You can use the launch flag `--scrot_cmd` or change the config option `$scrot_cmd` to your screenshot program's cmd and neofetch will use it instead of scrot.
 
@@ -92,7 +94,7 @@ These dependencies are required for image mode to work.
 
 **BSD and Solaris**
 
-- GPU: `glxinfo`
+- `glxinfo`
     - Not required on FreeBSD.
 
 

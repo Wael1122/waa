@@ -33,7 +33,7 @@ These dependencies are required for image mode to work.
 
 \[2\] Image support is built into Terminology and iTerm2, and doesn't require w3m-img.
 
-**Note:** See this wiki page for more information: [Images in the terminal](https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal)
+\[4\] See this wiki page for more information: [Images in the terminal](https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal)
 
 
 ## Optional dependencies:

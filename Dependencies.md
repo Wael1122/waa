@@ -51,6 +51,8 @@ These dependencies are required for image mode to work.
 - Deadbeef
 - GNOME Music
 - Lollypop
+- Clementine
+- Pragha
 
 ### Desktop Environment and Window Manager
 

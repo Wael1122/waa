@@ -2,7 +2,7 @@ This wiki page will guide you through getting neofetch working on your system.<b
 The first and most universal way of installing neofetch is by downloading/cloning<br \>
 the latest release and running the Makefile. 
 
-## Table of Contents
+# Table of Contents
 
 - **[Universal Install](#universal-install)**
     - [Latest Release](#latest-release)
@@ -22,9 +22,9 @@ the latest release and running the Makefile.
     - [Ubuntu](#ubuntu)
     - [Void Linux](#void-linux)
 
-## Universal Install
+# Universal Install
 
-### Latest Release
+## Latest Release
 
 1. Download the latest release.
     - https://github.com/dylanaraps/neofetch/archive/1.9.1.zip
@@ -32,7 +32,7 @@ the latest release and running the Makefile.
     - **El Capitan**: `PREFIX=/usr/local make install`
     - **NOTE**: You may have to run this as root.
 
-### Latest Git Master (Bleeding Edge) 
+## Latest Git Master (Bleeding Edge) 
 
 1. Git clone the repo.
     - `git clone https://github.com/dylanaraps/neofetch`
@@ -49,11 +49,11 @@ all of files from your system.
 **NOTE:** You can run neofetch from any folder on your system, all the makefile<br \>
 does is move the files to a "sane" location. The Makefile is optional.
 
-## OS/Distro Packages
+# OS/Distro Packages
 
 This section lists neofetch packages that have been made for specific OS/Distros.<br \>
 
-### Android (Termux)
+## Android (Termux)
 
 Neofetch is in Termux's default repos.
 
@@ -61,12 +61,12 @@ Neofetch is in Termux's default repos.
 2. `apt install neofetch`
 
 
-### Arch
+## Arch
 
 1. Install **[neofetch](https://aur.archlinux.org/packages/neofetch/)** or **[neofetch-git](https://aur.archlinux.org/packages/neofetch-git/)** from the aur.
 
 
-### BunsenLabs
+## BunsenLabs
 
 Neofetch is available in the official repos.
 
@@ -74,7 +74,7 @@ Neofetch is available in the official repos.
 2. `sudo apt-get install neofetch`
 
 
-### CRUX
+## CRUX
 
 1. Install git and the git ports(8) driver
     - `sudo prt-get depinst git`
@@ -97,7 +97,7 @@ Or alternatively use the [port](https://raw.githubusercontent.com/6c37/crux-port
     - `sudo pkgadd neofetch#git-*.pkg.tar.gz`
 
 
-### Debian
+## Debian
 
 1. Add the 3rd party repo
     - `echo "deb http://dl.bintray.com/dawidd6/neofetch jessie main" | sudo tee -a /etc/apt/sources.list`
@@ -109,7 +109,7 @@ Or alternatively use the [port](https://raw.githubusercontent.com/6c37/crux-port
     - `sudo apt-get install neofetch`
 
 
-### Fedora / RHEL / CentOS
+## Fedora / RHEL / CentOS
 
 **NOTE**: If you are using RHEL/CentOS, change `dnf` into `yum`.
 
@@ -131,46 +131,48 @@ Alternatively:
     - `sudo dnf install neofetch`
 
 
-### Gentoo / Funtoo
+## Gentoo / Funtoo
 
 You can install `app-misc/neofetch` from Gentoo/Funtoo's official repositories.
 
 To install the git version of neofetch, use `=app-misc/neofetch-9999` instead.
 
 
-### iOS
+## iOS
 
 1. Add `http://dylanaraps.com/repo` to your cydia sources.
 2. Install `neofetch` through cydia.
 
 
-### macOS
+## macOS
 
 Install `neofetch` with Homebrew
    
 1. `brew install neofetch`
 
 
-### Slackware
+## Slackware
 
 Download the files from [SlackBuilds](https://slackbuilds.org/repository/14.2/desktop/neofetch/) and follow [their instructions](https://slackbuilds.org/howto/).
 
 
-### Solus
+## Solus
 
 Use the Software Center or type `sudo eopkg it neofetch`.
 
 
-### Ubuntu
+## Ubuntu
 
-**Ubuntu 17.04 (Zesty) and up**
+### Ubuntu 17.04 and up
 
 Install it from the official repositories.
 
-1. `sudo apt update`
-2. `sudo apt install neofetch`
+1. Update repositories
+    - `sudo apt update`
+2. Install the package
+    - `sudo apt install neofetch`
 
-**Ubuntu 16.10 (Xenial) and below**
+### Ubuntu 16.10 and below
 
 1. Add PPA
     - `sudo add-apt-repository ppa:dawidd0811/neofetch`
@@ -180,7 +182,7 @@ Install it from the official repositories.
     - `sudo apt install neofetch`
 
 
-### Void Linux
+## Void Linux
 
 Install it from the official repositories
 

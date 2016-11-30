@@ -103,6 +103,18 @@ Or alternatively use the [port](https://raw.githubusercontent.com/6c37/crux-port
 
 ## Debian
 
+### Unstable
+
+Neofetch is in Debian Unstable's official repositories.
+
+1. Update repositories
+    - `sudo apt-get update`
+2. Install the package
+    - `sudo apt-get install neofetch`
+
+
+### All other versions
+
 1. Add the 3rd party repo
     - `echo "deb http://dl.bintray.com/dawidd6/neofetch jessie main" | sudo tee -a /etc/apt/sources.list`
 2. Add public key (you need to have curl installed)

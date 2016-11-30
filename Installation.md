@@ -163,6 +163,15 @@ Use the Software Center or type `sudo eopkg it neofetch`.
 
 ### Ubuntu
 
+**Ubuntu 17.04 (Zesty) and up**
+
+Install it from the official repositories.
+
+1. `sudo apt update`
+2. `sudo apt install neofetch`
+
+**Ubuntu 16.10 (Xenial) and below**
+
 1. Add PPA
     - `sudo add-apt-repository ppa:dawidd0811/neofetch`
 2. Update repositories

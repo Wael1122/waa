@@ -57,8 +57,10 @@ This section lists neofetch packages that have been made for specific OS/Distros
 
 Neofetch is in Termux's default repos.
 
-1. `apt-get update`
-2. `apt install neofetch`
+1. Update repositories
+    - `sudo apt-get update`
+2. Install the package
+    - `sudo apt-get install neofetch`
 
 
 ## Arch
@@ -70,8 +72,10 @@ Neofetch is in Termux's default repos.
 
 Neofetch is available in the official repos.
 
-1. `sudo apt-get update`
-2. `sudo apt-get install neofetch`
+1. Update repositories
+    - `sudo apt-get update`
+2. Install the package
+    - `sudo apt-get install neofetch`
 
 
 ## CRUX
@@ -144,11 +148,10 @@ To install the git version of neofetch, use `=app-misc/neofetch-9999` instead.
 2. Install `neofetch` through cydia.
 
 
-## macOS
+## macOS (Homebrew)
 
-Install `neofetch` with Homebrew
-   
-1. `brew install neofetch`
+1. Install `neofetch` with Homebrew
+    - `brew install neofetch`
 
 
 ## Slackware

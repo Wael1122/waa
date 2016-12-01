@@ -1,3 +1,5 @@
+Note: This page is unfinished.
+
 I first started writing Neofetch or as it was originally called "fetch" back in November of 2015. I was just getting started with shell scripting at this point so I was writing scripts for anything and everything I could think of. I had the idea of showing an image next to system info and decided to turn it into a working script.
 
 The screenshot below is of the oldest version of `fetch`. This version only properly worked on Arch systems, had no support for ascii logos and everything was hardcoded. The script was only `60` lines long and was only meant to work on my machine at the time. 
@@ -11,7 +13,8 @@ I decided to keep working on the script everyday, fixing bugs and adding feature
 
 And so I did. I spent the entire weekend writing the script from scratch, only this time it was written with multi-OS support in mind. After the rewrite the script went from 100~ to 740~ lines of code. The script now had command line flags, config options and supported Mac OS, Windows and a ton of Linux distros.
 
-Here's the script source: [fetch - dec 30 2015]()
 
 ![First standalone version](https://u.teknik.io/IX209.png)
 <br \><sub>First standalone version of `fetch`</sub>
+
+## TODO

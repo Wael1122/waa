@@ -86,9 +86,23 @@ These are style issues that I think should be fixed.
 
 ### External programs are called when bash can handle it instead.
 
-Calling external programs should only be done when *really* necessary. Bash can handle a lot of things that Screenfetch sends to external programs. Things like string substitution, character removal, 
+Calling external programs should only be done when *really* necessary. Bash can handle a lot of things that Screenfetch sends to external programs. Things like string substitution and character removal can easily be done without spawning new processes by using variable substitutions.
 
-- Calling external programs slows down the script since we're spawning new processes.
+Example:
+
+```sh
+# Screenfetch
+cpu=$(sysctl -n hw.model | sed 's/@.*//')
+
+# Using bash syntax.
+cpu="$(sysctl -n hw.model)"
+cpu="${cpu/@*}"
+```
+
+Yes, the bash method is one line larger but it removes a pipe and a call to an external process. The bash way might only be slightly faster but doing this over the entire script is when you really notice a difference.
+
+Calling external programs is a lot slower especially when multiple of them are used in a single chain of commands.
+
 
 ### Pipes are used too often together.
 

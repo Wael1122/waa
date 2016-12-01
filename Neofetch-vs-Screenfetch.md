@@ -148,6 +148,12 @@ mydistro=$(echo -e "$labelcolor OS:$textcolor $distro $sysArch")
 
 # Correct way
 mydistro="$labelcolor OS:$textcolor $ditro $sysArch"
+
+# Screenfetch
+for l in $(echo $distrib_id); do
+
+# Correct way
+for l in "$distrib_id"; do
 ```
 
 ### Broken code.

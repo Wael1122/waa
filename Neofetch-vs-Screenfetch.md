@@ -262,3 +262,11 @@ The only downside to this implementation is that Neofetch and the ascii logos ca
 Neofetch supports displaying full color images in place of the ascii art by using `w3m-img`, `tycat` and `iTerm2`. 
 
 See this wiki page for more info: [Images in the terminal](https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal)
+
+
+### Customization
+
+Neofetch is highly customizable. Neofetch has a config file that includes the `print_info()` function which gives you total freedom over how the info is displayed. The config file also includes over 50 options for customization the various aspects of Neofetch.
+
+- See this link for the config file: [Config file](https://github.com/dylanaraps/neofetch/blob/master/config/config)
+- See this wiki page for more info: [Customizing info](https://github.com/dylanaraps/neofetch/wiki/Customizing-Info)

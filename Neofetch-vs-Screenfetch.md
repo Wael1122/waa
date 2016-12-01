@@ -38,7 +38,74 @@ I'm still working on Neofetch everyday and I'm still looking for ways to extend 
 
 ## The problem with Screenfetch
 
+Let me start by saying this; Don't bring up the argument about bash only syntax and portability between shells. Screenfetch uses `#!/usr/bin/env bash` as it's shebang so all POSIX compliancy and portability between other shells goes out the window. Since Screenfetch is using the bash shebang, bash features **should** be used over portable ones since they're faster, more feature-full and don't spawn external processes. 
+
+In short, the script is a mess, it's glue on top of glue.
+
+### Quoting is inconsistent.
+
+There's a countless amount of unquoted variables `$foo` and command substitutions `$(foo)`. Variables and command substitutions must **always** be quoted or your script will choke on whitespace and strings like this `\[*?`. 
+
+This StackExchange answer explains it better than I can:
+
+> Why do I need to write "$foo"? What happens without the quotes?
+
+> $foo does not mean “take the value of the variable foo”. It means something much more complex:
+
+>    - First, take the value of the variable.
+>    - Field splitting: treat that value as a whitespace-separated list of fields, and build the resulting list. For example, if the variable contains foo *  bar ​ then the result of this step is the 3-element list foo, *, bar.
+>    - Filename generation: treat each field as a glob, i.e. as a wildcard pattern, and replace it by the list of file names that match this pattern. If the pattern doesn't match any files, it is left unmodified. In our example, this results in the list containing foo, following by the list of files in the current directory, and finally bar. If the current directory is empty, the result is foo, *, bar.
+
+> Note that the result is a list of strings. There are two contexts in shell syntax: list context and string context. Field splitting and filename generation only happen in list context, but that's most of the time. Double quotes delimit a string context: the whole double-quoted string is a single string, not to be split. (Exception: "$@" to expand to the list of positional parameters, e.g. "$@ is equivalent to "$1" "$2" "$3" if there are three positional parameters. See What is the difference between $* and $@?)
+
+> The same happens to command substitution with $(foo) or with `foo`. On a side note, don't use `foo`: its quoting rules are weird and non-portable, and all modern shells support $(foo) which is absolutely equivalent except for having intuitive quoting rules.
+
+> The output of arithmetic substitution also undergoes the same expansions, but that isn't normally a concern as it only contains non-expandable characters (assuming IFS doesn't contain digits or -).
+
+> See When is double-quoting necessary? for more details about the cases when you can leave out the quotes.
+
+> Unless you mean for all this rigmarole to happen, just remember to always use double quotes around variable and command substitutions. Do take care: leaving out the quotes can lead not just to errors but to security holes.
+>
+> Source: http://unix.stackexchange.com/a/131767
+
+
+### Test syntax is inconsistent.
+
+Sometimes `[` is used, other times `[[` is used.
+- `[[` should be used over `[`.
+    - `[[` is bash syntax whereas `[` is a builtin command.
+    - `[[` is safer since variables don't have to be quoted.
+    - `[[` supports more features like combining tests.
+
+### Nitpicks
+
+These are style issues that I think should be fixed.
+
+- Variable naming is inconsistent.
+
+
+### External programs are called when bash can handle it instead.
+
+Calling external programs should only be done when *really* necessary. Bash can handle a lot of things that Screenfetch sends to external programs. Things like string substitution, character removal, 
+
+- Calling external programs slows down the script since we're spawning new processes.
+
+### Pipes are used too often together.
+
+- See this command taken from Screenfetch:
+    - `cpu=$(dmesg | grep 'CPU:' | head -n 1 | sed -r 's/CPU: //' | sed -e 's/([^()]*)//g')`
+- 5 external programs are called and 4 pipes are used to get the CPU name from `dmesg`
+- This can easily be cut down to 2 programs, 1 pipe and 2 variable substitutions.
+    - `cpu="$(dmesg | awk -F 'CPU: ' '/CPU:/ {printf $2; exit}')"`
+    - `cpu="${cpu//\(}"`
+    - `cpu="${cpu//\)}"`
+- There are countless commands like this.
+
+### There's a lot of broken code.
+
+- Screenshot uploading doesn't work at all.
+
  
 ## How does Neofetch differ from Screenfetch?
 
-Although it may not seem like it, Neofetch and Screenfetch are vastly different. ...
+Although it may not seem like it, Neofetch and Screenfetch are vastly different. 

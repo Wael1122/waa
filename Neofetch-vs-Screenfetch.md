@@ -18,6 +18,10 @@ The goal of this wiki page is to answer these questions:
     - [Broken code](#broken-code)
     - [Nitpicks](#nitpicks)
 - **[How does Neofetch differ from Screenfetch](#how-does-neofetch-differ-from-screenfetch)**
+    - [Speed](#speed)
+    - [Syntax](#syntax)
+    - [Ascii](#ascii)
+    - [Images](#images)
 
 ## Why was Neofetch created?
 

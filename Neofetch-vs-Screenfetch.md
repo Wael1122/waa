@@ -6,7 +6,8 @@ The goal of this wiki page is to answer the questions:
 ## Table of Contents
 
 - [Why was Neofetch created?](#why-was-neofetch-created)
-- [How does Neofetch differ from Screenfetch?](#how-does-neofetch-differ-from-screenfetch)
+- [The problem with Screenfetch](#the-problem-with-screenfetch)
+- [How does Neofetch differ from Screenfetch](#how-does-neofetch-differ-from-screenfetch)
 
 ## Why was Neofetch created?
 
@@ -33,4 +34,11 @@ I'm still working on Neofetch everyday and I'm still looking for ways to extend 
 \[1\] https://github.com/dylanaraps/neofetch/issues/28
 
 
+## The problem with Screenfetch
+
+
 ## How does Neofetch differ from Screenfetch?
+
+|| Neofetch | Screenfetch |
+| --- | --- | --- |
+| **Language** | Bash 3 | Bash 4 |

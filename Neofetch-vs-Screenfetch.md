@@ -41,6 +41,4 @@ I'm still working on Neofetch everyday and I'm still looking for ways to extend 
  
 ## How does Neofetch differ from Screenfetch?
 
-|| Neofetch | Screenfetch |
-| --- | --- | --- |
-| **Language** | Bash 3 | Bash 4 |
+Although it may not seem like it, Neofetch and Screenfetch are vastly different. ...

@@ -12,6 +12,11 @@ The goal of this wiki page is to answer these questions:
     - [Quoting is inconsistent](#quoting-is-inconsistent)
     - [Test syntax is inconsistent](#test-syntax-is-inconsistent) 
     - [External programs are called when bash can handle it instead](#external-programs-are-called-when-bash-can-handle-it-instead) 
+    - [Pipes are used too often together](#pipes-are-used-too-often-together) 
+    - [Useless cat usage](#useless-cat-usage)
+    - [Pointless use of echo](#pointless-use-of-echo)
+    - [Broken code](#broken-code)
+    - [Nitpicks](#nitpicks)
 - **[How does Neofetch differ from Screenfetch](#how-does-neofetch-differ-from-screenfetch)**
 
 ## Why was Neofetch created?

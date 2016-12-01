@@ -125,10 +125,14 @@ This should either be fixed or removed. I don't know why it's still sitting in t
 
 ### Nitpicks
 
-These are style issues that I think should be fixed.
+These are misc issues that I think should be fixed.
 
 - Variable naming is inconsistent.
 - Function naming is inconsistent.
+- Remove all `eval` usage.
+    - Do you *really* need it?
+- Remove all `xargs` usage.
+    - Do you *really* need it?
  
 
 ## How does Neofetch differ from Screenfetch?

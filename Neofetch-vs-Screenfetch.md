@@ -208,13 +208,16 @@ These are misc issues that I think should be fixed.
 
 Neofetch and Screenfetch may look alike but they're vastly different underneath. For starters, Neofetch is a far newer codebase and was designed to support multiple Operating Systems from the start. This allows Neofetch to expand to new Operating Systems and Distros effortlessly. 
 
+Neofetch is in and has always been in very active development, myself and a few others are working on improving Neofetch everyday and will continue do so for the foreseeable future.
+
+Neofetch is clean, the script has a clear structure and you can learn how it works very easily. 
+
 
 ### Operating Systems
 
 Neofetch supports more OS than the other tools out there. Neofetch currently supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd and Windows (Cygwin/Windows 10 Linux subsystem). Neofetch can run on anything bash runs on, if your OS isn't supported then open an issue here on github and I'll get right to it. 
 
-Neofetch is in and has always been in very active development, myself and a few others are working on improving Neofetch everyday and will continue do so for the foreseeable future.
- 
+See this wiki page for full OS support: [OS Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
 
 ### Info
 

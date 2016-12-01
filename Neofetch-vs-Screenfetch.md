@@ -171,6 +171,8 @@ These are misc issues that I think should be fixed.
     - Do you *really* need it?
 - There's inconsistent use of `printf` / `echo`.
     - Pick one, use it. Don't mix and match.
+- There's  still traces of backticks used through the script.
+    - You're using bash, there's no reason not to use. `$()`
 
 
 ## How does Neofetch differ from Screenfetch?

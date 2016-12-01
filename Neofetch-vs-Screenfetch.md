@@ -207,6 +207,27 @@ These are misc issues that I think should be fixed.
 Neofetch and Screenfetch may look alike but they're vastly different underneath. For starters, Neofetch is a far newer codebase and was designed to support multiple Operating Systems from the start. This allows Neofetch to expand to new Operating Systems and Distros effortlessly. 
 
 
+### Operating Systems
+
+Neofetch currently supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd and Windows (Cygwin/Windows 10 Linux subsystem). Neofetch can run on anything bash runs on, if your OS isn't supported then open an issue here on github and I'll get right to it. 
+
+
+### Info
+
+Neofetch supports displaying all of the info Screenfetch displays plus a lot more. These are the Neofetch exclusive functions:
+
+- **Battery**: Print the battery level of your device.
+- **Birthday**: Print the date the OS was installed.
+- **CPU Usage**: Print CPU Usage.
+- **Local IP**: Print the local IP address.
+- **Model**: Print the device model of your device.
+- **Public IP**: Print the public IP address.
+- **Terminal Emulator**: Print the terminal emulator Neofetch is running in.
+- **Terminal Emulator Font**: Print the terminal emulator font.
+- **Song**: Print the currently playing song.
+- **Users**: Print the currently logged in users.
+
+
 ### Speed
 
 Neofetch is fucking quick.

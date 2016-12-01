@@ -154,6 +154,12 @@ for l in $(echo $distrib_id); do
 
 # Correct way
 for l in "$distrib_id"; do
+
+# Screenfetch
+if [ $(echo $cpu_mhz) -gt 999 ]; then
+
+# Correct way
+if ((cpu_mhz > 999)); then
 ```
 
 ### Broken code.

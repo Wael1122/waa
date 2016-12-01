@@ -294,7 +294,7 @@ See this wiki page for more info: [Images in the terminal](https://github.com/dy
 
 ### Customization
 
-Neofetch is highly customizable. Neofetch has a config file that includes the `print_info()` function which gives you total freedom over how the info is displayed. The config file also includes over 50 options for customization the various aspects of Neofetch.
+Neofetch is highly customizable. Neofetch has a config file that includes the `print_info()` function which gives you total freedom over how the info is displayed. The config file also includes over 50 options for customizing the various aspects of Neofetch.
 
 Every config option also has a corresponding launch flag. For example, the config option `$speed_type` has a launch flag called `--speed_type`.
 

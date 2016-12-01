@@ -24,4 +24,7 @@ I started adding new info functions, features, config options and Neofetch now s
 
 I'm still working on Neofetch everyday and I'm still looking for ways to extend it further. :-)
 
-\[1\] https://github.com/dylanaraps/neofetch/issues/28
+\[1\] https://github.com/dylanaraps/neofetch/issues/28\
+
+
+## How does Neofetch differ from Screenfetch?

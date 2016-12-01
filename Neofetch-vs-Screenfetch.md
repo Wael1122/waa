@@ -3,22 +3,18 @@ The goal of this wiki page is to answer the questions:
 - How is Neofetch different from Screenfetch?
 - What's wrong with Screenfetch?
 
-## History of Neofetch
+<hr>
 
-I first started writing Neofetch or as it was originally called "fetch" back in November of 2015. I was just getting started with shell scripting at this point so I was writing scripts for anything and everything I could think of. I had the idea of showing an image next to system info and decided to turn it into a working script.
+Neofetch or as it was originally called `fetch` was never meant to be a replacement for Screenfetch nor was it ever meant to display Ascii logos. Neofetch first started as my `70` line hardcoded script that only supported Arch Linux, only displayed a tiny amount of info and only supported showing images with w3m-img. 
 
-The screenshot below is of the oldest version of `fetch`. This version only properly worked on Arch systems, had no support for ascii logos and everything was hardcoded. The script was only `60` lines long and was only meant to work on my machine at the time. 
+I started posting screenshots of my system to [/r/unixporn/](https://reddit.com/r/unixporn) which included my tiny little script. People started using the script and started asking me to add support for their Linux Distros and later their Operating systems. Me being happy that anyone is using something that I created started adding support various Distros and Operating systems. 
 
-Here's the script source: [fetch - nov 10 2015](https://github.com/dylanaraps/dotfiles/blob/0a146c986b1540949146f753998ba91a414fd716/scripts/fetch.sh)
+When it got to adding support for Mac OS I realized that I had hit a stopping point. The script wasn't written in a way that would allow me to easily expand it to more Operating systems, it needed a rewrite. So I rewrote the script from scratch over an entire weekend and the result is the script base/structure that neofetch is still using today.
 
-![Oldest screenshot of fetch](https://u.teknik.io/h7KSz.png)
-<br \><sub>Oldest screenshot of `fetch`</sub>
+I continued to work on neofetch everyday and whenever someone would suggest a feature, I would add it no questions asked. One day a user by the name of [@aloisdg](https://github.com/dylanaraps/neofetch/issues/28) opened a bug report on the repo requesting "ascii art support". \[1\] I jumped on this and was shocked to see how easy it was to implement, I had a working version the same day and it was in master a day later. 
 
-I decided to keep working on the script everyday, fixing bugs and adding features. During this period I kept getting comments and messages from people asking to add support for their Operating System or Distro. I started adding support for other operating systems and I realized that to cleanly add support for more operating systems I would have to rewrite the script from scratch. 
+As I kept working on neofetch everyday, looking for ways to improve it I decided to get it to get it to feature parity with Screenfetch. Once neofetch supported displaying the same info as Screenfetch I thought to myself, what else can we add to neofetch?
 
-And so I did. I spent the entire weekend writing the script from scratch, only this time it was written with multi-OS support in mind. After the rewrite the script went from 100~ to 740~ lines of code. The script now had command line flags, config options and supported Mac OS and over 20 Linux distros.
+I started adding new info functions, features, config options and neofetch now supported displaying info like Current Terminal Emulator, Terminal Emulator Font, Device Model (Name of laptop, etc) and much more.
 
-![First standalone version](https://u.teknik.io/IX209.png)
-<br \><sub>First standalone version of `fetch`</sub>
-
-## TODO
+\[1\] https://github.com/dylanaraps/neofetch/issues/28

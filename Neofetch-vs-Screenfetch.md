@@ -18,5 +18,7 @@ I decided to keep working on the script everyday, fixing bugs and adding feature
 
 And so I did. I spent the entire weekend writing the script from scratch, only this time it was written with multi-OS support in mind. After the rewrite the script went from 100~ to 740~ lines of code. The script now had command line flags, config options and supported Mac OS and over 20 Linux distros.
 
+![First standalone version](https://u.teknik.io/IX209.png)
+<br \><sub>First standalone version of `fetch`</sub>
 
 ## TODO

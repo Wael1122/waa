@@ -16,7 +16,7 @@ The goal of this wiki page is to answer these questions:
     - [Useless cat usage](#useless-cat-usage)
     - [Pointless use of echo](#pointless-use-of-echo)
     - [Broken code](#broken-code)
-    - [Nitpicks](#nitpicks)
+    - [Small problems](#small-problems)
 - **[How does Neofetch differ from Screenfetch](#how-does-neofetch-differ-from-screenfetch)**
     - [Operating Systems](#operating-systems)
     - [Info](#info)
@@ -185,7 +185,7 @@ This should either be fixed or removed. I don't know why it's still sitting in t
 - Screenshot uploading doesn't work at all.
 
 
-### Nitpicks
+### Small problems.
 
 These are misc issues that I think should be fixed.
 

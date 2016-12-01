@@ -40,7 +40,7 @@ I'm still working on Neofetch everyday and I'm still looking for ways to extend 
 
 Let me start by saying this; Don't bring up the argument about bash only syntax and portability between shells. Screenfetch uses `#!/usr/bin/env bash` as it's shebang so all POSIX compliancy and portability between other shells goes out the window. Since Screenfetch is using the bash shebang, bash features **should** be used over portable ones since they're faster, more feature-full and don't spawn external processes. 
 
-In short, the script is a mess, it's glue on top of glue.
+I'll be blunt. The script is a mess, it's glue on top of glue. 
 
 ### Quoting is inconsistent.
 
@@ -116,6 +116,18 @@ cpu="${cpu//\)}"`
 Again, the bash way takes up more space than the Screenfetch command but it's faster and doesn't call 3 extra programs. The Screenfetch command has to wait for each program to do the following: start, process the string, exit and finally pipe the string to the next command so we can do it all again.
 
 
+### There's Pointless use of `echo`
+
+`echo -e` is used when assigning variables for some odd reason.
+
+```sh
+# Screenfetch
+mydistro=$(echo -e "$labelcolor OS:$textcolor $distro $sysArch")
+
+# Correct way
+mydistro="$labelcolor OS:$textcolor $ditro $sysArch"
+```
+
 ### There's broken code.
 
 This should either be fixed or removed. I don't know why it's still sitting in the script when it's been known to not work for a while now.
@@ -135,7 +147,9 @@ These are misc issues that I think should be fixed.
     - Do you *really* need it?
 - Remove all `bc` usage.
     - Do you *really* need it?
- 
+- There's inconsistent use of `printf` / `echo`.
+    - Pick one, use it. Don't mix and match.
+
 
 ## How does Neofetch differ from Screenfetch?
 

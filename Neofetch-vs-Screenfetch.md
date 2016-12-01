@@ -133,6 +133,8 @@ These are misc issues that I think should be fixed.
     - Do you *really* need it?
 - Remove all `xargs` usage.
     - Do you *really* need it?
+- Remove all `bc` usage.
+    - Do you *really* need it?
  
 
 ## How does Neofetch differ from Screenfetch?

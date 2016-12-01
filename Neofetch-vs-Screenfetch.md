@@ -20,7 +20,7 @@ I started posting screenshots of my system to [/r/unixporn/](https://reddit.com/
 ![Oldest screenshot of fetch](https://u.teknik.io/h7KSz.png)
 <br \><sub>Oldest screenshot of `fetch`</sub>
 
-When it got to adding support for Mac OS I realized that I had hit a stopping point. The script wasn't written in a way that would allow me to easily expand it to more Operating systems, it needed a rewrite. So I rewrote the script from scratch over an entire weekend and the result is the script base/structure that neofetch is still using today.
+When it got to adding support for Mac OS I realized that I had hit a stopping point. The script wasn't written in a way that would allow me to easily expand it to more Operating systems, it needed a rewrite. So I rewrote the script from scratch over an entire weekend and the result is the script base/structure that Neofetch is still using today.
 
 I continued to work on Neofetch everyday and whenever someone would suggest a feature, I would add it no questions asked. One day a user by the name of [@aloisdg](https://github.com/dylanaraps/neofetch/issues/28) opened a bug report on the repo requesting "ascii art support". \[1\] I jumped on this and was shocked to see how easy it was to implement, I had a working version the same day and it was in master a day later. 
 
@@ -200,7 +200,7 @@ Neofetch is fucking quick.
 
 Neofetch only spawns external processes when it makes sense and it uses built in bash features wherever possible. All variables and command substitutions are correctly quoted so we don't choke on whitespace.
 
-Compare the latest master of Neofetch to the lastest master of Screenfetch and you'll find that Neofetch (in ascii mode) is 3 times faster than Screenfetch on average. This is all while neofetch is displaying more system information and your terminal colors.
+Compare the latest master of Neofetch to the lastest master of Screenfetch and you'll find that Neofetch (in ascii mode) is 3 times faster than Screenfetch on average. This is all while Neofetch is displaying more system information and your terminal colors.
 
 Despite Image mode being much slower, Neofetch is still on average 70ms faster than Screenfetch.
 
@@ -242,7 +242,7 @@ All functions and variables follow the same naming scheme `example_of_scheme`. T
 
 Neofetch stores the ascii art as separate plain text files that are then read only when needed. The script isn't littered with a huge case statement with hardcoded info variables. 
 
-The only downside to this implementation is that neofetch and the ascii logos can't be distributed as a single file.
+The only downside to this implementation is that Neofetch and the ascii logos can't be distributed as a single file.
 
 
 ### Images

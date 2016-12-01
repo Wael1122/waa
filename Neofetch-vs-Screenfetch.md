@@ -22,6 +22,7 @@ The goal of this wiki page is to answer these questions:
     - [Syntax](#syntax)
     - [Ascii](#ascii)
     - [Images](#images)
+    - [Customization](#customization)
 
 ## Why was Neofetch created?
 
@@ -268,5 +269,8 @@ See this wiki page for more info: [Images in the terminal](https://github.com/dy
 
 Neofetch is highly customizable. Neofetch has a config file that includes the `print_info()` function which gives you total freedom over how the info is displayed. The config file also includes over 50 options for customization the various aspects of Neofetch.
 
+Every config option also has a corresponding launch flag. For example, the config option `$speed_type` has a launch flag called `--speed_type`.
+
 - See this link for the config file: [Config file](https://github.com/dylanaraps/neofetch/blob/master/config/config)
 - See this wiki page for more info: [Customizing info](https://github.com/dylanaraps/neofetch/wiki/Customizing-Info)
+

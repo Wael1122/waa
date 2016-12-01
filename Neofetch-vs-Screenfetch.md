@@ -77,16 +77,10 @@ Sometimes `[` is used, other times `[[` is used.
     - `[[` is safer since variables don't have to be quoted.
     - `[[` supports more features like combining tests.
 
-### Nitpicks
-
-These are style issues that I think should be fixed.
-
-- Variable naming is inconsistent.
-
 
 ### External programs are called when bash can handle it instead.
 
-Calling external programs should only be done when *really* necessary. Bash can handle a lot of things that Screenfetch sends to external programs. Things like string substitution and character removal can easily be done without spawning new processes by using variable substitutions.
+Calling external programs should only be done when *really* necessary. Bash can handle a lot of things that Screenfetch sends to external programs. Things like string substitution and character removal can easily be done without spawning new sub processes by using variable substitutions.
 
 Example:
 
@@ -99,27 +93,44 @@ cpu="$(sysctl -n hw.model)"
 cpu="${cpu/@*}"
 ```
 
-Yes, the bash method is one line larger but it removes a pipe and a call to an external process. The bash way might only be slightly faster but doing this over the entire script is when you really notice a difference.
-
-Calling external programs is a lot slower especially when multiple of them are used in a single chain of commands.
+Yes, the bash method is one line larger but it removes a pipe and a call to an external program. The bash way might only be slightly faster but doing this over the course of the entire script is when you really notice a difference.
 
 
 ### Pipes are used too often together.
 
-- See this command taken from Screenfetch:
-    - `cpu=$(dmesg | grep 'CPU:' | head -n 1 | sed -r 's/CPU: //' | sed -e 's/([^()]*)//g')`
-- 5 external programs are called and 4 pipes are used to get the CPU name from `dmesg`
-- This can easily be cut down to 2 programs, 1 pipe and 2 variable substitutions.
-    - `cpu="$(dmesg | awk -F 'CPU: ' '/CPU:/ {printf $2; exit}')"`
-    - `cpu="${cpu//\(}"`
-    - `cpu="${cpu//\)}"`
-- There are countless commands like this.
+This is a continuation from the External Programs issue above. Screenfetch has command chains that pipe 4 to 5 to 6 times in one line. 
+
+See this command taken from Screenfetch:
+
+```sh
+# 5 external programs are called and 4 pipes are used to get the CPU name from `dmesg`
+cpu=$(dmesg | grep 'CPU:' | head -n 1 | sed -r 's/CPU: //' | sed -e 's/([^()]*)//g')`
+
+
+# This can easily be cut down to 2 programs, 1 pipe and 2 variable substitutions.
+cpu="$(dmesg | awk -F 'CPU: ' '/CPU:/ {printf $2; exit}')"`
+cpu="${cpu//\(}"`
+cpu="${cpu//\)}"`
+```
+
+Again, the bash way takes up more space than the Screenfetch command but it's faster and doesn't call 3 extra programs. The Screenfetch command has to wait for each program to do the following: start, process the string, exit and finally pipe the string to the next command so we can do it all again.
+
 
 ### There's a lot of broken code.
 
 - Screenshot uploading doesn't work at all.
 
+
+### Nitpicks
+
+These are style issues that I think should be fixed.
+
+- Variable naming is inconsistent.
+- Function naming is inconsistent.
  
+
 ## How does Neofetch differ from Screenfetch?
 
 Although it may not seem like it, Neofetch and Screenfetch are vastly different. 
+
+TODO

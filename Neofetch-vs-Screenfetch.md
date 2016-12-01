@@ -117,7 +117,6 @@ cpu="${cpu/@*}"
 
 Yes, the bash method is one line larger but it removes a pipe and a call to an external program. The bash way might only be slightly faster but doing this over the course of the entire script is when you really notice a difference.
 
-
 ### Pipes are used too often together.
 
 This is a continuation from the External Programs issue above. Screenfetch has command chains that pipe 4 to 5 to 6 times in one line. 

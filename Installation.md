@@ -105,7 +105,7 @@ Or alternatively use the [port](https://raw.githubusercontent.com/6c37/crux-port
 
 ### Unstable
 
-Neofetch is in Debian Unstable's official repositories.
+Neofetch is in Debian Unstable/Stretch's official repositories.
 
 1. Update repositories
     - `sudo apt-get update`

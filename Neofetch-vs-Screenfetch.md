@@ -7,7 +7,7 @@ The goal of this wiki page is to answer the questions:
 
 ## Table of Contents
 
-- [Why was neofetch created?]()
+- [Why was neofetch created?](#why-was-neofetch-created)
 
 ## Why was neofetch created?
 

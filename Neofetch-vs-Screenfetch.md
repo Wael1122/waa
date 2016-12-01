@@ -200,10 +200,42 @@ Neofetch is fucking quick.
 
 Neofetch only spawns external processes when it makes sense and it uses built in bash features wherever possible. All variables and command substitutions are correctly quoted so we don't choke on whitespace.
 
+Compare the latest master of Neofetch to the lastest master of Screenfetch and you'll find that Neofetch (in ascii mode) is 3 times faster than Screenfetch on average. This is all while neofetch is displaying more system information and your terminal colors.
+
+Despite Image mode being much slower, Neofetch is still on average 70ms faster than Screenfetch.
+
+```sh
+# Testing details
+# Lenovo YOGA 900
+# Arch Linux
+# Neofetch    - 2bd0379d9042b43d621f618e759e22e609521b57
+# Screenfetch - 5f15e57932292b0a750cf0a95c714f04018eeaa0
+
+# Neofetch - Ascii mode
+# Result: real 0m0.101s
+#         user 0m0.037s
+#         sys  0m0.010s
+time neofetch --config off --ascii
+
+# Neofetch - Image mode
+# Result: real 0m0.251s
+#         user 0m0.063s
+#         sys  0m0.047s
+time neofetch --config off
+
+# Screenfetch
+# Result: real 0m0.341s
+#         user 0m0.133s
+#         sys  0m0.053s
+time screenfetch
+
+```
 
 ### Syntax
 
-Neofetch takes full advantage of Bash 3 syntax/features. We don't mix and match POSIX syntax with Bash syntax, we keep it consistent throughout. 
+Neofetch takes full advantage of Bash 3 syntax/features. We don't mix and match POSIX syntax with Bash syntax, I keep it consistent throughout. 
+
+All functions and variables follow the same naming scheme `example_of_scheme`. This makes it a lot easier to find things when working on the script.
 
 
 ### Ascii Art
@@ -211,6 +243,7 @@ Neofetch takes full advantage of Bash 3 syntax/features. We don't mix and match 
 Neofetch stores the ascii art as separate plain text files that are then read only when needed. The script isn't littered with a huge case statement with hardcoded info variables. 
 
 The only downside to this implementation is that neofetch and the ascii logos can't be distributed as a single file.
+
 
 ### Images
 

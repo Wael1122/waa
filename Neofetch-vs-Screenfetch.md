@@ -38,11 +38,13 @@ I'm still working on Neofetch everyday and I'm still looking for ways to extend 
 
 ## The problem with Screenfetch
 
-Let me start by saying this; Don't bring up the argument about bash only syntax and portability between shells. Screenfetch uses `#!/usr/bin/env bash` as it's shebang so all POSIX compliancy and portability between other shells goes out the window. Since Screenfetch is using the bash shebang, bash features **should** be used over portable ones since they're faster, more feature-full and don't spawn external processes. 
-
 I'll be blunt. The script is a mess, it's glue on top of glue. 
 
-Screenfetch is slow. Due to the issues with quoting, external programs and pipes Screenfetch chokes. The next part of this page covers why these issues are a big deal and how they can be avoided.
+Let me start by saying this; Don't bring up the argument about bash only syntax and portability between shells. Screenfetch uses `#!/usr/bin/env bash` as it's shebang so all POSIX compliancy and portability between other shells goes out the window. Since Screenfetch is using the bash shebang, bash features **should** be used over portable ones since they're faster, more feature-full and don't spawn external processes. 
+
+Screenfetch constantly mixes POSIX syntax with BASH only syntax for no apparent reason. The whole script is an inconsistent mess, variables/functions are all named differently, `printf`/`echo` are mixed and matched throughout and there's even useless `cat` usage!
+
+Screenfetch is slow. Due to the issues with quoting, external programs and pipes, Screenfetch chokes. Screenfetch is littered with unquoted variables/command substitutions, external program use when bash can do it built-in and endless piping.
 
 
 ### Quoting is inconsistent.

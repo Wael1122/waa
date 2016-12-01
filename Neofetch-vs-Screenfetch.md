@@ -191,6 +191,29 @@ These are misc issues that I think should be fixed.
 
 ## How does Neofetch differ from Screenfetch?
 
-Although it may not seem like it, Neofetch and Screenfetch are vastly different. 
+Neofetch and Screenfetch may look alike but they're vastly different underneath. For starters, Neofetch is a far newer codebase and was designed to support multiple Operating Systems from the start. This allows Neofetch to expand to new Operating Systems and Distros effortlessly. 
 
-TODO
+
+### Speed
+
+Neofetch is fucking quick.
+
+Neofetch only spawns external processes when it makes sense and it uses built in bash features wherever possible. All variables and command substitutions are correctly quoted so we don't choke on whitespace.
+
+
+### Syntax
+
+Neofetch takes full advantage of Bash 3 syntax/features. We don't mix and match POSIX syntax with Bash syntax, we keep it consistent throughout. 
+
+
+### Ascii Art
+
+Neofetch stores the ascii art as separate plain text files that are then read only when needed. The script isn't littered with a huge case statement with hardcoded info variables. 
+
+The only downside to this implementation is that neofetch and the ascii logos can't be distributed as a single file.
+
+### Images
+
+Neofetch supports displaying full color images in place of the ascii art by using `w3m-img`, `tycat` and `iTerm2`. 
+
+See this wiki page for more info: [Images in the terminal](https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal)

@@ -209,7 +209,9 @@ Neofetch and Screenfetch may look alike but they're vastly different underneath.
 
 Neofetch is in and has always been in very active development, myself and a few others are working on improving Neofetch everyday and will continue do so for the foreseeable future.
 
-Neofetch is clean, the script has a clear structure and you can learn how it works very easily. 
+Neofetch is clean, the script has a clear structure and you can learn how it works very easily.
+
+There's nothing Screenfetch does that Neofetch doesn't do better. Neofetch is faster, more customizable, supports more operating systems, displays more info and isn't a mess on the inside.
 
 
 ### Operating Systems
@@ -217,6 +219,7 @@ Neofetch is clean, the script has a clear structure and you can learn how it wor
 Neofetch supports more OS than the other tools out there. Neofetch currently supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd and Windows (Cygwin/Windows 10 Linux subsystem). Neofetch can run on anything bash runs on, if your OS isn't supported then open an issue here on github and I'll get right to it. 
 
 See this wiki page for full OS support: [OS Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
+
 
 ### Info
 
@@ -232,6 +235,10 @@ Neofetch supports displaying all of the info Screenfetch displays plus a lot mor
 - **Terminal Emulator Font**: Print the terminal emulator font.
 - **Song**: Print the currently playing song.
 - **Users**: Print the currently logged in users.
+
+Neofetch also supports displaying your terminal colors as blocks.
+
+![blocks](https://u.teknik.io/kcpQl.png)
 
 
 ### Speed
@@ -287,7 +294,7 @@ The only downside to this implementation is that Neofetch and the ascii logos ca
 
 ### Images
 
-Neofetch supports displaying full color images in place of the ascii art by using `w3m-img`, `tycat` and `iTerm2`. 
+Neofetch supports displaying full color images in place of the ascii art by using `w3m-img`, `tycat` or `iTerm2`.
 
 See this wiki page for more info: [Images in the terminal](https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal)
 

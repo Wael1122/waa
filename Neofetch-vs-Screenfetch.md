@@ -42,6 +42,9 @@ Let me start by saying this; Don't bring up the argument about bash only syntax 
 
 I'll be blunt. The script is a mess, it's glue on top of glue. 
 
+Screenfetch is slow. Due to the issues with quoting, external programs and pipes Screenfetch chokes. The next part of this page covers why these issues are a big deal and how they can be avoided.
+
+
 ### Quoting is inconsistent.
 
 There's a countless amount of unquoted variables `$foo` and command substitutions `$(foo)`. Variables and command substitutions must **always** be quoted or your script will choke on whitespace and strings like this `\[*?`. 

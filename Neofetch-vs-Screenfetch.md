@@ -211,7 +211,7 @@ Neofetch is in and has always been in very active development, myself and a few 
 
 Neofetch is clean, the script has a clear structure and you can learn how it works very easily.
 
-There's nothing Screenfetch does that Neofetch doesn't do better. Neofetch is faster, more customizable, supports more operating systems, displays more info and isn't a mess on the inside.
+There's nothing Screenfetch does that Neofetch doesn't do better. Neofetch is faster, more customizable, supports more operating systems, displays more info and isn't a fucking mess on the inside. 
 
 
 ### Operating Systems

@@ -21,6 +21,9 @@ When it got to adding support for Mac OS I realized that I had hit a stopping po
 
 I continued to work on Neofetch everyday and whenever someone would suggest a feature, I would add it no questions asked. One day a user by the name of [@aloisdg](https://github.com/dylanaraps/neofetch/issues/28) opened a bug report on the repo requesting "ascii art support". \[1\] I jumped on this and was shocked to see how easy it was to implement, I had a working version the same day and it was in master a day later. 
 
+![early distro ascii support](https://camo.githubusercontent.com/92b2d32b4f1d22b6fb2dbb680417c8a91a5b8f3b/687474703a2f2f692e696d6775722e636f6d2f744746664b4b302e706e67)
+<br \><sub>Early distro ascii support</sub>
+
 As I kept working on Neofetch everyday, looking for ways to improve it I decided to get it to get it to feature parity with Screenfetch. Once Neofetch supported displaying the same info as Screenfetch I thought to myself, what else can we add to Neofetch?
 
 I started adding new info functions, features, config options and Neofetch now supported displaying info like Current Terminal Emulator, Terminal Emulator Font, Device Model (Name of laptop, etc) and much more.

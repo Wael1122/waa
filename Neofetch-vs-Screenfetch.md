@@ -17,4 +17,6 @@ As I kept working on neofetch everyday, looking for ways to improve it I decided
 
 I started adding new info functions, features, config options and neofetch now supported displaying info like Current Terminal Emulator, Terminal Emulator Font, Device Model (Name of laptop, etc) and much more.
 
+I'm still working on neofetch everyday and I'm still looking for ways to extend it further. :-)
+
 \[1\] https://github.com/dylanaraps/neofetch/issues/28

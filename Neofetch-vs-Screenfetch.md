@@ -7,9 +7,12 @@ The goal of this wiki page is to answer these questions:
 
 ## Table of Contents
 
-- [Why was Neofetch created?](#why-was-neofetch-created)
-- [The problem with Screenfetch](#the-problem-with-screenfetch)
-- [How does Neofetch differ from Screenfetch](#how-does-neofetch-differ-from-screenfetch)
+- **[Why was Neofetch created?](#why-was-neofetch-created)**
+- **[The problem with Screenfetch](#the-problem-with-screenfetch)**
+    - [Quoting is inconsistent](#quoting-is-inconsistent)
+    - [Test syntax is inconsistent](#test-syntax-is-inconsistent) 
+    - [External programs are called when bash can handle it instead](#external-programs-are-called-when-bash-can-handle-it-instead) 
+- **[How does Neofetch differ from Screenfetch](#how-does-neofetch-differ-from-screenfetch)**
 
 ## Why was Neofetch created?
 

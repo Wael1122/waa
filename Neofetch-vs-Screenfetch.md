@@ -118,8 +118,25 @@ cpu="${cpu//\)}"`
 
 Again, the bash way takes up more space than the Screenfetch command but it's faster and doesn't call 3 extra programs. The Screenfetch command has to wait for each program to do the following: start, process the string, exit and finally pipe the string to the next command so we can do it all again.
 
+### Useless `cat` usage.
 
-### Pointless use of `echo`
+Screenfetch calls the external program `cat` when it's totally unnecessary. As of me writing this wiki page there are 10~ unnecessary uses of `cat` in Screenfetch. They can all easily be avoided by replacing the word `cat` with `< `.
+
+```sh
+# Screenfetch
+[[ "$(cat /etc/os-release)" =~ "Raspbian" ]]
+
+# Bash - No external processes.
+[[ "$(< /etc/os-release)" =~ "Raspbian" ]]
+
+# Screenfetch
+distro_more="$(cat /usr/share/doc/tc/release.txt)"
+
+# Bash - No external processes.
+distro_more="$(< /usr/share/doc/tc/release.txt)"
+```
+
+### Pointless use of `echo`.
 
 `echo -e` is used when assigning variables for some odd reason.
 

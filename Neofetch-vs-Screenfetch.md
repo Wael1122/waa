@@ -36,7 +36,7 @@ I'm still working on Neofetch everyday and I'm still looking for ways to extend 
 
 ## The problem with Screenfetch
 
-
+ 
 ## How does Neofetch differ from Screenfetch?
 
 || Neofetch | Screenfetch |

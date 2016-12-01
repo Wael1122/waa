@@ -282,7 +282,7 @@ All functions and variables follow the same naming scheme `example_of_scheme`. T
 
 Neofetch stores the ascii art as separate plain text files that are then read only when needed. The script isn't littered with a huge case statement with hardcoded info variables. 
 
-The only downside to this implementation is that Neofetch and the ascii logos can't be distributed as a single file.
+The only downside to this implementation is that Neofetch and the ascii logos can't be distributed as a single file. This is fine since the Makefile can easily install/uninstall Neofetch without issue. 
 
 
 ### Images

@@ -116,7 +116,9 @@ cpu="${cpu//\)}"`
 Again, the bash way takes up more space than the Screenfetch command but it's faster and doesn't call 3 extra programs. The Screenfetch command has to wait for each program to do the following: start, process the string, exit and finally pipe the string to the next command so we can do it all again.
 
 
-### There's a lot of broken code.
+### There's broken code.
+
+This should either be fixed or removed. I don't know why it's still sitting in the script when it's been known to not work for a while now.
 
 - Screenshot uploading doesn't work at all.
 

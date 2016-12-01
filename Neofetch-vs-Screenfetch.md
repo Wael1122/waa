@@ -138,7 +138,7 @@ Again, the bash way takes up more space than the Screenfetch command but it's fa
 
 ### Useless `cat` usage.
 
-Screenfetch calls the external program `cat` when it's totally unnecessary. As of me writing this wiki page there are 10~ unnecessary uses of `cat` in Screenfetch. They can all easily be avoided by replacing the word `cat` with `< `.
+Screenfetch calls the external program `cat` when it's totally unnecessary. As of me writing this wiki page there are 10~ unnecessary uses of `cat` in Screenfetch. They can all easily be avoided by replacing the word `cat` with `< `. `<` is a bash builtin and doesn't spawn external programs. 
 
 ```sh
 # Screenfetch

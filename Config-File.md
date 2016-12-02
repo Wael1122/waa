@@ -1,4 +1,55 @@
+This is just an easier to read mirror of the config file. This may lag behind the latest config file by a couple of days. 
+
 ```sh
+#!/usr/bin/env bash
+#
+# Neofetch config file
+# https://github.com/dylanaraps/neofetch
+
+# Speed up script by not using unicode
+export LC_ALL=C
+export LANG=C
+
+# See this wiki page for more info:
+# https://github.com/dylanaraps/neofetch/wiki/Customizing-Info
+print_info() {
+    info title
+    info underline
+
+    info "OS" distro
+    info "Model" model
+    info "Kernel" kernel
+    info "Uptime" uptime
+    info "Packages" packages
+    info "Shell" shell
+    info "Resolution" resolution
+    info "DE" de
+    info "WM" wm
+    info "WM Theme" wm_theme
+    info "Theme" theme
+    info "Icons" icons
+    info "Terminal" term
+    info "Terminal Font" term_font
+    info "CPU" cpu
+    info "GPU" gpu
+    info "Memory" memory
+
+    # info "CPU Usage" cpu_usage
+    # info "Disk" disk
+    # info "Battery" battery
+    # info "Font" font
+    # info "Song" song
+    # info "Local IP" local_ip
+    # info "Public IP" public_ip
+    # info "Users" users
+    # info "Birthday" birthday
+
+    info line_break
+    info cols
+    info line_break
+}
+
+
 # Kernel
 
 

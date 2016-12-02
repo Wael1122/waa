@@ -76,7 +76,7 @@ wmnames=( fluxbox openbox blackbox xfwm4 metacity kwin twin icewm pekwm flwm flw
 denames=( gnome-session xfce-mcs-manage xfce4-session xfconfd ksmserver lxsession lxqt-session gnome-settings-daemon mate-session mate-settings-daemon Finder deepin )
 ```
 
-Screenfetch then loops over these lists, checking the running processes on the system until it finds the Window Manager or Desktop Environment that is running. This is very inneficiant and requires manual intervension if the Window Manager or Desktop Environment isn't in the lists above.
+Screenfetch loops over these lists, checking the running processes on the system until it finds the Window Manager or Desktop Environment that is running. This is very inneficiant and requires manual intervension if the Window Manager or Desktop Environment isn't in the lists above.
 
 **Distro release files are hardcoded.**
 

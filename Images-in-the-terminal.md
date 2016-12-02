@@ -70,7 +70,6 @@ If your wallpaper setter isn't listed here and there's an easy way to find where
 the current wallpaper is stored, open an issue and I'll gladly add support for
 it.
 
-
 ## Usage
 
 Once you've installed `w3m-img`, `imagemagick`, have a terminal emulator that<br \>

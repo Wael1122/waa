@@ -100,7 +100,7 @@ elif [ -f /etc/mandrake-release ]; then
 
 Due to the detection methods Screenfetch uses, the distro names are detected all in lowercase or as short versions. Screenfetch then has a giant case statement with the sole purpose to fix capitalization and naming of Distros. If Screenfetch used proper detection methods then this entire block wouldn't be needed at all.
 
-Note: This is a tiny chubk of the case statement. The entire thing is too long to put into this wiki page.
+Note: This is a tiny chunk of the case statement. The entire thing is too long to add here.
 
 ```sh
 case $distro in

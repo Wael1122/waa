@@ -9,6 +9,7 @@ The goal of this wiki page is to answer these questions:
 
 - **[Why was Neofetch created?](#why-was-neofetch-created)**
 - **[The problem with Screenfetch](#the-problem-with-screenfetch)**
+    - [Everything is hardcoded](#everything-is-hardcoded)
     - [Quoting is inconsistent](#quoting-is-inconsistent)
     - [Test syntax is inconsistent](#test-syntax-is-inconsistent) 
     - [External programs are called when bash can handle it instead](#external-programs-are-called-when-bash-can-handle-it-instead) 
@@ -62,6 +63,10 @@ Screenfetch constantly mixes POSIX syntax with BASH only syntax for no apparent 
 Screenfetch is slow. Due to the issues with quoting, external programs and pipes, Screenfetch chokes. Screenfetch is littered with unquoted variables/command substitutions, external program use when bash can do it built-in and endless piping.
 
 Screenfetch needs maintainers who aren't scared of refactoring large parts of the script. All of these issues can be fixed if someone is willing to put the work in. As it stands right now, Screenfetch is unmaintainable. Good luck making any changes larger than distro additions or small bug fixes. 
+
+
+### Everything is hardcoded.
+
 
 
 ### Quoting is inconsistent.

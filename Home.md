@@ -6,6 +6,7 @@ Welcome to the neofetch wiki.
     - [Installation](https://github.com/dylanaraps/neofetch/wiki/Installation)
     - [Following HEAD](https://github.com/dylanaraps/neofetch/wiki/Following-HEAD)
     - [Operating System Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
+    - [Neofetch vs Screenfetch](https://github.com/dylanaraps/neofetch/wiki/Neofetch-vs-Screenfetch)
 - **Info**
     - [Customizing info](https://github.com/dylanaraps/neofetch/wiki/Customizing-Info)
     - [Terminal and Terminal Font Detection](https://github.com/dylanaraps/neofetch/wiki/Terminal-and-Terminal-Font-detection)

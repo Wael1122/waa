@@ -2,7 +2,6 @@
 - **General**
     - [Dependencies](https://github.com/dylanaraps/neofetch/wiki/Dependencies)
     - [Installation](https://github.com/dylanaraps/neofetch/wiki/Installation)
-    - [Following HEAD](https://github.com/dylanaraps/neofetch/wiki/Following-HEAD)
     - [Operating System Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
     - [Neofetch vs Screenfetch](https://github.com/dylanaraps/neofetch/wiki/Neofetch-vs-Screenfetch)
 - **Info**

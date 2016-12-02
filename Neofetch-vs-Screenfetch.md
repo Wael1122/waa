@@ -132,6 +132,26 @@ case $distro in
 # ...
 ```
 
+**Window manager names are hardcoded.**
+
+Same reasons as above. Here's a chunk from Screenfetch:
+
+```sh
+case ${WM} in
+    *'gala'*) WM="Gala";;
+    '2bwm') WM="2bwm";;
+    'awesome') WM="Awesome";;
+    'beryl') WM="Beryl";;
+    'blackbox') WM="BlackBox";;
+    'budgiewm') WM="BudgieWM";;
+    'chromeos-wm') WM="chromeos-wm";;
+    'cinnamon') WM="Cinnamon";;
+    'compiz') WM="Compiz";;
+    'deepin-wm') WM="Deepin WM";;
+    'dminiwm') WM="dminiwm";;
+    'dwm') WM="dwm";;
+# ...
+```
 
 **Package manager detection is hardcoded..**
 

@@ -96,6 +96,34 @@ elif [ -f /etc/mageia-release ]; then distro="Mageia"
 elif [ -f /etc/mandrake-release ]; then
 ```
 
+**Distro names are hardcoded.**
+
+Due to the detection methods Screenfetch uses, the distro names are detected all in lowercase or as short versions. Screenfetch then has a giant case statement with the sole purpose to fix capitalization and naming of Distros. If Screenfetch used proper detection methods then this entire block wouldn't be needed at all.
+
+Note: This is a tiny chubk of the case statement. The entire thing is too long to put into this wiki page.
+
+```sh
+case $distro in
+		alpine) distro="Alpine Linux" ;;
+		antergos) distro="Antergos" ;;
+		arch*linux*old) distro="Arch Linux - Old" ;;
+		arch|arch*linux) distro="Arch Linux" ;;
+		blag) distro="BLAG" ;;
+		bunsenlabs) distro="BunsenLabs" ;;
+		centos) distro="CentOS" ;;
+		chakra) distro="Chakra" ;;
+		chapeau) distro="Chapeau" ;;
+		chrome*|chromium*) distro="Chrome OS" ;;
+		crunchbang) distro="CrunchBang" ;;
+		crux) distro="CRUX" ;;
+		cygwin) distro="Cygwin" ;;
+		debian) distro="Debian" ;;
+		devuan) distro="Devuan" ;;
+		deepin) distro="Deepin" ;;
+		dragonflybsd) distro="DragonFlyBSD" ;;
+		dragora) distro="Dragora" ;;
+# ...
+```
 
 ### Quoting is inconsistent.
 

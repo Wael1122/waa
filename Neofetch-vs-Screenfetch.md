@@ -125,6 +125,30 @@ case $distro in
 # ...
 ```
 
+**Package manager detection is hardcoded..**
+
+Screenfetch hardcodes package managers to specific OS/Distros. This is again bad because it requires manual intervention when adding new OS/Distros. Neofetch on the other hand detects which package managers are installed and uses those instead. 
+
+This is a small chunk taken from Screenfetch which shows the hardcoded Package Manager detection.
+
+```sh
+case "${distro}" in
+		'Alpine Linux') pkgs=$(apk info | wc -l) ;;
+		'Arch Linux'|'Parabola GNU/Linux-libre'|'Chakra'|'Manjaro'|'Antergos'|'Netrunner'|'KaOS'|'Obarun') pkgs=$(pacman -Qq | wc -l) ;;
+		'Dragora') pkgs=$(ls -1 /var/db/pkg | wc -l) ;;
+		'Frugalware') pkgs=$(pacman-g2 -Q | wc -l) ;;
+		'Fuduntu'|'Ubuntu'|'Mint'|'KDE neon'|'Debian'|'Devuan'|'Raspbian'|'LMDE'|'CrunchBang'|'Peppermint'|'LinuxDeepin'|'Deepin'|'Kali Linux'|'Trisquel'|'elementary OS'|'gNewSense'|'BunsenLabs'|'SteamOS') pkgs=$(dpkg -l | grep -c ^i) ;;
+		'Slackware') pkgs=$(ls -1 /var/log/packages | wc -l) ;;
+		'Gentoo'|'Sabayon'|'Funtoo'|'Chrome OS'|'Kogaion') pkgs=$(ls -d /var/db/pkg/*/* | wc -l) ;;
+		'NixOS') pkgs=$(ls -d -1 /nix/store/*/ | wc -l) ;;
+		'Fedora'|'Fux'|'Korora'|'BLAG'|'Chapeau'|'openSUSE'|'SUSE Linux Enterprise'|'Red Hat Enterprise Linux'|'ROSA'|'Oracle Linux'|'CentOS'|'Mandriva'|'Mandrake'|'Mageia'|'Mer'|'SailfishOS'|'PCLinuxOS'|'Viperr'|'Qubes OS'|'Red Star OS') pkgs=$(rpm -qa | wc -l) ;;
+		'Void') pkgs=$(xbps-query -l | wc -l) ;;
+		'Evolve OS'|'Solus') pkgs=$(pisi list-installed | wc -l) ;;
+		'CRUX') pkgs=$(pkginfo -i | wc -l) ;;
+		'Lunar Linux') pkgs=$(lvu installed | wc -l) ;;
+		'TinyCore') pkgs=$(tce-status -i | wc -l) ;;
+```
+
 ### Quoting is inconsistent.
 
 There's a countless amount of unquoted variables `$foo` and command substitutions `$(foo)`. Variables and command substitutions must **always** be quoted or your script will choke on whitespace and strings like this `\[*?`. 

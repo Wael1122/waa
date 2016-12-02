@@ -69,6 +69,10 @@ Screenfetch needs maintainers who aren't scared of refactoring large parts of th
 
 Screenfetch hardcodes almost everything. Inside the script you'll find long hardcoded lists of Window Manager and Desktop Environment process names, hardcoded Distro Name, hardcoded file names and more. This is really bad and should be avoided altogether if possible.
 
+There are times when hardcoding things are neccessary but this should only be done when you've exhausted all other options and it's a last resort. Neofetch has a few cases of hardcoded strings like in the CPU/GPU detection on iOS devices. This was neccessary since there's no dynamic way of getting this information. It was a last resort after hours of testing.
+
+The hardcoded parts of Screenfetch could've all been easily avoided, this is true because Neofetch doesn't suffer from the same problems. 
+
 
 **Hardcoded Window Manager and Desktop Environment lists.**
 

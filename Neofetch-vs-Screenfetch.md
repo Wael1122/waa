@@ -67,16 +67,16 @@ Screenfetch needs maintainers who aren't scared of refactoring large parts of th
 
 ### Everything is hardcoded.
 
-Screenfetch hardcodes almost everything. Inside the script you'll find long hardcoded lists of Window Manager and Desktop Environment process names, hardcoded Distro Name, hardcoded file names and more. This is really bad and should be avoided altogether if possible.
+Screenfetch hardcodes almost everything. Inside the script you'll find long hardcoded lists of Window Manager and Desktop Environment process names, hardcoded Distro Names, hardcoded file names and more. This is really bad and should be avoided altogether if possible.
 
-There are times when hardcoding things are neccessary but this should only be done when you've exhausted all other options and it's a last resort. Neofetch has a few cases of hardcoded strings like in the CPU/GPU detection on iOS devices. This was neccessary since there's no dynamic way of getting this information. It was a last resort after hours of testing.
+There are times when hardcoding things are necessary but this should only be done when you've exhausted all other options and it's a last resort. Neofetch has a few cases of hardcoded strings like in the CPU/GPU detection on iOS devices. This was necessary since there's no dynamic way of getting this information. It was a last resort after hours of testing.
 
 The hardcoded parts of Screenfetch could've all been easily avoided, this is true because Neofetch doesn't suffer from the same problems. 
 
 
 **Hardcoded Window Manager and Desktop Environment lists.**
 
-Screenfetch loops over these lists, checking the running processes on the system until it finds the Window Manager or Desktop Environment that is running. This is very inneficiant and requires manual intervension if the Window Manager or Desktop Environment isn't in the lists above.
+Screenfetch loops over these lists, checking the running processes on the system until it finds the Window Manager or Desktop Environment that is running. This is very inefficient and requires manual intervention if the Window Manager or Desktop Environment isn't in the lists above.
 
 ```sh
 wmnames=( fluxbox openbox blackbox xfwm4 metacity kwin twin icewm pekwm flwm flwm_topside fvwm dwm awesome wmaker stumpwm musca xmonad.* i3 ratpoison scrotwm spectrwm wmfs wmii beryl subtle e16 enlightenment sawfish emerald monsterwm dminiwm compiz Finder herbstluftwm howm notion bspwm cinnamon 2bwm echinus swm budgie-wm dtwm 9wm chromeos-wm deepin-wm sway )
@@ -86,7 +86,7 @@ denames=( gnome-session xfce-mcs-manage xfce4-session xfconfd ksmserver lxsessio
 
 **Distro release files are hardcoded.**
 
-Take a look at this chunk of code taken from Screenfetch, distro release file names are all hardcoded. This is only a small chunk of the distro detection, the entire block is humongous. This type of detection is bad because this block will have to be added to everytime a new distro is added to Screenfetch.
+Take a look at this chunk of code taken from Screenfetch, distro release file names are all hardcoded. This is only a small chunk of the distro detection, the entire block is humongous. This type of detection is bad because this block will have to be added to every-time a new distro is added to Screenfetch.
 
 ```sh
 elif [ -f /etc/frugalware-release ]; then distro="Frugalware"

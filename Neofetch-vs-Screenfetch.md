@@ -69,14 +69,16 @@ Screenfetch needs maintainers who aren't scared of refactoring large parts of th
 
 Screenfetch hardcodes almost everything. Inside the script you'll find long hardcoded lists of Window Manager and Desktop Environment process names, hardcoded Distro Name, hardcoded file names and more. This is really bad and should be avoided altogether if possible.
 
-**These are the Window Manager and Desktop Environment lists taken from Screenfetch's master.**
+
+**Hardcoded Window Manager and Desktop Environment lists.**
+
+Screenfetch loops over these lists, checking the running processes on the system until it finds the Window Manager or Desktop Environment that is running. This is very inneficiant and requires manual intervension if the Window Manager or Desktop Environment isn't in the lists above.
 
 ```sh
 wmnames=( fluxbox openbox blackbox xfwm4 metacity kwin twin icewm pekwm flwm flwm_topside fvwm dwm awesome wmaker stumpwm musca xmonad.* i3 ratpoison scrotwm spectrwm wmfs wmii beryl subtle e16 enlightenment sawfish emerald monsterwm dminiwm compiz Finder herbstluftwm howm notion bspwm cinnamon 2bwm echinus swm budgie-wm dtwm 9wm chromeos-wm deepin-wm sway )
 denames=( gnome-session xfce-mcs-manage xfce4-session xfconfd ksmserver lxsession lxqt-session gnome-settings-daemon mate-session mate-settings-daemon Finder deepin )
 ```
 
-Screenfetch loops over these lists, checking the running processes on the system until it finds the Window Manager or Desktop Environment that is running. This is very inneficiant and requires manual intervension if the Window Manager or Desktop Environment isn't in the lists above.
 
 **Distro release files are hardcoded.**
 
@@ -95,6 +97,7 @@ elif [ -f /etc/kogaion-release ]; then distro="Kogaion"
 elif [ -f /etc/mageia-release ]; then distro="Mageia"
 elif [ -f /etc/mandrake-release ]; then
 ```
+
 
 **Distro names are hardcoded.**
 
@@ -125,6 +128,7 @@ case $distro in
 # ...
 ```
 
+
 **Package manager detection is hardcoded..**
 
 Screenfetch hardcodes package managers to specific OS/Distros. This is again bad because it requires manual intervention when adding new OS/Distros. Neofetch on the other hand detects which package managers are installed and uses those instead. 
@@ -148,6 +152,7 @@ case "${distro}" in
 		'Lunar Linux') pkgs=$(lvu installed | wc -l) ;;
 		'TinyCore') pkgs=$(tce-status -i | wc -l) ;;
 ```
+
 
 ### Quoting is inconsistent.
 

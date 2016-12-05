@@ -38,6 +38,7 @@ All versions of iOS should be supported.
 
 - `Alpine`
 - `AntergOS`
+- `Apricity OS`
 - `Arch`
 - `Bitrig`
 - `Blag`
@@ -61,6 +62,7 @@ All versions of iOS should be supported.
 - `GalliumOS`
 - `Gentoo`
 - `Gnewsense`
+- `GoboLinux`
 - `Guixsd`
 - `KDE Neon`
 - `Kali`
@@ -99,6 +101,7 @@ All versions of iOS should be supported.
 - `Solus`
 - `Sparky`
 - `SteamOS`
+- `SwagArch`
 - `Tails`
 - `Travis`
 - `Trisquel`
@@ -107,7 +110,6 @@ All versions of iOS should be supported.
 - `Void`
 - `Xubuntu`
 - `Zorin`
-
 
 ### Mac OS
 

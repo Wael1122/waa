@@ -137,13 +137,11 @@ shell_version="on"
 
 # CPU speed type
 #
-# Default: 'current'
+# Default: 'bios'
 # Values:  'current', 'min', 'max', 'bios',
-#          'scaling_current', 'scaling_min',
-#          'scaling_max'
 # Flag:    --speed_type
 # Supports: Linux with 'cpufreq'
-speed_type="current"
+speed_type="bios"
 
 # Shorten the output of the CPU function
 #
@@ -187,11 +185,16 @@ cpu_cores="logical"
 
 # CPU Temperature
 # Hide/Show CPU temperature.
+# Note the temperature is added to the regular CPU function.
 #
 # Default: 'off'
 # Values:  'on', 'off'
 # Flag:    --cpu_temp
 # Supports: Linux
+#
+# Example:
+# on:  'Intel i7-6500U (4) @ 3.1GHz [27.2°C]'
+# off: 'Intel i7-6500U (4) @ 3.1GHz'
 cpu_temp="off"
 
 
@@ -481,10 +484,12 @@ disk_display="off"
 
 # Image Source
 #
-# Default:  'wallpaper'
-# Values:   'wallpaper', '/path/to/img', '/path/to/dir/', 'off'
+# Default:  'ascii'
+# Values:   'ascii', 'wallpaper', '/path/to/img', '/path/to/dir/', 'off'
 # Flag:     --image
-image_source="wallpaper"
+#
+# NOTE: Change this to 'wallpaper', '/path/to/img' or /path/to/dir/' to enable image mode. You can also launch neofetch with '--image wallpaper' and etc.
+image_source="ascii"
 
 # Thumbnail directory
 #
@@ -580,6 +585,9 @@ ascii="distro"
 # Default: 'auto'
 # Values:  'auto', 'distro_name'
 # Flag:    --ascii_distro
+#
+# NOTE: Arch and Ubuntu have 'old' logo varients.
+#       Change this to 'arch_old' or 'ubuntu_old' to use the old logos.
 ascii_distro="auto"
 
 # Ascii Colors

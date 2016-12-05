@@ -357,7 +357,7 @@ Neofetch also supports displaying your terminal colors as blocks.
 
 ### Speed
 
-Neofetch is fucking quick.
+Neofetch is stupid fast.
 
 Neofetch only spawns external processes when it makes sense and uses built in bash features wherever possible. All variables and command substitutions are correctly quoted so we don't choke on whitespace.
 

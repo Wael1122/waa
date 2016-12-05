@@ -31,23 +31,23 @@ The goal of this wiki page is to answer these questions:
 
 Neofetch or as it was originally called `fetch` was never meant to be a replacement for Screenfetch nor was it ever meant to display Ascii logos. Neofetch first started as my `70` line hardcoded script that only supported Arch Linux, only displayed a tiny amount of info and only supported showing images with w3m-img. 
 
-I started posting screenshots of my system to [/r/unixporn/](https://reddit.com/r/unixporn) which included my tiny little script. People started using the script and started asking me to add support for their Linux Distros and later their Operating systems. Me being happy that anyone is using something that I created started adding support various Distros and Operating systems. 
+I started posting screenshots of my system to [/r/unixporn/](https://reddit.com/r/unixporn) which included my tiny little script. People started using the script and started asking me to add support for their Linux Distros and later their Operating systems. Happy to see that others were using something that I created, I started adding support various Distros and Operating systems. 
 
 ![Oldest screenshot of fetch](https://u.teknik.io/h7KSz.png)
 <br \><sub>Oldest screenshot of `fetch`</sub>
 
-When it got to adding support for Mac OS I realized that I had hit a stopping point. The script wasn't written in a way that would allow me to easily expand it to more Operating systems, it needed a rewrite. So I rewrote the script from scratch over an entire weekend and the result is the script base/structure that Neofetch is still using today.
+When it came to adding support for Mac OS I realized that I had hit a stopping point. The script wasn't written in a way that would allow me to easily expand it to more Operating systems; it needed a rewrite. So I (re)wrote the script from scratch over an entire weekend and the result is the script base/structure that Neofetch is still using today.
 
-I continued to work on Neofetch everyday and whenever someone would suggest a feature, I would add it no questions asked. One day a user by the name of [@aloisdg](https://github.com/dylanaraps/neofetch/issues/28) opened a bug report on the repo requesting "ascii art support". \[1\] I jumped on this and was shocked to see how easy it was to implement, I had a working version the same day and it was in master a day later. 
+I continued to work on Neofetch every day and whenever someone suggested a feature, I would add it no questions asked. One day a user by the name of [@aloisdg](https://github.com/dylanaraps/neofetch/issues/28) opened a bug report on the repo requesting "ascii art support". \[1\] I jumped on this and was shocked to see how easy it was to implement, I had a working version the same day and it was in master a day later. 
 
 ![early distro ascii support](https://camo.githubusercontent.com/92b2d32b4f1d22b6fb2dbb680417c8a91a5b8f3b/687474703a2f2f692e696d6775722e636f6d2f744746664b4b302e706e67)
 <br \><sub>Early distro ascii support</sub>
 
-As I kept working on Neofetch everyday, looking for ways to improve it I decided to get it to get it to feature parity with Screenfetch. Once Neofetch supported displaying the same info as Screenfetch I thought to myself, what else can we add to Neofetch?
+As I continued working on Neofetch every day, looking for ways to improve it I decided to get it to feature parity with Screenfetch. Once Neofetch supported displaying the same info as Screenfetch I thought to myself; what else can we add to Neofetch?
 
-I started adding new info functions, features, config options and Neofetch now supported displaying info like Current Terminal Emulator, Terminal Emulator Font, Device Model (Name of laptop, etc) and much more.
+I started adding new info functions, features, config options and Neofetch eventually supported displaying info like Current Terminal Emulator, Terminal Emulator Font, Device Model (Name of laptop, etc.) and much more.
 
-I'm still working on Neofetch everyday and I'm still looking for ways to extend it further. :-)
+I continue to work on Neofetch every day and I'm still looking for ways to extend it further. :-)
 
 \[1\] https://github.com/dylanaraps/neofetch/issues/28
 
@@ -56,11 +56,11 @@ I'm still working on Neofetch everyday and I'm still looking for ways to extend 
 
 I'll be blunt. The script is a mess, it's glue on top of glue. 
 
-Let me start by saying this; Don't bring up the argument about bash only syntax and portability between shells. Screenfetch uses `#!/usr/bin/env bash` as it's shebang so all POSIX compliancy and portability between other shells goes out the window. Since Screenfetch is using the bash shebang, bash features **should** be used over portable ones since they're faster, more feature-full and don't spawn external processes. 
+Let me start by saying this: Don't bring up the argument about bash only syntax and portability between shells. Screenfetch uses `#!/usr/bin/env bash` as its shebang so all POSIX compliancy and portability between other shells goes out the window. Since Screenfetch is using the bash shebang, bash features **should** be used over portable ones since they're faster, more feature-full and don't spawn external processes. 
 
-Screenfetch constantly mixes POSIX syntax with BASH only syntax for no apparent reason. The whole script is an inconsistent mess, variables/functions are all named differently, `printf`/`echo` are mixed and matched throughout and there's even useless `cat` usage!
+Screenfetch constantly mixes POSIX syntax with BASH only syntax for no apparent reason. The whole script is an inconsistent mess; variables/functions are all named differently; `printf`/`echo` are mixed and matched throughout and there's even useless `cat` usage!
 
-Screenfetch is slow. Due to the issues with quoting, external programs and pipes, Screenfetch chokes. Screenfetch is littered with unquoted variables/command substitutions, external program use when bash can do it built-in and endless piping.
+Screenfetch is slow. Due to the issues with quoting, external programs and pipes, Screenfetch chokes. Its littered with unquoted variables/command substitution, endless piping and external program use when bash can do it built-in.
 
 Screenfetch needs maintainers who aren't scared of refactoring large parts of the script. All of these issues can be fixed if someone is willing to put the work in. As it stands right now, Screenfetch is unmaintainable. Good luck making any changes larger than distro additions or small bug fixes. 
 
@@ -69,7 +69,7 @@ Screenfetch needs maintainers who aren't scared of refactoring large parts of th
 
 Screenfetch hardcodes almost everything. Inside the script you'll find long hardcoded lists of Window Manager and Desktop Environment process names, hardcoded Distro Names, hardcoded file names and more. This is really bad and should be avoided altogether if possible.
 
-There are times when hardcoding things are necessary but this should only be done when you've exhausted all other options and it's a last resort. Neofetch has a few cases of hardcoded strings like in the CPU/GPU detection on iOS devices. This was necessary since there's no dynamic way of getting this information. It was a last resort after hours of testing.
+There are times when hardcoding things is necessary but this should only be done when you've exhausted all other options and it's a last resort. Neofetch has a few cases of hardcoded strings like in the CPU/GPU detection on iOS devices. This was necessary since there's no dynamic way of getting this information and It was a last resort, after hours of testing.
 
 The hardcoded parts of Screenfetch could've all been easily avoided, this is true because Neofetch doesn't suffer from the same problems. 
 
@@ -105,7 +105,7 @@ elif [ -f /etc/mandrake-release ]; then
 
 **Distro names are hardcoded.**
 
-Due to the detection methods Screenfetch uses, the distro names are detected all in lowercase or as short versions. Screenfetch then has a giant case statement with the sole purpose to fix capitalization and naming of Distros. If Screenfetch used proper detection methods then this entire block wouldn't be needed at all.
+Due to the detection methods Screenfetch uses, the distro names are detected all in lowercase or as short versions. Screenfetch then has a giant case statement with the sole purpose of fixing capitalization and naming of Distros. If Screenfetch used proper detection methods then this entire block wouldn't be needed at all.
 
 Note: This is a tiny chunk of the case statement. The entire thing is too long to add here.
 
@@ -321,9 +321,9 @@ These are misc issues that I think should be fixed.
 
 Neofetch and Screenfetch may look alike but they're vastly different underneath. For starters, Neofetch is a far newer codebase and was designed to support multiple Operating Systems from the start. This allows Neofetch to expand to new Operating Systems and Distros effortlessly. 
 
-Neofetch is in and has always been in very active development, myself and a few others are working on improving Neofetch everyday and will continue do so for the foreseeable future.
+Neofetch is in (and has always been in) very active development, with myself and a few others continuously working on improving Neofetch everyday for the foreseeable future.
 
-Neofetch is clean, the script has a clear structure and you can learn how it works very easily.
+Neofetch is clean; the script has a clear structure and you can learn how it works very easily.
 
 There's nothing Screenfetch does that Neofetch doesn't do better. Neofetch is faster, more customizable, supports more operating systems, displays more info and isn't a fucking mess on the inside. 
 
@@ -359,9 +359,9 @@ Neofetch also supports displaying your terminal colors as blocks.
 
 Neofetch is fucking quick.
 
-Neofetch only spawns external processes when it makes sense and it uses built in bash features wherever possible. All variables and command substitutions are correctly quoted so we don't choke on whitespace.
+Neofetch only spawns external processes when it makes sense and uses built in bash features wherever possible. All variables and command substitutions are correctly quoted so we don't choke on whitespace.
 
-Compare the latest master of Neofetch to the lastest master of Screenfetch and you'll find that Neofetch (in ascii mode) is 3 times faster than Screenfetch on average. This is all while Neofetch is displaying more system information and your terminal colors.
+Compare the latest master of Neofetch to the latest master of Screenfetch and you'll find that Neofetch (in ascii mode) is 3 times faster than Screenfetch on average. This is all while Neofetch is displaying more system information and your terminal colors.
 
 Despite Image mode being much slower, Neofetch is still on average 70ms faster than Screenfetch.
 

@@ -100,7 +100,7 @@ These dependencies are required for image mode to work.
     - Not required on FreeBSD.
 
 
-### iOS
+## iOS
 
 These dependencies can all be installed through Cydia.<br \>
 Note: The cydia package installs these dependencies for you.
@@ -114,7 +114,7 @@ Note: The cydia package installs these dependencies for you.
 - `grep`
 
 
-### Android
+## Android
 
 - `bash`
 - `busybox`

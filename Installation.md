@@ -27,7 +27,7 @@ the latest release and running the Makefile.
 ## Latest Release
 
 1. Download the latest release.
-    - https://github.com/dylanaraps/neofetch/archive/2.0.zip
+    - https://github.com/dylanaraps/neofetch/archive/2.0.1.zip
 2. Run `make install` inside the script directory to install the script.
     - **El Capitan**: `PREFIX=/usr/local make install`
     - **NOTE**: You may have to run this as root.

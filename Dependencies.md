@@ -1,4 +1,6 @@
-This page lists the programs/dependencies neofetch needs to run.
+This page lists the programs/dependencies Neofetch needs to run.
+
+**NOTE:** Neofetch only requires **BASH**, the rest of the dependencies are entirely optional and only enable additional features and functionality.
 
 ## Table of Contents
 

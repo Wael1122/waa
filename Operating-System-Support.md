@@ -38,6 +38,7 @@ All versions of iOS should be supported.
 
 - `Alpine`
 - `AntergOS`
+- `AOSC OS`
 - `Apricity OS`
 - `Arch`
 - `Bitrig`
@@ -83,6 +84,7 @@ All versions of iOS should be supported.
 - `Openwrt`
 - `Oracle`
 - `Parabola`
+- `Parrot Security`
 - `Pardus`
 - `PclinuxOS`
 - `Peppermint`

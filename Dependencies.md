@@ -58,11 +58,13 @@ These dependencies are required for image mode to work.
 
 ### Desktop Environment and Window Manager
 
+**Any OS running an X Server**
+
 - `xprop`
 
 ### Wallpaper
 
-**Linux, BSD and Solaris**
+**Any OS running an X Server**
 
 - `feh`, `nitrogen` or `gsettings`
 
@@ -72,7 +74,7 @@ These dependencies are required for image mode to work.
 
 ### Resolution
 
-**Linux, BSD and Solaris**
+**Any OS running an X Server**
 
 - `xorg-xrandr` or `xorg-xdpyinfo` \[1\]
 
@@ -88,9 +90,20 @@ These dependencies are required for image mode to work.
 
 ### Screenshot
 
-- `scrot` \[1\]
+**Any OS running an X Server**
 
-\[1\] You can use the launch flag `--scrot_cmd` or change the config option `$scrot_cmd` to your screenshot program's cmd and neofetch will use it instead of scrot.
+Neofetch will automatically use whatever tool is available.
+
+- `scrot`
+- `maim`
+- `imagemagick`
+- `imlib2_grab`
+- `gnome-screenshot`
+
+**macOS and Haiku** 
+
+- No additional dependencies needed.
+
 
 ### GPU
 

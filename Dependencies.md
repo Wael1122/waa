@@ -107,6 +107,10 @@ Neofetch will automatically use whatever tool is available.
 
 ### GPU
 
+**Linux and GNU Hurd**
+
+- `lspci`
+
 **BSD and Solaris**
 
 - `glxinfo`

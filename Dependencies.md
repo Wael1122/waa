@@ -103,7 +103,7 @@ These dependencies are required for image mode to work.
 ## iOS
 
 These dependencies can all be installed through Cydia.<br \>
-Note: The cydia package installs these dependencies for you.
+Note: The Cydia package installs these dependencies for you.
 
 - `Bourne-Again SHell`
 - `Core Utilities`

@@ -15,11 +15,32 @@ This error has been disabled since we're not sourcing the config file when runni
 We were originally using `pgrep` until we found out that `pgrep` has some issues on macOS systems.
 
 
+### [SC2012](https://github.com/koalaman/shellcheck/wiki/SC2012)
+
+> Use find instead of ls to better handle non-alphanumeric filenames.
+
+This is OK to ignore since we're only counting the number of files and directories.
+
+
+### [SC2016](https://github.com/koalaman/shellcheck/wiki/SC2016)
+
+> Expressions don't expand in single quotes, use double quotes for that.
+
+This is intended, the expressions are sent to another shell. (`zsh -c '${ZSH_VERSION}'`)
+
+
 ### [SC2034](https://github.com/koalaman/shellcheck/wiki/SC2034)
 
 > foo appears unused. Verify it or export it.
 
 This error has been disabled since we dynamically use the info variables. (`$kernel`)
+
+
+### [SC2128](https://github.com/koalaman/shellcheck/wiki/SC2128)
+
+> Expanding an array without an index only gives the first element.
+
+Each info function in Neofetch is split into separate parts for each Operating System. One OS might need an array to get the info and the others may not. Shellcheck sees mixed usage of Arrays/Variables and that's what causes this error. 
 
 
 ### [SC2153](https://github.com/koalaman/shellcheck/wiki/SC2153)

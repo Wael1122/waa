@@ -15,3 +15,5 @@ Welcome to the neofetch wiki.
     - [What is Waifu Crop?](https://github.com/dylanaraps/neofetch/wiki/What-is-Waifu-Crop%3F)
 - **Ascii**
     - [Ascii file format](https://github.com/dylanaraps/neofetch/wiki/Custom-Ascii-art-file-format)
+- **Other**
+    - [Shellcheck Exclusions](https://github.com/dylanaraps/neofetch/wiki/Shellcheck-Exclusions)

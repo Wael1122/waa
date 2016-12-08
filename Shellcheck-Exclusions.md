@@ -29,6 +29,13 @@ This error has been disabled since we dynamically use the info variables. (`$ker
 We use a lot of Environment Variables and this error comes up whenever we reassign an Environment Variable to a local variable. Totally harmless.
 
 
+### [SC2154](https://github.com/koalaman/shellcheck/wiki/SC2154)
+
+> var is referenced but not assigned.
+
+This error has been disabled since the variables are in the config files which we don't source when testing with shellcheck.
+
+
 ### [SC2178](https://github.com/koalaman/shellcheck/wiki/SC2178)
 
 > Variable was used as an array but is now assigned a string.

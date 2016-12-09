@@ -15,6 +15,13 @@ This error has been disabled since we're not sourcing the config file when runni
 We were originally using `pgrep` until we found out that `pgrep` has some issues on macOS systems.
 
 
+### [SC2010](https://github.com/koalaman/shellcheck/wiki/SC2010)
+
+> Don't use ls | grep. Use a glob or a for loop with a condition to allow non-alphanumeric filenames.
+
+This only affects a single line in the macOS section of the `get_packages()` function. I can't fix this unless I get access to a macOS machine. 
+
+
 ### [SC2012](https://github.com/koalaman/shellcheck/wiki/SC2012)
 
 > Use find instead of ls to better handle non-alphanumeric filenames.

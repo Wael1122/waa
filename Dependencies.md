@@ -47,7 +47,8 @@ These dependencies are required for image mode to work.
 
 **Any OS running an X Server**
 
-- `feh`, `nitrogen` or `gsettings`
+- Desktop Environment: `XFCE`, `GNOME`, `Cinnamon` or `MATE`
+- Universal: `feh`, `nitrogen` or `gsettings`
 
 **Windows and macOS**
 

@@ -10,6 +10,7 @@ This page lists the programs/dependencies Neofetch needs to run.
     - [Wallpaper](#wallpaper)
     - [Screenshot](#screenshot)
     - [Screenshot Uploading](#screenshot-uploading)
+    - [Disk](#disk)
     - [Song](#song)
     - [Desktop Environment and Window Manager](#desktop-environment-and-window-manager)
     - [Resolution](#resolution)
@@ -21,8 +22,10 @@ This page lists the programs/dependencies Neofetch needs to run.
 
 ## Required dependencies:
 
-- `Bash 3.0+`
+- `bash 3.0+`
     - Alpine Linux: You also need `ncurses`.
+- `awk`
+- `grep`
 
 
 ## Image mode dependencies:
@@ -75,6 +78,11 @@ Neofetch will automatically use whatever tool is available.
 ### Screenshot Uploading
 
 - `curl`
+
+
+### Disk
+
+- `df`
 
 
 ### Song

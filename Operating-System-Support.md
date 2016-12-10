@@ -99,7 +99,6 @@ All versions of iOS should be supported.
 - `SailfishOS`
 - `Scientific`
 - `Slackware`
-- `Solaris`
 - `Solus`
 - `Sparky`
 - `SteamOS`
@@ -118,8 +117,12 @@ All versions of iOS should be supported.
 All versions of Mac OS / OS X should be supported.
 
 
+### Solaris
+
+- `OpenIndiana`
+- `Oracle Solaris`
+
+
 ### Windows
 
 All versions of Windows (After XP) should be supported.
-
-

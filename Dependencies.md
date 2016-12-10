@@ -42,6 +42,8 @@ These dependencies are required for image mode to work.
 
 ### Song
 
+**NOTE:** Spotify, Rhythmbox (state only), Amarok (qdbus), GNOME Music, Lollypop, and Clementine all **require** `dbus` or `qdbus`to work with Neofetch. 
+
 - Google Play Music Desktop Player: [`gpmdp-remote`](https://github.com/iAndrewT/gpmdp-remote)
 - MPD: `mpc`
 - CMUS

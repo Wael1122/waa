@@ -7,14 +7,16 @@ This page lists the programs/dependencies Neofetch needs to run.
 - **[Required dependencies](#required-dependencies)**
 - **[Image mode dependencies](#image-mode-dependencies)**
 - **[Optional dependencies](#optional-dependencies)**
+    - [Wallpaper](#wallpaper)
+    - [Screenshot](#screenshot)
+    - [Screenshot Uploading](#screenshot-uploading)
     - [Song](#song)
     - [Desktop Environment and Window Manager](#desktop-environment-and-window-manager)
-    - [Wallpaper](#wallpaper)
     - [Resolution](#resolution)
-    - [Screenshot](#screenshot)
+    - [Public IP](#public-ip)
     - [GPU](#gpu)
-- **[iOS dependencies](#ios)**
-- **[Android dependencies](#android)**
+- **[iOS dependencies](#ios-dependencies)**
+- **[Android dependencies](#android-dependencies)**
 
 
 ## Required dependencies:
@@ -40,29 +42,6 @@ These dependencies are required for image mode to work.
 
 ## Optional dependencies:
 
-### Song
-
-**NOTE:** Spotify, Rhythmbox (state only), Amarok (qdbus), GNOME Music, Lollypop, and Clementine all **require** `dbus` or `qdbus`to work with Neofetch. 
-
-- Google Play Music Desktop Player: [`gpmdp-remote`](https://github.com/iAndrewT/gpmdp-remote)
-- MPD: `mpc`
-- CMUS
-- MOC
-- Spotify
-- Rhythmbox
-- Banshee
-- Amarok
-- Deadbeef
-- GNOME Music
-- Lollypop
-- Clementine
-- Pragha
-
-### Desktop Environment and Window Manager
-
-**Any OS running an X Server**
-
-- `xprop`
 
 ### Wallpaper
 
@@ -74,21 +53,6 @@ These dependencies are required for image mode to work.
 
 - No additional dependencies needed.
 
-### Resolution
-
-**Any OS running an X Server**
-
-- `xorg-xrandr` or `xorg-xdpyinfo` \[1\]
-
-**macOS**
-
-- `screenresolution` \[2\] \[3\]
-
-\[1\] Xrandr is prefered over xdpyinfo as Xrandr supports multi monitor and refresh rate display in the output.
-
-\[2\] `screenresolution` is faster than the built in Mac OS tools.
-
-\[3\] `screenresolution` is installed for you when using homebrew.
 
 ### Screenshot
 
@@ -107,6 +71,61 @@ Neofetch will automatically use whatever tool is available.
 - No additional dependencies needed.
 
 
+### Screenshot Uploading
+
+- `curl`
+
+
+### Song
+
+**NOTE:** Spotify, Rhythmbox (state only), Amarok (qdbus), GNOME Music, Lollypop, and Clementine all **require** `dbus` or `qdbus`to work with Neofetch. 
+
+- Google Play Music Desktop Player: [`gpmdp-remote`](https://github.com/iAndrewT/gpmdp-remote)
+- MPD: `mpc`
+- CMUS
+- MOC
+- Spotify
+- Rhythmbox
+- Banshee
+- Amarok
+- Deadbeef
+- GNOME Music
+- Lollypop
+- Clementine
+- Pragha
+
+
+### Desktop Environment and Window Manager
+
+**Any OS running an X Server**
+
+- `xprop`
+
+
+### Resolution
+
+**Any OS running an X Server**
+
+- `xorg-xrandr` or `xorg-xdpyinfo` \[1\]
+
+**macOS**
+
+- `screenresolution` \[2\] \[3\]
+
+\[1\] Xrandr is prefered over xdpyinfo as Xrandr supports multi monitor and refresh rate display in the output.
+
+\[2\] `screenresolution` is faster than the built in Mac OS tools.
+
+\[3\] `screenresolution` is installed for you when using homebrew.
+
+
+### Public IP
+
+**NOTE:** `dig` is the fastest out of the three.
+
+- `dig`, `curl` or `wget`
+
+
 ### GPU
 
 **Linux and GNU Hurd**
@@ -119,7 +138,7 @@ Neofetch will automatically use whatever tool is available.
     - Not required on FreeBSD.
 
 
-## iOS
+## iOS Dependencies
 
 These dependencies can all be installed through Cydia.<br \>
 Note: The Cydia package installs these dependencies for you.
@@ -133,7 +152,7 @@ Note: The Cydia package installs these dependencies for you.
 - `grep`
 
 
-## Android
+## Android Dependencies
 
 - `bash`
 - `busybox`

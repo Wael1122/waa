@@ -24,8 +24,6 @@ This page lists the programs/dependencies Neofetch needs to run.
 
 - `bash 3.0+`
     - Alpine Linux: You also need `ncurses`.
-- `awk`
-- `grep`
 
 
 ## Image mode dependencies:

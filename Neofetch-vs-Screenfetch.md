@@ -1,4 +1,4 @@
-**NOTE:** This page is a wip
+**NOTE:** This page is a WIP
 
 The goal of this wiki page is to answer these questions:
 
@@ -11,7 +11,7 @@ The goal of this wiki page is to answer these questions:
 <!-- vim-markdown-toc GFM -->
 * [Why was Neofetch created?](#why-was-neofetch-created)
 * [The problem with Screenfetch](#the-problem-with-screenfetch)
-    * [Everything is hardcoded.](#everything-is-hardcoded)
+    * [Everything is hard-coded.](#everything-is-hard-coded)
     * [Quoting is inconsistent.](#quoting-is-inconsistent)
     * [Test syntax is inconsistent.](#test-syntax-is-inconsistent)
     * [External programs are called when bash can handle it instead.](#external-programs-are-called-when-bash-can-handle-it-instead)
@@ -34,7 +34,7 @@ The goal of this wiki page is to answer these questions:
 
 ## Why was Neofetch created?
 
-Neofetch or as it was originally called `fetch` was never meant to be a replacement for Screenfetch nor was it ever meant to display Ascii logos. Neofetch first started as my `70` line hardcoded script that only supported Arch Linux, only displayed a tiny amount of info and only supported showing images with w3m-img.
+Neofetch or as it was originally called `fetch` was never meant to be a replacement for Screenfetch nor was it ever meant to display Ascii logos. Neofetch first started as my `70` line hard-coded script that only supported Arch Linux, only displayed a tiny amount of info and only supported showing images with w3m-img.
 
 I started posting screenshots of my system to [/r/unixporn/](https://reddit.com/r/unixporn) which included my tiny little script. People started using the script and started asking me to add support for their Linux Distros and later their Operating systems. Happy to see that others were using something that I created, I started adding support various Distros and Operating systems.
 
@@ -70,16 +70,16 @@ Screenfetch is slow. Due to the issues with quoting, external programs and pipes
 Screenfetch needs maintainers who aren't scared of refactoring large parts of the script. All of these issues can be fixed if someone is willing to put the work in. As it stands right now, Screenfetch is unmaintainable. Good luck making any changes larger than distro additions or small bug fixes.
 
 
-### Everything is hardcoded.
+### Everything is hard-coded.
 
-Screenfetch hardcodes almost everything. Inside the script you'll find long hardcoded lists of Window Manager and Desktop Environment process names, hardcoded Distro Names, hardcoded file names and more. This is really bad and should be avoided altogether if possible.
+Screenfetch hard-codes almost everything. Inside the script you'll find long hard-coded lists of Window Manager and Desktop Environment process names, hard-coded Distro Names, hard-coded file names and more. This is really bad and should be avoided altogether if possible.
 
-There are times when hardcoding things is necessary but this should only be done when you've exhausted all other options and it's a last resort. Neofetch has a few cases of hardcoded strings like in the CPU/GPU detection on iOS devices. This was necessary since there's no dynamic way of getting this information and It was a last resort, after hours of testing.
+There are times when hard-coding things is necessary but this should only be done when you've exhausted all other options and it's a last resort. Neofetch has a few cases of hard-coded strings like in the CPU/GPU detection on iOS devices. This was necessary since there's no dynamic way of getting this information and It was a last resort, after hours of testing.
 
-The hardcoded parts of Screenfetch could've all been easily avoided, this is true because Neofetch doesn't suffer from the same problems.
+The hard-coded parts of Screenfetch could've all been easily avoided, this is true because Neofetch doesn't suffer from the same problems.
 
 
-**Hardcoded Window Manager and Desktop Environment lists.**
+**hard-coded Window Manager and Desktop Environment lists.**
 
 Screenfetch loops over these lists, checking the running processes on the system until it finds the Window Manager or Desktop Environment that is running. This is very inefficient and requires manual intervention if the Window Manager or Desktop Environment isn't in the lists above.
 
@@ -89,9 +89,9 @@ denames=( gnome-session xfce-mcs-manage xfce4-session xfconfd ksmserver lxsessio
 ```
 
 
-**Distro release files are hardcoded.**
+**Distro release files are hard-coded.**
 
-Take a look at this chunk of code taken from Screenfetch, distro release file names are all hardcoded. This is only a small chunk of the distro detection, the entire block is humongous. This type of detection is bad because this block will have to be added to every-time a new distro is added to Screenfetch.
+Take a look at this chunk of code taken from Screenfetch, distro release file names are all hard-coded. This is only a small chunk of the distro detection, the entire block is humongous. This type of detection is bad because this block will have to be added to every-time a new distro is added to Screenfetch.
 
 ```sh
 elif [ -f /etc/frugalware-release ]; then distro="Frugalware"
@@ -108,7 +108,7 @@ elif [ -f /etc/mandrake-release ]; then
 ```
 
 
-**Distro names are hardcoded.**
+**Distro names are hard-coded.**
 
 Due to the detection methods Screenfetch uses, the distro names are detected all in lowercase or as short versions. Screenfetch then has a giant case statement with the sole purpose of fixing capitalization and naming of Distros. If Screenfetch used proper detection methods then this entire block wouldn't be needed at all.
 
@@ -137,7 +137,7 @@ case $distro in
 # ...
 ```
 
-**Window manager names are hardcoded.**
+**Window manager names are hard-coded.**
 
 Same reasons as above. Here's a chunk from Screenfetch:
 
@@ -158,11 +158,11 @@ case ${WM} in
 # ...
 ```
 
-**Package manager detection is hardcoded..**
+**Package manager detection is hard-coded..**
 
-Screenfetch hardcodes package managers to specific OS/Distros. This is again bad because it requires manual intervention when adding new OS/Distros. Neofetch on the other hand detects which package managers are installed and uses those instead.
+Screenfetch hard-codes package managers to specific OS/Distros. This is again bad because it requires manual intervention when adding new OS/Distros. Neofetch on the other hand detects which package managers are installed and uses those instead.
 
-This is a small chunk taken from Screenfetch which shows the hardcoded Package Manager detection.
+This is a small chunk taken from Screenfetch which shows the hard-coded Package Manager detection.
 
 ```sh
 case "${distro}" in
@@ -406,7 +406,7 @@ All functions and variables follow the same naming scheme `example_of_scheme`. T
 
 ### Ascii Art
 
-Neofetch stores the ascii art as separate plain text files that are then read only when needed. The script isn't littered with a huge case statement with hardcoded info variables.
+Neofetch stores the ascii art as separate plain text files that are then read only when needed. The script isn't littered with a huge case statement with hard-coded info variables.
 
 The only downside to this implementation is that Neofetch and the ascii logos can't be distributed as a single file. This is fine since the Makefile can easily install/uninstall Neofetch without issue.
 

@@ -4,20 +4,23 @@ This page lists the programs/dependencies Neofetch needs to run.
 
 ## Table of Contents
 
-- **[Required dependencies](#required-dependencies)**
-- **[Image mode dependencies](#image-mode-dependencies)**
-- **[Optional dependencies](#optional-dependencies)**
-    - [Wallpaper](#wallpaper)
-    - [Screenshot](#screenshot)
-    - [Screenshot Uploading](#screenshot-uploading)
-    - [Disk](#disk)
-    - [Song](#song)
-    - [Desktop Environment and Window Manager](#desktop-environment-and-window-manager)
-    - [Resolution](#resolution)
-    - [Public IP](#public-ip)
-    - [GPU](#gpu)
-- **[iOS dependencies](#ios-dependencies)**
-- **[Android dependencies](#android-dependencies)**
+<!-- vim-markdown-toc GFM -->
+* [Required dependencies:](#required-dependencies)
+* [Image mode dependencies:](#image-mode-dependencies)
+* [Optional dependencies:](#optional-dependencies)
+    * [Wallpaper](#wallpaper)
+    * [Screenshot](#screenshot)
+    * [Screenshot Uploading](#screenshot-uploading)
+    * [Disk](#disk)
+    * [Song](#song)
+    * [Desktop Environment and Window Manager](#desktop-environment-and-window-manager)
+    * [Resolution](#resolution)
+    * [Public IP](#public-ip)
+    * [GPU](#gpu)
+* [iOS Dependencies](#ios-dependencies)
+* [Android Dependencies](#android-dependencies)
+
+<!-- vim-markdown-toc -->
 
 
 ## Required dependencies:
@@ -68,7 +71,7 @@ Neofetch will automatically use whatever tool is available.
 - `imlib2_grab`
 - `gnome-screenshot`
 
-**macOS and Haiku** 
+**macOS and Haiku**
 
 - No additional dependencies needed.
 
@@ -85,7 +88,7 @@ Neofetch will automatically use whatever tool is available.
 
 ### Song
 
-**NOTE:** Spotify, Rhythmbox (state only), Amarok (qdbus), GNOME Music, Lollypop, and Clementine all **require** `dbus` or `qdbus`to work with Neofetch. 
+**NOTE:** Spotify, Rhythmbox (state only), Amarok (qdbus), GNOME Music, Lollypop, and Clementine all **require** `dbus` or `qdbus`to work with Neofetch.
 
 - Google Play Music Desktop Player: [`gpmdp-remote`](https://github.com/iAndrewT/gpmdp-remote)
 - MPD: `mpc`

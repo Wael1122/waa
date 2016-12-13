@@ -19,7 +19,7 @@ We were originally using `pgrep` until we found out that `pgrep` has some issues
 
 > Don't use ls | grep. Use a glob or a for loop with a condition to allow non-alphanumeric filenames.
 
-This only affects a single line in the macOS section of the `get_packages()` function. I can't fix this unless I get access to a macOS machine. 
+This only affects a single line in the macOS section of the `get_packages()` function. I can't fix this unless I get access to a macOS machine.
 
 
 ### [SC2012](https://github.com/koalaman/shellcheck/wiki/SC2012)
@@ -47,7 +47,7 @@ This error has been disabled since we dynamically use the info variables. (`$ker
 
 > Expanding an array without an index only gives the first element.
 
-Each info function in Neofetch is split into separate parts for each Operating System. One OS might need an array to get the info and the others may not. Shellcheck sees mixed usage of Arrays/Variables and that's what causes this error. 
+Each info function in Neofetch is split into separate parts for each Operating System. One OS might need an array to get the info and the others may not. Shellcheck sees mixed usage of Arrays/Variables and that's what causes this error.
 
 
 ### [SC2153](https://github.com/koalaman/shellcheck/wiki/SC2153)
@@ -68,5 +68,5 @@ This error has been disabled since the variables are in the config files which w
 
 > Variable was used as an array but is now assigned a string.
 
-Each info function in Neofetch is split into separate parts for each Operating System. One OS might need an array to get the info and the others may not. Shellcheck sees mixed usage of Arrays/Variables and that's what causes this error. 
+Each info function in Neofetch is split into separate parts for each Operating System. One OS might need an array to get the info and the others may not. Shellcheck sees mixed usage of Arrays/Variables and that's what causes this error.
 

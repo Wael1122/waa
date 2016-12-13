@@ -1,4 +1,4 @@
-This is just an easier to read mirror of the config file. This may lag behind the latest config file by a couple of days. 
+This is just an easier to read mirror of the config file. This may lag behind the latest config file by a couple of days.
 
 ```sh
 #!/usr/bin/env bash

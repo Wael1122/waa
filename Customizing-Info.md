@@ -1,24 +1,27 @@
-The neofetch config file contains a function near the top which gives you total freedom over customizing how info is displayed in the info column. Since the config file is a bash script and this is a function, you can use any bash syntax to customize it. 
+The neofetch config file contains a function near the top which gives you total freedom over customizing how info is displayed in the info column. Since the config file is a bash script and this is a function, you can use any bash syntax to customize it.
 
-I've also created a few "helper" functions to make customization easier. The functions are called `prin`, `info` and `color`. 
+I've also created a few "helper" functions to make customization easier. The functions are called `prin`, `info` and `color`.
 
 ## Table of Contents
 
-- **[Print Info Function](#print-info-function)**
-- **[Adding Custom Info](#adding-custom-info)**
-    - [info](#info)
-    - [prin](#prin)
-    - [color](#color)
-    - [Other](#other)
-- **[Removing Info](#removing-info)**
-- **[Rearranging Info](#rearranging-info)**
-- **[More Complex Examples](#more-complex-examples)**
-    - [Print Color Blocks on the top and bottom](#print-color-blocks-on-the-top-and-bottom)
-    - [Speed up the script by running the functions asynchronously](#speed-up-the-script-by-running-the-functions-asynchronously)
+<!-- vim-markdown-toc GFM -->
+* [Print Info Function](#print-info-function)
+* [Adding Custom Info](#adding-custom-info)
+    * [info](#info)
+    * [prin](#prin)
+    * [color](#color)
+    * [Other](#other)
+* [Removing Info](#removing-info)
+* [Rearranging info](#rearranging-info)
+* [More complex examples](#more-complex-examples)
+    * [Print color blocks on the top and bottom](#print-color-blocks-on-the-top-and-bottom)
+    * [Speed up the script by running the functions asynchronously](#speed-up-the-script-by-running-the-functions-asynchronously)
+
+<!-- vim-markdown-toc -->
 
 ## Print Info Function
 
-The strings in double quotes ("Model") are the subtitles for each info line and can be changed to whatever title you like or just removed altogether. 
+The strings in double quotes ("Model") are the subtitles for each info line and can be changed to whatever title you like or just removed altogether.
 
 Here's what the function looks like:
 
@@ -140,7 +143,7 @@ printf "%s\n" "hello, world"
 printf "%s\n" "$(color 3)Date: $(color 7)$(date)"
 ```
 
-## Removing Info 
+## Removing Info
 
 You can easily disable info from printing by adding a `#` to the start of the line. See below where I disable **Packages** from printing:
 
@@ -187,7 +190,7 @@ print_info() {
     info "WM" wm
     info "WM Theme" wm_theme
     info "Theme" theme
-    # ... 
+    # ...
 }
 ```
 
@@ -225,7 +228,7 @@ You can make the script 2x faster by gathering the info asynchronously, the only
 
 ```sh
 print_info () {
-    # Lines without an '&' sign will be displayed in 
+    # Lines without an '&' sign will be displayed in
     # the order they appear here.
     info title
     info underline

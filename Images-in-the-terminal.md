@@ -4,9 +4,9 @@ will try to explain the various quirks of this mode.
 
 ## Enabling Image Mode
 
-Neofetch 2.0.1 changes the default image mode to `ascii` from `wallpaper`. From 2.0.1 onwards an additional step is required to use image mode. 
+Neofetch 2.0.1 changes the default image mode to `ascii` from `wallpaper`. From 2.0.1 onwards an additional step is required to use image mode.
 
-You can either use the launch option `--image wallpaper` (also `/path/to/img` / `/path/to/dir/`) or you can edit the config file to enable image mode. The option you have to change is called `image_source`, just change this from `ascii` to one of the other valid values and image mode will be enabled. 
+You can either use the launch option `--image wallpaper` (also `/path/to/img` / `/path/to/dir/`) or you can edit the config file to enable image mode. The option you have to change is called `image_source`, just change this from `ascii` to one of the other valid values and image mode will be enabled.
 
 ## Requirements
 
@@ -47,7 +47,7 @@ what doesn't.
 \[1\] iTerm doesn't require `w3m-img` to display images. Instead it uses a<br \>
 set of escape sequences built into iTerm.
 
-\[2\] Terminology doesn't require `w3m-img` to display images. Instead it uses<br\> 
+\[2\] Terminology doesn't require `w3m-img` to display images. Instead it uses<br\>
 a builtin program called `tycat`.
 
 Note: For image mode to work, the `w3m-img` column must say `yes` and you must have<br \>

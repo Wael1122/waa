@@ -1,26 +1,34 @@
 This wiki page will guide you through getting neofetch working on your system.<br \>
 The first and most universal way of installing neofetch is by downloading/cloning<br \>
-the latest release and running the Makefile. 
+the latest release and running the Makefile.
 
 # Table of Contents
 
-- **[Universal Install](#universal-install)**
-    - [Latest Release](#latest-release)
-    - [Latest Git Master (Bleeding Edge)](#latest-git-master-bleeding-edge)
-- **[Distro/OS Packages](#osdistro-packages)**
-    - [Android (Termux)](#android-termux)
-    - [Arch Linux](#arch)
-    - [BunsenLabs](#bunsenlabs)
-    - [CRUX](#crux)
-    - [Debian](#debian)
-    - [Fedora / RHEL / CentOS](#fedora--rhel--centos)
-    - [Gentoo / Funtoo](#gentoo--funtoo)
-    - [iOS](##ios-1)
-    - [macOS](#mac-os-x)
-    - [Slackware](#slackware)
-    - [Solus](#solus)
-    - [Ubuntu](#ubuntu)
-    - [Void Linux](#void-linux)
+<!-- vim-markdown-toc GFM -->
+* [Universal Install](#universal-install)
+    * [Latest Release](#latest-release)
+    * [Latest Git Master (Bleeding Edge)](#latest-git-master-bleeding-edge)
+* [OS/Distro Packages](#osdistro-packages)
+    * [Android (Termux)](#android-termux)
+    * [Arch](#arch)
+    * [BunsenLabs](#bunsenlabs)
+    * [CRUX](#crux)
+    * [Debian](#debian)
+        * [Unstable](#unstable)
+        * [All other versions](#all-other-versions)
+    * [Fedora / RHEL / CentOS](#fedora--rhel--centos)
+    * [Gentoo / Funtoo](#gentoo--funtoo)
+    * [iOS](#ios)
+    * [macOS (Homebrew)](#macos-homebrew)
+    * [Slackware](#slackware)
+    * [Solus](#solus)
+    * [Ubuntu](#ubuntu)
+        * [Ubuntu 17.04 and up](#ubuntu-1704-and-up)
+        * [Ubuntu 16.10 and below](#ubuntu-1610-and-below)
+    * [Void Linux](#void-linux)
+
+<!-- vim-markdown-toc -->
+
 
 # Universal Install
 
@@ -32,7 +40,7 @@ the latest release and running the Makefile.
     - **El Capitan**: `PREFIX=/usr/local make install`
     - **NOTE**: You may have to run this as root.
 
-## Latest Git Master (Bleeding Edge) 
+## Latest Git Master (Bleeding Edge)
 
 1. Git clone the repo.
     - `git clone https://github.com/dylanaraps/neofetch`

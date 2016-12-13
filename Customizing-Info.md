@@ -14,6 +14,7 @@ I've also created a few "helper" functions to make customization easier. The fun
 * [Removing Info](#removing-info)
 * [Rearranging info](#rearranging-info)
 * [More complex examples](#more-complex-examples)
+    * [Align the info](#align-the-info)
     * [Print color blocks on the top and bottom](#print-color-blocks-on-the-top-and-bottom)
     * [Speed up the script by running the functions asynchronously](#speed-up-the-script-by-running-the-functions-asynchronously)
 
@@ -195,6 +196,51 @@ print_info() {
 ```
 
 ## More complex examples
+
+
+### Align the info
+
+You can align the info in the output by adding whitespace to the subtitles in your config file.
+
+```sh
+print_info() {
+    info title
+    info underline
+
+    info "OS            " distro
+    info "Model         " model
+    info "Kernel        " kernel
+    info "Uptime        " uptime
+    info "Packages      " packages
+    info "Shell         " shell
+    info "Resolution    " resolution
+    info "DE            " de
+    info "WM            " wm
+    info "WM Theme      " wm_theme
+    info "Theme         " theme
+    info "Icons         " icons
+    info "Terminal      " term
+    info "Terminal Font " term_font
+    info "CPU           " cpu
+    info "GPU           " gpu
+    info "Memory        " memory
+
+    # info "CPU Usage   " cpu_usage
+    # info "Disk        " disk
+    # info "Battery     " battery
+    # info "Font        " font
+    # info "Song        " song
+    # info "Local IP    " local_ip
+    # info "Public IP   " public_ip
+    # info "Users       " users
+    # info "Birthday    " birthday
+
+    info line_break
+    info cols
+    info line_break
+}
+
+```
 
 ### Print color blocks on the top and bottom
 

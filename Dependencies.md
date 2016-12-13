@@ -88,20 +88,18 @@ Neofetch will automatically use whatever tool is available.
 
 ### Song
 
-**NOTE:** Spotify, Rhythmbox (state only), Amarok (qdbus), GNOME Music, Lollypop, and Clementine all **require** `dbus` or `qdbus`to work with Neofetch.
-
 - Google Play Music Desktop Player: [`gpmdp-remote`](https://github.com/iAndrewT/gpmdp-remote)
 - MPD: `mpc`
 - CMUS
 - MOC
-- Spotify
-- Rhythmbox
+- Spotify (requires dbus)
+- Rhythmbox (requires dbus for playing state only)
 - Banshee
-- Amarok
+- Amarok (requires qdbus)
 - Deadbeef
-- GNOME Music
-- Lollypop
-- Clementine
+- GNOME Music (requires dbus)
+- Lollypop (requires dbus)
+- Clementine (requires dbus)
 - Pragha
 
 

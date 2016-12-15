@@ -93,7 +93,7 @@ Neofetch will automatically use whatever tool is available.
 - CMUS
 - MOC
 - Spotify (requires dbus)
-- Rhythmbox (requires dbus for playing state only)
+- Rhythmbox
 - Banshee
 - Amarok (requires qdbus)
 - Deadbeef
@@ -165,7 +165,7 @@ Note: The Cydia package installs these dependencies for you.
 - `bash`
 - `busybox`
 
-**Note:** I recommend installing `termux` from the Play Store or F-Droid. Termux provides you with a fully working Linux environment, doesn't require root acess and includes all dependencies.
+**Note:** I recommend installing `termux` from the Play Store or F-Droid. Termux provides you with a fully working Linux environment, doesn't require root access and includes all dependencies.
 
 **Note:** Neofetch is in Termux's official repos.
 

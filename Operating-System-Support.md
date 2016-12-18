@@ -12,6 +12,7 @@ All versions of Android should be supported.
 
 ### BSD
 
+- `Debian GNU/kFreeBSD`
 - `DragonflyBSD`
 - `FreeBSD`
 - `NetBSD`

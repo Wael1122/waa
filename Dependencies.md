@@ -101,7 +101,7 @@ Neofetch will automatically use whatever tool is available.
 - Lollypop (requires dbus)
 - Clementine (requires dbus)
 - Pragha
-
+- XMMS2
 
 ### Desktop Environment and Window Manager
 

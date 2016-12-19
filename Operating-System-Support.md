@@ -113,10 +113,15 @@ All versions of iOS should be supported.
 - `Xubuntu`
 - `Zorin`
 
+
 ### Mac OS
 
 All versions of Mac OS / OS X should be supported.
 
+
+### MINIX
+
+Minix 3.4rc and any later version should be supported.
 
 ### Solaris
 

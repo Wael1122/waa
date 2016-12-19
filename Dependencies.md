@@ -140,7 +140,7 @@ Neofetch will automatically use whatever tool is available.
 
 - `lspci`
 
-**BSD and Solaris**
+**BSD, Solaris, and MINIX**
 
 - `glxinfo`
     - Not required on FreeBSD.

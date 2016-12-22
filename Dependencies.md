@@ -88,22 +88,20 @@ Neofetch will automatically use whatever tool is available.
 
 ### Song
 
-**NOTE:** Spotify, Rhythmbox (state only), Amarok (qdbus), GNOME Music, Lollypop, and Clementine all **require** `dbus` or `qdbus`to work with Neofetch.
-
 - Google Play Music Desktop Player: [`gpmdp-remote`](https://github.com/iAndrewT/gpmdp-remote)
 - MPD: `mpc`
 - CMUS
 - MOC
-- Spotify
+- Spotify (requires dbus)
 - Rhythmbox
 - Banshee
-- Amarok
+- Amarok (requires qdbus)
 - Deadbeef
-- GNOME Music
-- Lollypop
-- Clementine
+- GNOME Music (requires dbus)
+- Lollypop (requires dbus)
+- Clementine (requires dbus)
 - Pragha
-
+- XMMS2
 
 ### Desktop Environment and Window Manager
 
@@ -142,7 +140,7 @@ Neofetch will automatically use whatever tool is available.
 
 - `lspci`
 
-**BSD and Solaris**
+**BSD, Solaris, and MINIX**
 
 - `glxinfo`
     - Not required on FreeBSD.
@@ -167,7 +165,7 @@ Note: The Cydia package installs these dependencies for you.
 - `bash`
 - `busybox`
 
-**Note:** I recommend installing `termux` from the Play Store or F-Droid. Termux provides you with a fully working Linux environment, doesn't require root acess and includes all dependencies.
+**Note:** I recommend installing `termux` from the Play Store or F-Droid. Termux provides you with a fully working Linux environment, doesn't require root access and includes all dependencies.
 
 **Note:** Neofetch is in Termux's official repos.
 

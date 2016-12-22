@@ -342,7 +342,14 @@ See this wiki page for full OS support: [OS Support](https://github.com/dylanara
 
 ### Info
 
-Neofetch supports displaying all of the info Screenfetch displays plus a lot more. These are the Neofetch exclusive functions:
+Neofetch supports displaying all of the info Screenfetch displays plus a lot more. Every function in Neofetch includes options for customization. For example: The `CPU` function has 5 different options with multiple values that let you customize every aspect of the output. CPU speed can be changed to `current`, `min`, `max`, `bios` or even turned off completely. You can hide the CPU `brand`, `name` or both. You can show `logical`, `physical` or no CPU cores in the output and you can even show or hide CPU temperature.
+
+See the config file for documentation on all of the options:
+
+https://github.com/dylanaraps/neofetch/wiki/Config-File
+
+
+These are the Neofetch exclusive functions:
 
 - **Battery**: Print the battery level of your device.
 - **Birthday**: Print the date the OS was installed.

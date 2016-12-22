@@ -15,9 +15,11 @@ All versions of Android should be supported.
 - `Debian GNU/kFreeBSD`
 - `DragonflyBSD`
 - `FreeBSD`
+    - `PC-BSD`
+    - `TrueOS`
+    - `PacBSD`
 - `NetBSD`
 - `OpenBSD`
-- `PacBSD`
 
 
 ### GNU Hurd
@@ -39,6 +41,7 @@ All versions of iOS should be supported.
 
 - `Alpine`
 - `AntergOS`
+- `AntiX Linux`
 - `AOSC OS`
 - `Apricity OS`
 - `Arch`
@@ -77,6 +80,7 @@ All versions of iOS should be supported.
 - `Lubuntu`
 - `Mageia`
 - `Manjaro`
+- `MX Linux`
 - `Netrunner`
 - `NixOS`
 - `OpenSuse`

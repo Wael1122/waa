@@ -67,8 +67,9 @@ Screenfetch constantly mixes POSIX syntax with BASH only syntax for no apparent 
 
 Screenfetch is slow. Due to the issues with quoting, external programs and pipes, Screenfetch chokes. Its littered with unquoted variables/command substitution, endless piping and external program use when bash can do it built-in.
 
-Screenfetch needs maintainers who aren't scared of refactoring large parts of the script. All of these issues can be fixed if someone is willing to put the work in. As it stands right now, Screenfetch is unmaintainable. Good luck making any changes larger than distro additions or small bug fixes.
+Screenfetch is in "inactive development". The only time Screenfetch is updated is when someone requests support for a new Linux distro. There are 3 (Almost 4) year old bug reports in the tracker with no indication of them ever being fixed. 
 
+Screenfetch needs maintainers who aren't scared of refactoring large parts of the script. All of these issues can be fixed if someone is willing to put the work in. As it stands right now, Screenfetch is unmaintainable. Good luck making any changes larger than distro additions or small bug fixes.
 
 ### Everything is hard-coded.
 

@@ -42,7 +42,7 @@ print_info() {
     # info "Local IP" local_ip
     # info "Public IP" public_ip
     # info "Users" users
-    # info "Birthday" birthday
+    # info "Install Date" install_date
 
     info line_break
     info cols
@@ -95,7 +95,7 @@ os_arch="on"
 
 # Shorten the output of the uptime function
 #
-# Default: 'off'
+# Default: 'on'
 # Values:  'on', 'off', 'tiny'
 # Flag:    --uptime_shorthand
 #
@@ -103,7 +103,7 @@ os_arch="on"
 # on:   '2 days, 10 hours, 3 mins'
 # off:  '2 days, 10 hours, 3 minutes'
 # tiny: '2d 10h 3m'
-uptime_shorthand="off"
+uptime_shorthand="on"
 
 
 # Shell
@@ -137,11 +137,12 @@ shell_version="on"
 
 # CPU speed type
 #
-# Default: 'bios'
-# Values:  'current', 'min', 'max', 'bios',
+# Default: 'bios_limit'
+# Values: 'scaling_cur_freq', 'scaling_min_freq', 'scaling_max_freq', 'bios_limit'.
 # Flag:    --speed_type
 # Supports: Linux with 'cpufreq'
-speed_type="bios"
+# NOTE: Any file in '/sys/devices/system/cpu/cpu0/cpufreq' can be used as a value.
+speed_type="bios_limit"
 
 # Shorten the output of the CPU function
 #
@@ -212,6 +213,24 @@ cpu_temp="off"
 # off: 'HD 7950'
 gpu_brand="on"
 
+# Which GPU to display
+#
+# Default: 'all'
+# Values:  'all', 'dedicated', 'integrated'
+# Flag:    --gpu_type
+# Supports: Linux
+#
+# Example:
+# all:
+#   GPU1: AMD HD 7950
+#   GPU2: Intel Integrated Graphics
+#
+# dedicated:
+#   GPU1: AMD HD 7950
+#
+# integrated:
+#   GPU1: Intel Integrated Graphics
+gpu_type="all"
 
 # Resolution
 
@@ -280,7 +299,7 @@ public_ip_host="http://ident.me"
 # Song
 
 
-# Print the Artist and Title on seperate lines
+# Print the Artist and Title on separate lines
 #
 # Default: 'off'
 # Values:  'on', 'off'
@@ -294,38 +313,19 @@ public_ip_host="http://ident.me"
 song_shorthand="off"
 
 
-# Birthday
+# Install Date
 
-
-# Shorten the output of the Birthday functon.
-#
-# Default:  'off'
-# Values:   'on', 'off'
-# Flag:     --birthday_shorthand
-# Supports: 'off' doesn't work on OpenBSD and NetBSD.
-#
-# Example:
-# on:  'Thu 14 Apr 2016 11:50 PM'
-# off: '2016-04-14 23:50:55'
-birthday_shorthand="off"
 
 # Whether to show the time in the output
 #
 # Default:  'on'
 # Values:   'on', 'off'
-# Flag:     --birthday_time
+# Flag:     --install_time
 #
 # Example:
 # on:  'Thu 14 Apr 2016 11:50 PM'
 # off: 'Thu 14 Apr 2016'
-birthday_time="on"
-
-# Date format to use when printing birthday
-#
-# Default:  '+%a %d %b %Y %l:%M %p'
-# Values:   'date format'
-# Flag:     --birthday_format
-birthday_format="+%a %d %b %Y %l:%M %p"
+install_time="on"
 
 
 # Text Colors
@@ -586,8 +586,12 @@ ascii="distro"
 # Values:  'auto', 'distro_name'
 # Flag:    --ascii_distro
 #
-# NOTE: Arch and Ubuntu have 'old' logo varients.
+# NOTE: Arch and Ubuntu have 'old' logo variants.
 #       Change this to 'arch_old' or 'ubuntu_old' to use the old logos.
+# NOTE: Ubuntu has flavor variants.
+#       Change this to 'Lubuntu', 'Xubuntu', 'Ubuntu-GNOME' or 'Ubuntu-Budgie' to use the flavors.
+# NOTE: Arch, Crux and Gentoo have a smaller logo variant.
+#       Change this to 'arch_small', 'crux_small' or 'gentoo_small' to use the small logos.
 ascii_distro="auto"
 
 # Ascii Colors
@@ -600,16 +604,6 @@ ascii_distro="auto"
 # ascii_colors=(distro)      - Ascii is colored based on Distro colors.
 # ascii_colors=(4 6 1 8 8 6) - Ascii is colored using these colors.
 ascii_colors=(distro)
-
-# Logo size
-# Arch, Crux and Gentoo have a smaller logo
-# variant. Changing the value below to small
-# will make neofetch use the small logo.
-#
-# Default: 'normal'
-# Values:  'normal', 'small'
-# Flag:    --ascii_logo_size
-ascii_logo_size="normal"
 
 # Bold ascii logo
 # Whether or not to bold the ascii logo.
@@ -632,16 +626,20 @@ ascii_bold="on"
 #          -s
 scrot="off"
 
-# Screenshot program to launch
-# If you're not using 'scrot' change this to your screenshot
-# program.
+# Screenshot Program
+# Neofetch will automatically use whatever screenshot tool
+# is installed on your system.
 #
-# Default: 'scrot -c -d 3'
-# Values:  'cmd -flags'
+# If 'neofetch -v' says that it couldn't find a screenshot
+# tool or you're using a custom tool then you can change
+# the option below to a custom command.
+#
+# Default: 'auto'
+# Values:  'auto' 'cmd -flags'
 # Flag:    --scrot_cmd
-scrot_cmd="scrot -c -d 3"
+scrot_cmd="auto"
 
-# Scrot dir
+# Screenshot Directory
 # Where to save the screenshots
 #
 # Default: '~/Pictures/'
@@ -651,7 +649,7 @@ scrot_cmd="scrot -c -d 3"
 # Note: Neofetch won't create the directory if it doesn't exist.
 scrot_dir="$HOME/Pictures/"
 
-# Scrot filename
+# Screenshot Filename
 # What to name the screenshots
 #
 # Default: 'neofetch-$(date +%F-%I-%M-%S-${RANDOM}).png'
@@ -662,10 +660,13 @@ scrot_name="neofetch-$(date +%F-%I-%M-%S-${RANDOM}).png"
 # Image upload host
 # Where to upload the image.
 #
-# Default: 'imgur'
+# Default: 'teknik'
 # Values:  'imgur', 'teknik'
 # Flag:    --image_host
-image_host="imgur"
+#
+# NOTE: If you'd like another image host to be added to Neofetch.
+#       Open an issue on github.
+image_host="teknik"
 
 
 # Config Options

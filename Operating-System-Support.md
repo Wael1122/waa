@@ -69,7 +69,7 @@ All versions of iOS should be supported.
 - `Gnewsense`
 - `GoboLinux`
 - `GrombyangOS`
-- `Guixsd`
+- `GuixSD`
 - `KDE Neon`
 - `Kali`
 - `KaOS`
@@ -103,6 +103,7 @@ All versions of iOS should be supported.
 - `Rosa`
 - `Sabayon`
 - `SailfishOS`
+- `SalentOS`
 - `Scientific`
 - `Slackware`
 - `Solus`

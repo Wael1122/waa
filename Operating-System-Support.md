@@ -68,6 +68,7 @@ All versions of iOS should be supported.
 - `Gentoo`
 - `Gnewsense`
 - `GoboLinux`
+- `GrombyangOS`
 - `Guixsd`
 - `KDE Neon`
 - `Kali`

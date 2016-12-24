@@ -102,6 +102,10 @@ Neofetch will automatically use whatever tool is available.
 - Clementine (requires dbus)
 - Pragha
 - XMMS2
+- Exaile music player (requires dbus)
+- Juk (requires dbus)
+- Bluemindo (requires dbus)
+- Guayadeque (requires dbus)
 
 ### Desktop Environment and Window Manager
 

@@ -26,8 +26,9 @@ Font detection works by parsing the terminal emulator's config file.
 | Gnome-terminal    | Profile     | No             |
 | iTerm2            | Profile     | No             |
 | HyperTerm         | Global      | Yes            |
-| Konsole           | Profile     | No             |
+| Konsole           | Profile     | Yes            |
 | Mintty            | Global      | Yes            |
+| Sakura            | Global      | Yes            |
 | st                | None        | No             |
 | Terminal.app      | N/A         | Yes            |
 | Terminator        | Profile     | No             |

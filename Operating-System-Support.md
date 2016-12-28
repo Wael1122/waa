@@ -12,12 +12,14 @@ All versions of Android should be supported.
 
 ### BSD
 
+- `Bitrig`
 - `Debian GNU/kFreeBSD`
 - `DragonflyBSD`
 - `FreeBSD`
+    - `Gentoo`
+    - `PacBSD`
     - `PC-BSD`
     - `TrueOS`
-    - `PacBSD`
 - `NetBSD`
 - `OpenBSD`
 

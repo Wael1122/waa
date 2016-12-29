@@ -133,6 +133,7 @@ Minix 3.4rc and any later version should be supported.
 
 ### Solaris
 
+- `Joyent SmartOS`
 - `OpenIndiana`
 - `Oracle Solaris`
 

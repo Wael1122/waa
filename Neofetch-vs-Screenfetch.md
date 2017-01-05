@@ -168,7 +168,7 @@ This is a small chunk taken from Screenfetch which shows the hard-coded Package 
 ```sh
 case "${distro}" in
 		'Alpine Linux') pkgs=$(apk info | wc -l) ;;
-		'Arch Linux'|'Parabola GNU/Linux-libre'|'Chakra'|'Manjaro'|'Antergos'|'Netrunner'|'KaOS'|'Obarun') pkgs=$(pacman -Qq | wc -l) ;;
+		'Arch Linux'|'Parabola Linux-libre'|'Chakra'|'Manjaro'|'Antergos'|'Netrunner'|'KaOS'|'Obarun') pkgs=$(pacman -Qq | wc -l) ;;
 		'Dragora') pkgs=$(ls -1 /var/db/pkg | wc -l) ;;
 		'Frugalware') pkgs=$(pacman-g2 -Q | wc -l) ;;
 		'Fuduntu'|'Ubuntu'|'Mint'|'KDE neon'|'Debian'|'Devuan'|'Raspbian'|'LMDE'|'CrunchBang'|'Peppermint'|'LinuxDeepin'|'Deepin'|'Kali Linux'|'Trisquel'|'elementary OS'|'gNewSense'|'BunsenLabs'|'SteamOS') pkgs=$(dpkg -l | grep -c ^i) ;;
@@ -336,7 +336,7 @@ There's nothing Screenfetch does that Neofetch doesn't do better. Neofetch is fa
 
 ### Operating Systems
 
-Neofetch supports more operating systems than the other tools out there. Neofetch currently supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd and Windows (Cygwin/Windows 10 Linux subsystem). Neofetch can run on anything bash runs on, if your OS isn't supported then open an issue here on github and I'll get right to it.
+Neofetch supports more operating systems than the other tools out there. Neofetch currently supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd, MINIX, and Windows (Cygwin/Windows 10 Linux subsystem). Neofetch can run on anything bash runs on, if your OS isn't supported then open an issue here on github and I'll get right to it.
 
 See this wiki page for full OS support: [OS Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
 

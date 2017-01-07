@@ -40,7 +40,7 @@ what doesn't.
 | Terminology       | N/A     | See \[2\] |
 | Termite           | Yes     |
 | tilda             | No      |
-| URxvt             | Yes     | ~~Display problems with xft fonts~~ Fixed! See: [Changelog](https://github.com/dylanaraps/neofetch/blob/a699c430de6dacb38a55f851157a226a9d470078/Changelog.md#images)   |
+| URxvt             | Yes     |
 | Xfce4-terminal    | Yes     |
 | Xterm             | Yes     |
 

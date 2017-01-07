@@ -336,7 +336,7 @@ There's nothing Screenfetch does that Neofetch doesn't do better. Neofetch is fa
 
 ### Operating Systems
 
-Neofetch supports every single **actively maintained** operating systems that Screenfetch and the other tools out there support, and more. From your toaster which runs NetBSD, your mission-critical server which runs Solaris, your smartphone, your VM which runs MINIX, or your desktop. Neofetch can run on anything bash runs on, if your OS isn't supported then open an issue here on github and I'll get right to it.
+Neofetch supports every single **actively maintained** operating system that Screenfetch and other tools support and more. From your toaster which runs NetBSD, your mission-critical server which runs Solaris, your smartphone, your VM which runs MINIX, or your desktop. Neofetch can run on anything bash runs on, if your OS isn't supported then open an issue here on GitHub and I'll get right to it.
 
 See this wiki page for full OS support: [OS Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
 

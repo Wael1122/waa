@@ -336,7 +336,7 @@ There's nothing Screenfetch does that Neofetch doesn't do better. Neofetch is fa
 
 ### Operating Systems
 
-Neofetch supports more operating systems than the other tools out there. Neofetch currently supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd, MINIX, and Windows (Cygwin/Windows 10 Linux subsystem). Neofetch can run on anything bash runs on, if your OS isn't supported then open an issue here on github and I'll get right to it.
+Neofetch supports every single **actively maintained** operating systems that Screenfetch and the other tools out there support, and more. From your toaster which runs NetBSD, your mission-critical server which runs Solaris, your smartphone, your VM which runs MINIX, or your desktop. Neofetch can run on anything bash runs on, if your OS isn't supported then open an issue here on github and I'll get right to it.
 
 See this wiki page for full OS support: [OS Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
 
@@ -355,7 +355,7 @@ https://github.com/dylanaraps/neofetch/wiki/Config-File
 These are the Neofetch exclusive functions:
 
 - **Battery**: Print the battery level of your device.
-- **Birthday**: Print the date the OS was installed.
+- **Install Date**: Print the date the OS was installed.
 - **CPU Usage**: Print CPU Usage.
 - **Local IP**: Print the local IP address.
 - **Model**: Print the device model of your device.

@@ -131,6 +131,7 @@ All versions of Mac OS / OS X should be supported.
 
 Minix 3.4rc and any later version should be supported.
 
+
 ### Solaris
 
 - `Joyent SmartOS`
@@ -140,4 +141,6 @@ Minix 3.4rc and any later version should be supported.
 
 ### Windows
 
-All versions of Windows (After XP) should be supported.
+- `CYGWIN`
+- `MSYS2`
+- `Windows 10 Linux Subsystem`

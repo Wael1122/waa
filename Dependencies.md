@@ -90,6 +90,7 @@ Neofetch will automatically use whatever tool is available.
 
 - Google Play Music Desktop Player: [`gpmdp-remote`](https://github.com/iAndrewT/gpmdp-remote)
 - MPD: `mpc`
+- Mopidy: `mpc`
 - CMUS
 - MOC
 - Spotify (requires dbus)

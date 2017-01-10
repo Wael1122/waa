@@ -111,14 +111,16 @@ Or alternatively use the [port](https://raw.githubusercontent.com/6c37/crux-port
 
 ## Debian
 
-### Unstable
+### Stretch / Sid (Unstable)
 
-Neofetch is in Debian Unstable/Stretch's official repositories.
+Neofetch is in Debian Stretch/Sid's official repositories.
 
 1. Update repositories
     - `sudo apt-get update`
 2. Install the package
     - `sudo apt-get install neofetch`
+
+NOTE: Debian `stretch` repo only contains version 2.0.2, use the third-party repo to update it to the latest version.
 
 
 ### All other versions

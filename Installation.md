@@ -14,7 +14,7 @@ the latest release and running the Makefile.
     * [BunsenLabs](#bunsenlabs)
     * [CRUX](#crux)
     * [Debian](#debian)
-        * [Unstable](#unstable)
+        * [Stretch / Sid (Unstable)](#stretch--sid-unstable)
         * [All other versions](#all-other-versions)
     * [Fedora / RHEL / CentOS](#fedora--rhel--centos)
     * [Gentoo / Funtoo](#gentoo--funtoo)

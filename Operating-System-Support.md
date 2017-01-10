@@ -5,6 +5,11 @@ If your OS/Distro isn't here, open an issue on github and I'll gladly add suppor
 won't work with it. Adding support for your OS/Distro is most likely just adding<br \>
 ascii art.
 
+### AIX
+
+AIX 6.1 and any later version should be supported.
+
+
 ### Android
 
 All versions of Android should be supported.

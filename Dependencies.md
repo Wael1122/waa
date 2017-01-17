@@ -33,7 +33,13 @@ This page lists the programs/dependencies Neofetch needs to run.
 
 These dependencies are required for image mode to work.
 
-- Displaying images: `w3m-img` \[1\] or `iTerm2` or `Terminology` \[2\]
+- Displaying images: 
+    - `w3m-img` \[1\]
+    - `iTerm2`
+    - `Terminology` \[2\] 
+    - `catimg`
+    - `jp2a`
+    - `caca-utils` or `libcaca`.
 - Thumbnail creation: `imagemagick`
 - Window size: A terminal emulator that supports `\033[14t` \[3\] or `xdotool` or `xwininfo + xprop` or `xwininfo + xdpyinfo`
 

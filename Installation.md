@@ -48,7 +48,7 @@ the latest release and running the Makefile.
     - `cd neofetch`
 3. Install neofetch using the Makefile.
     - `make install`
-    - **El Capitan**: `PREFIX=/usr/local make install`
+    - **El Capitan**: `make PREFIX=/usr/local install`
     - **NOTE**: You may have to run this as root.
 
 **NOTE:** Neofetch can be uninstalled easily using `make uninstall`. This removes<br \>

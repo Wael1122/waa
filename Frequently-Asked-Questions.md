@@ -1,4 +1,4 @@
-### WIP
+## WIP
 
 ### [Linux] Is Neofetch's memory output correct? 
 

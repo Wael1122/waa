@@ -23,11 +23,14 @@ Font detection works by parsing the terminal emulator's config file.
 
 | Terminal Emulator | Config Type | Font Detection |
 | ----------------- | ----------- | -------------- |
+| Alacritty         | Global      | Yes            |
+| Deepin-terminal   | Global      | Yes            |
 | Gnome-terminal    | Profile     | No             |
 | iTerm2            | Profile     | No             |
 | HyperTerm         | Global      | Yes            |
 | Konsole           | Profile     | Yes            |
 | Mintty            | Global      | Yes            |
+| Pantheon          | Global      | Yes            |
 | Sakura            | Global      | Yes            |
 | st                | None        | No             |
 | Terminal.app      | N/A         | Yes            |

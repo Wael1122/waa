@@ -11,6 +11,7 @@
     - [Terminal and Terminal Font Detection](https://github.com/dylanaraps/neofetch/wiki/Terminal-and-Terminal-Font-detection)
 - **Images**
     - [Images in the Terminal](https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal)
+    - [Image Backends](https://github.com/dylanaraps/neofetch/wiki/Image-Backends)
     - [What is Waifu Crop?](https://github.com/dylanaraps/neofetch/wiki/What-is-Waifu-Crop%3F)
 - **Ascii**
     - [Ascii file format](https://github.com/dylanaraps/neofetch/wiki/Custom-Ascii-art-file-format)

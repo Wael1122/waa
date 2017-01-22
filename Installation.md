@@ -147,9 +147,9 @@ NOTE: Debian `stretch` repo only contains version 2.0.2, use the third-party rep
 
 Alternatively:
 
-1. Change your working directory to `/etc/yum.repos.d/`
+1. If you're using RHEL/CentOS, make sure you have installed `epel-release`
 2. Fetch the repo file
-    - `wget https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo`
+  - `curl -o /etc/yum.repos.d/konimex-neofetch-epel-7.repo https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo`
     - **NOTE**: If you are using Fedora, change `epel-7` to `fedora-23`<br \>
                 or your Fedora version respectively. However if you are<br \>
                 using RHEL/CentOS 6, change it to `epel-6`.

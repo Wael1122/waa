@@ -20,6 +20,7 @@ the latest release and running the Makefile.
     * [Gentoo / Funtoo](#gentoo--funtoo)
     * [iOS](#ios)
     * [macOS (Homebrew)](#macos-homebrew)
+    * [NixOS](#nixos)
     * [Slackware](#slackware)
     * [Solus](#solus)
     * [Ubuntu](#ubuntu)
@@ -174,6 +175,12 @@ To install the git version of neofetch, use `=app-misc/neofetch-9999` instead.
 
 1. Install `neofetch` with Homebrew
     - `brew install neofetch`
+
+## NixOS
+
+Install it from the official repositories
+
+- `sudo nix-env -i neofetch`
 
 
 ## Slackware

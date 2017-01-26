@@ -36,9 +36,10 @@ the latest release and running the Makefile.
 ## Latest Release
 
 1. Download the latest release.
-    - https://github.com/dylanaraps/neofetch/archive/2.0.2.tar.gz
+    - https://github.com/dylanaraps/neofetch/archive/3.0.tar.gz
 2. Run `make install` inside the script directory to install the script.
-    - **El Capitan**: `PREFIX=/usr/local make install`
+    - **El Capitan**: `make PREFIX=/usr/local install`
+    - **Haiku**: `make PREFIX=/boot/home/config/non-packaged install`
     - **NOTE**: You may have to run this as root.
 
 ## Latest Git Master (Bleeding Edge)

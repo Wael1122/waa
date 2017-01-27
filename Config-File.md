@@ -6,9 +6,6 @@ This is just an easier to read mirror of the config file. This may lag behind th
 # Neofetch config file
 # https://github.com/dylanaraps/neofetch
 
-# Speed up script by not using unicode
-export LC_ALL=C
-export LANG=C
 
 # See this wiki page for more info:
 # https://github.com/dylanaraps/neofetch/wiki/Customizing-Info
@@ -189,12 +186,13 @@ cpu_cores="logical"
 # Note the temperature is added to the regular CPU function.
 #
 # Default: 'off'
-# Values:  'on', 'off'
+# Values:  'C', 'F', 'off'
 # Flag:    --cpu_temp
 # Supports: Linux
 #
 # Example:
-# on:  'Intel i7-6500U (4) @ 3.1GHz [27.2°C]'
+# C:   'Intel i7-6500U (4) @ 3.1GHz [27.2°C]'
+# F:   'Intel i7-6500U (4) @ 3.1GHz [82.0°F]'
 # off: 'Intel i7-6500U (4) @ 3.1GHz'
 cpu_temp="off"
 
@@ -231,6 +229,7 @@ gpu_brand="on"
 # integrated:
 #   GPU1: Intel Integrated Graphics
 gpu_type="all"
+
 
 # Resolution
 
@@ -296,6 +295,43 @@ gtk3="on"
 public_ip_host="http://ident.me"
 
 
+# Disk
+
+
+# Which disks to display.
+# The values can be any /dev/sdXX, mount point or directory.
+# NOTE: By default we only show the disk info for '/'.
+#
+# Default: '/'
+# Values:  '/', '/dev/sdXX', '/path/to/drive'.
+# Flag:    --disk_show
+#
+# Example:
+# disk_show=('/' '/dev/sdb1'):
+#      'Disk (/): 74G / 118G (66%)'
+#      'Disk (/mnt/Videos): 823G / 893G (93%)'
+#
+# disk_show=('/'):
+#      'Disk (/): 74G / 118G (66%)'
+#
+disk_show=('/')
+
+# Disk subtitle.
+# What to append to the Disk subtitle.
+#
+# Default: 'mount'
+# Values:  'mount', 'name'
+# Flag:    --disk_subtitle
+#
+# Example:
+# name:   'Disk (/dev/sda1): 74G / 118G (66%)'
+#         'Disk (/dev/sdb2): 74G / 118G (66%)'
+#
+# mount:  'Disk (/): 74G / 118G (66%)'
+#         'Disk (/mnt/Local Disk): 74G / 118G (66%)'
+disk_subtitle="mount"
+
+
 # Song
 
 
@@ -326,6 +362,17 @@ song_shorthand="off"
 # on:  'Thu 14 Apr 2016 11:50 PM'
 # off: 'Thu 14 Apr 2016'
 install_time="on"
+
+# Set time format in the output
+#
+# Default: '24h'
+# Values:  '12h', '24h'
+# Flag:    --install_time_format
+#
+# Example:
+# 12h: 'Thu 14 Apr 2016 11:50 PM'
+# 24h: 'Thu 14 Apr 2016 23:50'
+install_time_format="12h"
 
 
 # Text Colors
@@ -375,8 +422,7 @@ underline_char="-"
 
 
 # Color block range
-# Start/End refer to the range of colors
-# to print in the blocks.
+# The range of colors to print.
 #
 # Default:  '0', '7'
 # Values:   'num'
@@ -384,13 +430,12 @@ underline_char="-"
 #
 # Example:
 #
-# Display colors 0-7 in the blocks.
+# Display colors 0-7 in the blocks.  (8 colors)
 # neofetch --block_range 0 7
 #
-# Display colors 0-15 in the blocks.
+# Display colors 0-15 in the blocks. (16 colors)
 # neofetch --block_range 0 15
-start=0
-end=7
+block_range=(0 7)
 
 # Toggle color blocks
 #
@@ -479,39 +524,75 @@ battery_display="off"
 disk_display="off"
 
 
-# Image Options
+# Backend Settings
 
+# Image backend.
+#
+# Default:  'ascii'
+# Values:   'ascii', 'caca', 'catimg', 'jp2a', 'iterm2', 'off', 'tycat', 'w3m'
+# Flag:     --backend
+image_backend="ascii"
 
 # Image Source
 #
-# Default:  'ascii'
-# Values:   'ascii', 'wallpaper', '/path/to/img', '/path/to/dir/', 'off'
-# Flag:     --image
+# Which image or ascii file to display.
 #
-# NOTE: Change this to 'wallpaper', '/path/to/img' or /path/to/dir/' to enable image mode. You can also launch neofetch with '--image wallpaper' and etc.
-image_source="ascii"
+# Default:  'auto'
+# Values:   'auto', 'ascii', 'wallpaper', '/path/to/img', '/path/to/ascii', '/path/to/dir/'
+# Flag:     --source
+#
+# NOTE: 'auto' will pick the best image source for whatever image backend is used.
+#       In ascii mode, distro ascii art will be used and in an image mode, your
+#       wallpaper will be used.
+image_source="auto"
+
+
+# Ascii Options
+
+
+# Ascii distro
+# Which distro's ascii art to display.
+#
+# Default: 'auto'
+# Values:  'auto', 'distro_name'
+# Flag:    --ascii_distro
+#
+# NOTE: Arch and Ubuntu have 'old' logo variants.
+#       Change this to 'arch_old' or 'ubuntu_old' to use the old logos.
+# NOTE: Ubuntu has flavor variants.
+#       Change this to 'Lubuntu', 'Xubuntu', 'Ubuntu-GNOME' or 'Ubuntu-Budgie' to use the flavors.
+# NOTE: Arch, Crux and Gentoo have a smaller logo variant.
+#       Change this to 'arch_small', 'crux_small' or 'gentoo_small' to use the small logos.
+ascii_distro="auto"
+
+# Ascii Colors
+#
+# Default:  'distro'
+# Values:   'distro', 'num' 'num' 'num' 'num' 'num' 'num'
+# Flag:     --ascii_colors
+#
+# Example:
+# ascii_colors=(distro)      - Ascii is colored based on Distro colors.
+# ascii_colors=(4 6 1 8 8 6) - Ascii is colored using these colors.
+ascii_colors=(distro)
+
+# Bold ascii logo
+# Whether or not to bold the ascii logo.
+#
+# Default: 'on'
+# Values:  'on', 'off'
+# Flag:    --ascii_bold
+ascii_bold="on"
+
+
+# Image Options
+
 
 # Thumbnail directory
 #
 # Default: '~/.cache/thumbnails/neofetch'
 # Values:  'dir'
 thumbnail_dir="${XDG_CACHE_HOME:-${HOME}/.cache}/thumbnails/neofetch"
-
-# w3m-img path
-# Only works with the w3m backend.
-#
-# NOTE: Only change this if "neofetch -v" says that it "couldn't find w3m-img".
-# Neofetch has a function that automatically finds w3m-img for you. It looks
-# in the following directories:
-#    /usr/lib/w3m/w3mimgdisplay
-#    /usr/libexec/w3m/w3mimgdisplay
-#    /usr/lib64/w3m/w3mimgdisplay
-#    /usr/libexec64/w3m/w3mimgdisplay
-# If w3m-img is installed elsewhere on your system, open an issue on the repo
-# and I'll add it to the function inside the script. If w3m-img is installed
-# in a non-standard way (in your home folder, etc) then change the variable
-# below to the custom location. Otherwise, don't touch this.
-w3m_img_path="/usr/lib/w3m/w3mimgdisplay"
 
 # Crop mode
 #
@@ -565,53 +646,6 @@ xoffset=0
 # Values:  'color', 'blue'
 # Flag:    --bg_color
 background_color=
-
-
-# Ascii Options
-
-
-# Default ascii image to use
-# When this is set to distro it will use your
-# distro's logo as the ascii.
-#
-# Default: 'distro'
-# Values:  'distro', '/path/to/ascii_file'
-# Flag:    --ascii
-ascii="distro"
-
-# Ascii distro
-# Which distro's ascii art to display.
-#
-# Default: 'auto'
-# Values:  'auto', 'distro_name'
-# Flag:    --ascii_distro
-#
-# NOTE: Arch and Ubuntu have 'old' logo variants.
-#       Change this to 'arch_old' or 'ubuntu_old' to use the old logos.
-# NOTE: Ubuntu has flavor variants.
-#       Change this to 'Lubuntu', 'Xubuntu', 'Ubuntu-GNOME' or 'Ubuntu-Budgie' to use the flavors.
-# NOTE: Arch, Crux and Gentoo have a smaller logo variant.
-#       Change this to 'arch_small', 'crux_small' or 'gentoo_small' to use the small logos.
-ascii_distro="auto"
-
-# Ascii Colors
-#
-# Default:  'distro'
-# Values:   'distro', 'num' 'num' 'num' 'num' 'num' 'num'
-# Flag:     --ascii_colors
-#
-# Example:
-# ascii_colors=(distro)      - Ascii is colored based on Distro colors.
-# ascii_colors=(4 6 1 8 8 6) - Ascii is colored using these colors.
-ascii_colors=(distro)
-
-# Bold ascii logo
-# Whether or not to bold the ascii logo.
-#
-# Default: 'on'
-# Values:  'on', 'off'
-# Flag:    --ascii_bold
-ascii_bold="on"
 
 
 # Scrot Options
@@ -669,29 +703,12 @@ scrot_name="neofetch-$(date +%F-%I-%M-%S-${RANDOM}).png"
 image_host="teknik"
 
 
-# Config Options
+# Misc Options
 
 
-# Enable/Disable config file
+# Config version.
 #
-# Default: 'on'
-# Values:  'on', 'off'
-# Flag:    --config
-# --config off, none
-#
-# Note: This option is only used when neofetch sources this config
-# as a default config and NOT as a user config. Changing this in
-# your user config won't actually do anything.
-config="on"
-
-# Path to custom config file location
-#
-# Default: '${XDG_CONFIG_HOME:-${HOME}/.config}/neofetch/config'
-# Values:  '/path/to/config'
-# Flag:    --config_file
-#
-# Note: This option is only used when neofetch sources this config
-# as a default config and NOT as a user config. Changing this in
-# your user config won't actually do anything.
-config_file="${XDG_CONFIG_HOME:-${HOME}/.config}/neofetch/config"
+# NOTE: Don't change this value, neofetch reads this to determine
+# how to handle backwards compatibility.
+config_version="3.0.1"
 ```

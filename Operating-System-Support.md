@@ -52,6 +52,7 @@ All versions of iOS should be supported.
 - `AOSC OS`
 - `Apricity OS`
 - `Arch`
+- `ArchBox`
 - `Bitrig`
 - `Blag`
 - `Blankon`

@@ -1,6 +1,3 @@
-This is just an easier to read mirror of the config file. This may lag behind the latest config file by a couple of days.
-
-```sh
 #!/usr/bin/env bash
 #
 # Neofetch config file
@@ -711,4 +708,3 @@ image_host="teknik"
 # NOTE: Don't change this value, neofetch reads this to determine
 # how to handle backwards compatibility.
 config_version="3.0.1"
-```

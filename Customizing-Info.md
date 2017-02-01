@@ -14,7 +14,6 @@ I've also created a few "helper" functions to make customization easier. The fun
 * [Removing Info](#removing-info)
 * [Rearranging info](#rearranging-info)
 * [More complex examples](#more-complex-examples)
-    * [Align the info](#align-the-info)
     * [Print color blocks on the top and bottom](#print-color-blocks-on-the-top-and-bottom)
     * [Speed up the script by running the functions asynchronously](#speed-up-the-script-by-running-the-functions-asynchronously)
 

@@ -36,6 +36,7 @@ These dependencies are required for image mode to work.
 - Displaying images: 
     - `w3m-img` \[1\]
     - `iTerm2`
+    - `libsixel`
     - `Terminology` \[2\] 
     - `catimg`
     - `jp2a`

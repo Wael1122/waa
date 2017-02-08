@@ -37,6 +37,7 @@ These dependencies are required for image mode to work.
     - `w3m-img` \[1\]
     - `iTerm2`
     - `libsixel`
+    - `termpix`
     - `Terminology` \[2\] 
     - `catimg`
     - `jp2a`

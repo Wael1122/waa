@@ -5,6 +5,7 @@ Neofetch 3.0 included a rewrite of how we handles different modes (`image`, `asc
 
 Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since the output in these backends is identical. I also can't get a screenshot of `iterm2` since I don't have a macOS machine. 
 
+ 
 ### Ascii
 
 ```sh
@@ -47,6 +48,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 
 ![iterm2](http://i.imgur.com/ys5R5cu.png)
 
+
 ### Jp2a
 
 ```sh
@@ -56,6 +58,18 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 ```
 
 ![jp2a](http://i.imgur.com/d5jVIGY.png)
+
+
+### Pixterm
+
+```sh
+# Usage: neofetch --pixterm
+#        neofetch --pixterm /path/to/img
+#        neofetch --pixterm /path/to/dir/
+```
+
+![pixterm](http://i.imgur.com/Fk4L5tm.png)
+
 
 ### Sixel
 
@@ -67,6 +81,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 
 ![sixel](http://i.imgur.com/ys5R5cu.png)
 
+
 ### Tycat
 
 ```sh
@@ -77,6 +92,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 
 ![tycat](http://i.imgur.com/ys5R5cu.png)
 
+
 ### W3m
 
 ```sh
@@ -86,6 +102,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 ```
 
 ![w3m](http://i.imgur.com/ys5R5cu.png)
+
 
 ### Off
 

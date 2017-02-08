@@ -3,7 +3,7 @@ Neofetch 3.0 included a rewrite of how we handles different modes (`image`, `asc
 
 ## Image Backends
 
-Note: The screenshot for `iterm2`, `tycat` and `w3m` is the same since the output in these backends is identical. I also can't get a screenshot of `iterm2` since I don't have a macOS machine. 
+Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since the output in these backends is identical. I also can't get a screenshot of `iterm2` since I don't have a macOS machine. 
 
 ### Ascii
 
@@ -57,6 +57,15 @@ Note: The screenshot for `iterm2`, `tycat` and `w3m` is the same since the outpu
 
 ![jp2a](http://i.imgur.com/d5jVIGY.png)
 
+### Sixel
+
+```sh
+# Usage: neofetch --sixel
+#        neofetch --sixel /path/to/img
+#        neofetch --sixel /path/to/dir/
+```
+
+![sixel](http://i.imgur.com/ys5R5cu.png)
 
 ### Tycat
 

@@ -36,7 +36,7 @@ The goal of this wiki page is to answer these questions:
 
 Neofetch or as it was originally called `fetch` was never meant to be a replacement for Screenfetch nor was it ever meant to display Ascii logos. Neofetch first started as my `70` line hard-coded script that only supported Arch Linux, only displayed a tiny amount of info and only supported showing images with w3m-img.
 
-I started posting screenshots of my system to [/r/unixporn/](https://reddit.com/r/unixporn) which included my tiny little script. People started using the script and started asking me to add support for their Linux Distros and later their Operating systems. Happy to see that others were using something that I created, I started adding support various Distros and Operating systems.
+I started posting screenshots of my system to [/r/unixporn/](https://reddit.com/r/unixporn) which included my tiny little script. People started using the script and started asking me to add support for their Linux Distros and later their Operating systems. Happy to see that others were using something that I created, I started adding support to various Distros and Operating systems.
 
 ![Oldest screenshot of fetch](https://u.teknik.io/h7KSz.png)
 <br \><sub>Oldest screenshot of `fetch`</sub>

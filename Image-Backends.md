@@ -96,9 +96,9 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 ### W3m
 
 ```sh
-# Usage: neofetch --tycat 
-#        neofetch --tycat /path/to/img
-#        neofetch --tycat /path/to/dir/
+# Usage: neofetch --w3m 
+#        neofetch --w3m /path/to/img
+#        neofetch --w3m /path/to/dir/
 ```
 
 ![w3m](http://i.imgur.com/ys5R5cu.png)

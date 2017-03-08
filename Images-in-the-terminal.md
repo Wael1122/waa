@@ -64,7 +64,7 @@ The list below shows the current wallpaper setters we support.
 **Linux / BSD**
 
 - feh
-- nitrogren
+- nitrogen
 - gsettings
 
 **Mac OS X / Windows**

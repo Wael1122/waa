@@ -1,8 +1,8 @@
-This wiki page lists all of the OS/Distros that Neofetch officially supports.<br \>
+This wiki page lists all of the OS/Distros that Neofetch officially supports.  
 If your OS/Distro isn't here, open an issue on github and I'll gladly add support.
 
-**Note**: If your OS/Distro isn't listed below then that doesn't mean that Neofetch<br \>
-won't work with it. Adding support for your OS/Distro is most likely just adding<br \>
+**Note**: If your OS/Distro isn't listed below then that doesn't mean that Neofetch  
+won't work with it. Adding support for your OS/Distro is most likely just adding  
 ascii art.
 
 ### AIX

@@ -20,7 +20,11 @@ Source: [KittyKatt/screenFetch/issues/386](https://github.com/KittyKatt/screenFe
 
 >It's supposed to be [insert a downstream distro here], but it shows [insert an upstream distro here] instead!
 
-The prominent case is with Antergos and Arch, with `lsb-release` installed. When Neofetch detects a Linux distro, they look for `lsb-release` command before searching for the `/etc/os-release` file. Because some downstream distros mostly utilizes their upstream distro's repository, that means unless they supply their own `lsb-release` package in their own repository, that means they will use upstream's `lsb-release`, and as a result, the `Distro` output will be the upstream one. We had deleted support for lsb_release, but more complaints come right after we deleted it because it proved to be useful in detecting distros (as *most* distros filled them in properly, see [issues/493](https://github.com/dylanaraps/neofetch/issues/493)), so we had to reinstate it.
+When Neofetch detects a Linux distro it first looks for the `lsb_release` command before searching for the `/etc/os-release` file. Since some downstream distros mostly utilize their upstream distro's repositories they'll include the upstream distro's version of `lsb_release`. The prominent case is with Antergos and Arch with `lsb_release` installed, Antergos will be detected as "Arch" instead. 
+
+When the upstream's version of `lsb_release` is executed the output will be that of the upstream distro. (Arch output on Antergos and etc). This means that unless the downstream distro supplies their own version of `lsb_release` in their own repository, the output will be the upstream distro's.
+
+We had deleted support for `lsb_release` but more complaints came up because it proved to be very useful in detecting a wide number of distros. Almost all distros we officially support provide their own `lsb_release` package which makes `lsb_release` output the correct information. See [issues/493](https://github.com/dylanaraps/neofetch/issues/493)
 
 >So, shouldn't you add an exception rule in cases like these?
 

@@ -1,5 +1,6 @@
-This wiki page will guide you through getting neofetch working on your system.<br \>
-The first and most universal way of installing neofetch is by downloading/cloning<br \>
+This wiki page will guide you through getting neofetch working on your system.
+
+The first and most universal way of installing neofetch is by downloading/cloning
 the latest release and running the Makefile.
 
 # Table of Contents

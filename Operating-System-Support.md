@@ -53,6 +53,7 @@ All versions of iOS should be supported.
 - `Apricity OS`
 - `Arch`
 - `ArchBox`
+- `ArchLabs`
 - `Bitrig`
 - `Blag`
 - `Blankon`
@@ -61,10 +62,12 @@ All versions of iOS should be supported.
 - `Chakra`
 - `ChaletOS`
 - `Chapeau`
-- `Chrome`
+- `ChromeOS`
+- `CromeOS (Crouton)`
 - `Crux`
 - `Debian`
 - `Deepin`
+- `DesaOS`
 - `Devuan`
 - `DracOS`
 - `Elementary OS`
@@ -91,7 +94,9 @@ All versions of iOS should be supported.
 - `Manjaro`
 - `MX Linux`
 - `Netrunner`
+- `Nitrux`
 - `NixOS`
+- `OBRevenge`
 - `OpenSuse`
 - `OpenIndiana`
 - `Openmandriva`
@@ -114,6 +119,7 @@ All versions of iOS should be supported.
 - `SalentOS`
 - `Scientific`
 - `Slackware`
+- `SliTaz`
 - `Solus`
 - `Sparky`
 - `SteamOS`
@@ -148,5 +154,6 @@ Minix 3.4rc and any later version should be supported.
 ### Windows
 
 - `CYGWIN`
+- `MINGW`
 - `MSYS2`
 - `Windows 10 Linux Subsystem`

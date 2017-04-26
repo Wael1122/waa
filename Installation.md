@@ -55,10 +55,10 @@ the latest release and running the Makefile.
     - **Haiku**: `make PREFIX=/boot/home/config/non-packaged install`
     - **NOTE**: You may have to run this as root.
 
-**NOTE:** Neofetch can be uninstalled easily using `make uninstall`. This removes<br \>
+**NOTE:** Neofetch can be uninstalled easily using `make uninstall`. This removes
 all of files from your system.
 
-**NOTE:** You can run neofetch from any folder on your system, all the makefile<br \>
+**NOTE:** You can run neofetch from any folder on your system, all the makefile
 does is move the files to a "sane" location. The Makefile is optional.
 
 # OS/Distro Packages

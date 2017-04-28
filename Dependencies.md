@@ -25,7 +25,7 @@ This page lists the programs/dependencies Neofetch needs to run.
 
 ## Required dependencies:
 
-- `bash 3.0+`
+- `bash 3.2+`
     - Alpine Linux: You also need `ncurses`.
 
 

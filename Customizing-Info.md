@@ -174,13 +174,13 @@ You can also move the lines inside the `print_info()` function around to change 
 ```sh
 print_info() {
     info cols
-    info linebreak
+    info line_break
 
     info "OS" distro
     info "Uptime" uptime
     info "Kernel" kernel
 
-    info linebreak
+    info line_break
 
     info "Model" model
     info "Packages" packages

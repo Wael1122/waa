@@ -6,7 +6,7 @@ will try to explain the various quirks of this mode.
 
 Neofetch 2.0.1 changes the default image mode to `ascii` from `wallpaper`. From 2.0.1 onwards an additional step is required to use image mode.
 
-You can either use the launch option `--image wallpaper` (also `/path/to/img` / `/path/to/dir/`) or you can edit the config file to enable image mode. The option you have to change is called `image_source`, just change this from `ascii` to one of the other valid values and image mode will be enabled.
+You can either use the launch option `--w3m` (also `--w3m /path/to/img` / `--w3m /path/to/dir/`) or you can edit the config file to enable image mode. The option you have to change is called `image_backend`, just change this from `ascii` to one of the other valid values and image mode will be enabled.
 
 ## Requirements
 

@@ -52,4 +52,4 @@ There are two possible causes. This can be caused by your /usr/share/misc/pci.id
 
 If the list is not updated even after running the command above, that means your GPU is brand new, and no one has registered your GPU to the pci-ids repository.
 
-You can submit an issue/contact us through gitter, or you can add it yourself to https://pci-ids.ucw.cz/. Make sure you have the vendor ID and the product ID by checking `lspci -nn` and read the guidelines.
+You can submit an issue/contact us through gitter, or you can add it yourself to https://pci-ids.ucw.cz/. Make sure you have the right vendor ID and the device ID by checking `lspci -nn` and read the guidelines.

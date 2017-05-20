@@ -33,3 +33,23 @@ A good distro will always provide their own `lsb-release` file, otherwise they w
 >So, is there any workaround?
 
 Yes, actually. You'd have to remove your `lsb-release` (or any equivalent) package. (That is, if the distro filled their `/etc/*-release` properly. Contact your distro's maintainers if they don't).
+
+### [Linux] Why does getgpu doesn't show my exact video card name?
+
+If your lspci | grep "VGA" output looks like this:
+
+`01:00.0 VGA compatible controller: NVIDIA Corporation Device 1401 (rev a1)`
+
+Instead of this:
+
+`01:00.0 VGA compatible controller: NVIDIA Corporation GM206 [GeForce GTX 960] (rev a1)`
+
+Then you're affected by the issue.
+
+There are two possible causes. This can be caused by your /usr/share/misc/pci.ids\* files being outdated and you can fix it by running
+
+`sudo update-pciids`
+
+If the list is not updated even after running the command above, that means your GPU is brand new, and no one has registered your GPU to the pci-ids repository.
+
+You can submit an issue/contact us through gitter, or you can add it yourself to https://pci-ids.ucw.cz/. Make sure you have the vendor ID and the product ID by checking `lspci -nn` and read the guidelines.

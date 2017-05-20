@@ -36,7 +36,7 @@ Yes, actually. You'd have to remove your `lsb-release` (or any equivalent) packa
 
 ### [Linux] Why does getgpu doesn't show my exact video card name?
 
-If your lspci | grep "VGA" output looks like this:
+If your `lspci | grep "VGA"` output looks like this:
 
 `01:00.0 VGA compatible controller: NVIDIA Corporation Device 1401 (rev a1)`
 

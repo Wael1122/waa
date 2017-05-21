@@ -40,7 +40,7 @@ what doesn't.
 | Terminology       | N/A     | See \[2\] |
 | Termite           | Yes     |
 | tilda             | No      |
-| URxvt             | Yes     |
+| URxvt             | Yes     | Image disappears on window focus and resize |
 | Xfce4-terminal    | Yes     |
 | Xterm             | Yes     |
 

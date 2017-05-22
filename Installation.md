@@ -19,6 +19,7 @@ the latest release and running the Makefile.
         * [All other versions](#all-other-versions)
     * [Fedora / RHEL / CentOS](#fedora--rhel--centos)
     * [Gentoo / Funtoo](#gentoo--funtoo)
+    * [GoboLinux](#gobolinux)
     * [iOS](#ios)
     * [macOS (Homebrew)](#macos-homebrew)
     * [NixOS](#nixos)
@@ -167,6 +168,13 @@ Alternatively:
 You can install `app-misc/neofetch` from Gentoo/Funtoo's official repositories.
 
 To install the git version of neofetch, use `=app-misc/neofetch-9999` instead.
+
+
+## GoboLinux
+
+Install it with the official recipe.
+
+- `sudo Compile neofetch`
 
 
 ## iOS

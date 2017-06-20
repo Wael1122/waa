@@ -44,6 +44,11 @@ All versions of Haiku should be supported.
 All versions of iOS should be supported.
 
 
+### IRIX
+
+IRIX 6.5 and any later version should be supported.
+
+
 ### Linux
 
 - `Alpine`

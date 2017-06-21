@@ -59,6 +59,7 @@ IRIX 6.5 and any later version should be supported.
 - `Arch`
 - `ArchBox`
 - `ArchLabs`
+- `Arch XFerience`
 - `Bitrig`
 - `Blag`
 - `Blankon`
@@ -68,6 +69,7 @@ IRIX 6.5 and any later version should be supported.
 - `ChaletOS`
 - `Chapeau`
 - `ChromeOS`
+- `CloverOS`
 - `CromeOS (Crouton)`
 - `Crux`
 - `Debian`
@@ -92,11 +94,13 @@ IRIX 6.5 and any later version should be supported.
 - `Kogaion`
 - `Korora`
 - `Kubuntu`
+- `KS Linux`
 - `LMDE`
 - `Linux Mint`
 - `Lubuntu`
 - `Mageia`
 - `Manjaro`
+- `Maui`
 - `MX Linux`
 - `Netrunner`
 - `Nitrux`

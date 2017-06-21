@@ -543,6 +543,7 @@ disk_display="off"
 
 # Backend Settings
 
+
 # Image backend.
 #
 # Default:  'ascii'
@@ -604,6 +605,15 @@ ascii_bold="on"
 
 # Image Options
 
+
+# Image loop
+# Setting this to on will make neofetch redraw the image constantly until
+# Ctrl+C is pressed. This fixes display issues in some terminal emulators.
+#
+# Default:  'off'
+# Values:   'on', 'off'
+# Flag:     --loop
+image_loop="off"
 
 # Thumbnail directory
 #
@@ -717,5 +727,5 @@ image_host="teknik"
 #
 # NOTE: Don't change this value, neofetch reads this to determine
 # how to handle backwards compatibility.
-config_version="3.1.0"
+config_version="3.2.0"
 ```

@@ -225,6 +225,17 @@ Install it from the official repositories.
 3. Install the package
     - `sudo apt install neofetch`
 
+### Ubuntu daily builds
+
+This PPA contains daily builds of neofetch straight from master branch
+
+1. Add PPA
+    - `sudo add-apt-repository ppa:dawidd0811/neofetch-daily`
+2. Update repositories
+    - `sudo apt update`
+3. Install the package
+    - `sudo apt install neofetch`
+
 
 ## Void Linux
 

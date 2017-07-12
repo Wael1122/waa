@@ -10,7 +10,7 @@ the latest release and running the Makefile.
     * [Latest Release](#latest-release)
     * [Latest Git Master (Bleeding Edge)](#latest-git-master-bleeding-edge)
 * [OS/Distro Packages](#osdistro-packages)
-    * [Alpine Linux (edge)](#alpine-linux)
+    * [Alpine Linux (edge)](#alpine-linux-edge)
     * [Android (Termux)](#android-termux)
     * [Arch](#arch)
     * [BunsenLabs](#bunsenlabs)

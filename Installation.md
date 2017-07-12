@@ -10,6 +10,7 @@ the latest release and running the Makefile.
     * [Latest Release](#latest-release)
     * [Latest Git Master (Bleeding Edge)](#latest-git-master-bleeding-edge)
 * [OS/Distro Packages](#osdistro-packages)
+    * [Alpine Linux (edge)](alpinelinux)
     * [Android (Termux)](#android-termux)
     * [Arch](#arch)
     * [BunsenLabs](#bunsenlabs)
@@ -65,6 +66,16 @@ does is move the files to a "sane" location. The Makefile is optional.
 # OS/Distro Packages
 
 This section lists neofetch packages that have been made for specific OS/Distros.
+
+
+## Alpine Linux (edge)
+
+1. Neofetch is available in "testing" repository,
+you need to first enable it in `/etc/apk/repositories`
+2. Update repositories
+    - `apk update`
+3. Install the package
+    - `apk add neofetch`
 
 
 ## Android (Termux)

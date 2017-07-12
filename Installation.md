@@ -29,6 +29,7 @@ the latest release and running the Makefile.
     * [Ubuntu](#ubuntu)
         * [Ubuntu 17.04 and up](#ubuntu-1704-and-up)
         * [Ubuntu 16.10 and below](#ubuntu-1610-and-below)
+        * [Ubuntu daily builds](#ubuntu-daily-builds)
     * [Void Linux](#void-linux)
 
 <!-- vim-markdown-toc -->

@@ -18,7 +18,7 @@ the latest release and running the Makefile.
     * [Debian](#debian)
         * [Stretch / Sid (Unstable)](#stretch--sid-unstable)
         * [All other versions](#all-other-versions)
-    * [Fedora / RHEL / CentOS](#fedora--rhel--centos)
+    * [Fedora / RHEL / CentOS / Mageia](#fedora--rhel--centos--mageia)
     * [Gentoo / Funtoo](#gentoo--funtoo)
     * [GoboLinux](#gobolinux)
     * [iOS](#ios)
@@ -153,7 +153,7 @@ NOTE: Debian `stretch` repo only contains version 2.0.2, use the third-party rep
     - `sudo apt-get install neofetch`
 
 
-## Fedora / RHEL / CentOS
+## Fedora / RHEL / CentOS / Mageia
 
 **NOTE**: If you are using RHEL/CentOS, change `dnf` into `yum`.
 

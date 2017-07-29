@@ -1,5 +1,4 @@
-**[#252](https://github.com/dylanaraps/neofetch/pull/252)** added support for displaying the terminal emulator in use as well as the font<br \>
-the terminal emulator is currently using.
+**[#252](https://github.com/dylanaraps/neofetch/pull/252)** added support for displaying the terminal emulator in use as well as the font the terminal emulator is currently using.
 
 ## Terminal Detection
 
@@ -9,10 +8,10 @@ Terminal detection works by checking the value of `$TERM_PROGRAM`.
 
 #### All other OS
 
-Terminal detection works by recursively checking parent processes until the result<br \>
+Terminal detection works by recursively checking parent processes until the result
 isn't `$SHELL`, `*sh`, `screen` or `tmux`.
 
-This method of detection doesn't work with `tmux` as the parent processes aren't<br \>
+This method of detection doesn't work with `tmux` as the parent processes aren't
 the current shell or the terminal emulator.
 
 ## Font Detection
@@ -41,5 +40,5 @@ Font detection works by parsing the terminal emulator's config file.
 | Xfce4-terminal    | Global      | Yes            |
 | Xterm             | N/A         | Yes            |
 
-**Profile**: The font info is split based on profiles.<br \>
+**Profile**: The font info is split based on profiles.
 **N/A**: A command is used (`xrdb` / `osascript`) to get the font.

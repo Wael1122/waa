@@ -87,9 +87,9 @@ info memory          # 100MB / 1000MB
 
 Full list of functions:
 
-`distro` `model` `kernel` `uptime` `packages` `shell` `resolution`<br\>
-`de` `wm` `wm_theme` `theme` `icons` `cpu` `gpu` `memory`<br \>
-`font` `disk` `battery` `song` `local_ip` `public_ip` `users`<br \>
+`distro` `model` `kernel` `uptime` `packages` `shell` `resolution`
+`de` `wm` `wm_theme` `theme` `icons` `cpu` `gpu` `memory`
+`font` `disk` `battery` `song` `local_ip` `public_ip` `users`
 `birthday` `term` `term_font`  `cpu_usage`
 
 Special functions:
@@ -98,7 +98,7 @@ Special functions:
 
 ### prin
 
-You can also just use `printf` or `echo` but you'll have to format/color<br \>
+You can also just use `printf` or `echo` but you'll have to format/color
 the text yourself.
 
 ```sh

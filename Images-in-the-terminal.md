@@ -1,5 +1,5 @@
-I get a lot of comments/questions about how to get w3m-img mode working with<br \>
-neofetch. This wiki page will guide you through setting up neofetch/w3m-img and<br \>
+I get a lot of comments/questions about how to get w3m-img mode working with
+neofetch. This wiki page will guide you through setting up neofetch/w3m-img and
 will try to explain the various quirks of this mode.
 
 ## Enabling Image Mode
@@ -32,7 +32,8 @@ what doesn't.
 
 | Terminal Emulator | w3m-img | Quirks |
 | ----------------- | ------- | ------ |
-| Gnome-terminal    | Yes     | - Image disappears on window focus and resize<br\>- Possible issues on Fedora, see #295
+| Gnome-terminal    | Yes     | - Image disappears on window focus and resize
+|                   |         | - Possible issues on Fedora, see #295
 | iTerm             | N/A     | See \[1\] |
 | konsole           | Yes     |
 | st                | Yes     | Image disappears on window focus and resize |

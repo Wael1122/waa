@@ -161,7 +161,7 @@ Neofetch will automatically use whatever tool is available.
 
 ## iOS Dependencies
 
-These dependencies can all be installed through Cydia.<br \>
+These dependencies can all be installed through Cydia.
 Note: The Cydia package installs these dependencies for you.
 
 - `Bourne-Again SHell`

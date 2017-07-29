@@ -21,13 +21,13 @@ You can either use the launch option `--w3m` (also `--w3m /path/to/img` / `--w3m
 - `imagemagick`
     - Generating thumbnails and cropping the images.
 
-- A terminal emulator that supports `\033[14t` or `xdotool` or<br \>
+- A terminal emulator that supports `\033[14t` or `xdotool` or
 `xwininfo + xprop` or `xwininfo + xdpyinfo`
     - Getting the terminal window size in pixels so that we can size the image correctly.
 
 #### Terminal Emulator
 
-The table below lists my testing of various terminal emulators, what works and<br \>
+The table below lists my testing of various terminal emulators, what works and
 what doesn't.
 
 | Terminal Emulator | w3m-img | Quirks |
@@ -44,19 +44,19 @@ what doesn't.
 | Xfce4-terminal    | Yes     |
 | Xterm             | Yes     |
 
-\[1\] iTerm doesn't require `w3m-img` to display images. Instead it uses a<br \>
+\[1\] iTerm doesn't require `w3m-img` to display images. Instead it uses a
 set of escape sequences built into iTerm.
 
-\[2\] Terminology doesn't require `w3m-img` to display images. Instead it uses<br\>
+\[2\] Terminology doesn't require `w3m-img` to display images. Instead it uses
 a builtin program called `tycat`.
 
-Note: For image mode to work, the `w3m-img` column must say `yes` and you must have<br \>
+Note: For image mode to work, the `w3m-img` column must say `yes` and you must have
 the dependencies installed.
 
 ## Image source
 
-Neofetch by default will try to use your current wallpaper as the image. If the<br \>
-wallpaper detection fails we fallback to ascii mode, when ths happens you should<br \>
+Neofetch by default will try to use your current wallpaper as the image. If the
+wallpaper detection fails we fallback to ascii mode, when ths happens you should
 try and launch neofetch with `--image path/to/image` or `--image path/to/dir/`.
 
 The list below shows the current wallpaper setters we support.
@@ -71,15 +71,15 @@ The list below shows the current wallpaper setters we support.
 
 - Builtin wallpaper setter
 
-If your wallpaper setter isn't listed here and there's an easy way to find where<br \>
+If your wallpaper setter isn't listed here and there's an easy way to find where
 the current wallpaper is stored, open an issue and I'll gladly add support for
 it.
 
 ## Usage
 
-Once you've installed `w3m-img`, `imagemagick`, have a terminal emulator that<br \>
-meets the criteria above and have a working image source, neofetch should<br \>
+Once you've installed `w3m-img`, `imagemagick`, have a terminal emulator that
+meets the criteria above and have a working image source, neofetch should
 display images correctly.
 
-If neofetch still won't display the images then you should open a new issue on<br \>
+If neofetch still won't display the images then you should open a new issue on
 github and provide me with a verbose log.

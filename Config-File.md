@@ -31,13 +31,13 @@ print_info() {
     info "GPU" gpu
     info "Memory" memory
 
-    info "CPU Usage" cpu_usage
+    # info "CPU Usage" cpu_usage
     # info "Disk" disk
-    info "Battery" battery
+    # info "Battery" battery
     # info "Font" font
-    info "Song" song
-    info "Local IP" local_ip
-    info "Public IP" public_ip
+    # info "Song" song
+    # info "Local IP" local_ip
+    # info "Public IP" public_ip
     # info "Users" users
     # info "Install Date" install_date
     # info "Locale" locale # This only works on glibc systems.

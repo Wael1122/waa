@@ -146,7 +146,7 @@ NOTE: Debian `stretch` repo only contains version 2.0.2, use the third-party rep
 1. Add the 3rd party repo
     - `echo "deb http://dl.bintray.com/dawidd6/neofetch jessie main" | sudo tee -a /etc/apt/sources.list`
 2. Add public key (you need to have curl installed)
-    - `curl -L "https://bintray.com/user/downloadSubjectPublicKey?username=bintray" -o Release-neofetch.key && sudo apt-key add Release-neofetch.key && rm Release-neofetch.key`
+    - `curl "https://bintray.com/user/downloadSubjectPublicKey?username=bintray"| sudo apt-key add -`
 3. Update repositories
     - `sudo apt-get update`
 4. Install the package

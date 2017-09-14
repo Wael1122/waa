@@ -1,8 +1,6 @@
 This is just an easy to read mirror of the default config file.
 
 ```sh
-#!/usr/bin/env bash
-#
 # Neofetch config file
 # https://github.com/dylanaraps/neofetch
 
@@ -14,7 +12,7 @@ print_info() {
     info underline
 
     info "OS" distro
-    info "Model" model
+    info "Host" model
     info "Kernel" kernel
     info "Uptime" uptime
     info "Packages" packages
@@ -31,6 +29,7 @@ print_info() {
     info "GPU" gpu
     info "Memory" memory
 
+    # info "GPU Driver" gpu_driver  # Linux only
     # info "CPU Usage" cpu_usage
     # info "Disk" disk
     # info "Battery" battery
@@ -40,7 +39,7 @@ print_info() {
     # info "Public IP" public_ip
     # info "Users" users
     # info "Install Date" install_date
-    # info "Locale" locale # This only works on glibc systems.
+    # info "Locale" locale  # This only works on glibc systems.
 
     info line_break
     info cols
@@ -147,25 +146,23 @@ speed_type="bios_limit"
 # Default: 'off'
 # Values: 'on', 'off'.
 # Flag:    --speed_shorthand.
+# NOTE: This flag is not supported in systems with CPU speed less than 1 GHz
 #
 # Example:
 # on:    'i7-6500U (4) @ 3.1GHz'
 # off:   'i7-6500U (4) @ 3.100GHz'
 speed_shorthand="off"
 
-# Shorten the output of the CPU function
+# Enable/Disable CPU brand in output.
 #
-# Default: 'off'
-# Values:  'on', 'off', 'tiny', 'name', 'speed'
-# Flag:    --cpu_shorthand
+# Default: 'on'
+# Values:  'on', 'off'
+# Flag:    --cpu_brand
 #
 # Example:
-# on:    'i7-6500U (4) @ 3.1GHz'
-# off:   'Intel i7-6500U (4) @ 3.1GHz'
-# tiny:  'i7-6500U (4)'
-# name:  'Intel i7-6500U (4)'
-# speed: '3.1GHz'
-cpu_shorthand="off"
+# on:   'Intel i7-6500U'
+# off:  'i7-6500U (4)'
+cpu_brand="on"
 
 # CPU Speed
 # Hide/Show CPU speed.
@@ -200,7 +197,9 @@ cpu_cores="logical"
 # Default: 'off'
 # Values:  'C', 'F', 'off'
 # Flag:    --cpu_temp
-# Supports: Linux
+# Supports: Linux, BSD
+# NOTE: For FreeBSD and NetBSD-based systems, you'll need to enable
+#       coretemp kernel module. This only supports newer Intel processors.
 #
 # Example:
 # C:   'Intel i7-6500U (4) @ 3.1GHz [27.2°C]'
@@ -722,10 +721,16 @@ image_host="teknik"
 
 # Misc Options
 
+# Stdout mode
+# Turn off all colors and disables image backend (ASCII/Image).
+# Useful for piping into another command.
+# Default: 'off'
+# Values: 'on', 'off'
+stdout="off"
 
 # Config version.
 #
 # NOTE: Don't change this value, neofetch reads this to determine
 # how to handle backwards compatibility.
-config_version="3.2.0"
+config_version="3.3.0"
 ```

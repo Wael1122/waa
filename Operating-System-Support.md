@@ -52,6 +52,7 @@ IRIX 6.5 and any later version should be supported.
 ### Linux
 
 - `Alpine`
+- `Amazon Linux AMI`
 - `AntergOS`
 - `AntiX Linux`
 - `AOSC OS`
@@ -60,6 +61,8 @@ IRIX 6.5 and any later version should be supported.
 - `ArchBox`
 - `ArchLabs`
 - `Arch XFerience`
+- `Artix Linux`
+- `AryaLinux`
 - `Bitrig`
 - `Blag`
 - `Blankon`
@@ -78,6 +81,7 @@ IRIX 6.5 and any later version should be supported.
 - `Devuan`
 - `DracOS`
 - `Elementary OS`
+- `Endless OS`
 - `Exherbo`
 - `Fedora`
 - `Frugalware`
@@ -105,6 +109,7 @@ IRIX 6.5 and any later version should be supported.
 - `Netrunner`
 - `Nitrux`
 - `NixOS`
+- `Nurunner`
 - `OBRevenge`
 - `OpenSuse`
 - `OpenIndiana`
@@ -114,6 +119,7 @@ IRIX 6.5 and any later version should be supported.
 - `Parabola`
 - `Parrot Security`
 - `Pardus`
+- `Parsix GNU/Linux`
 - `PclinuxOS`
 - `Peppermint`
 - `Porteus`
@@ -123,13 +129,16 @@ IRIX 6.5 and any later version should be supported.
 - `Redhat`
 - `Redstar OS`
 - `Rosa`
+- `Sabotage Linux`
 - `Sabayon`
 - `SailfishOS`
 - `SalentOS`
 - `Scientific`
+- `Siduction`
 - `Slackware`
 - `SliTaz`
 - `Solus`
+- `Source Mage`
 - `Sparky`
 - `SteamOS`
 - `SwagArch`

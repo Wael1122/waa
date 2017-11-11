@@ -39,7 +39,7 @@ what doesn't.
 | st                | Yes     | Image disappears on window focus and resize |
 | Terminator        | Yes     | Image disappears on window focus and resize |
 | Terminology       | N/A     | See \[2\] |
-| Termite           | Yes     |
+| Termite           | Yes     | Highlighting the image makes the highlighted parts disappear |
 | tilda             | No      |
 | URxvt             | Yes     | Image disappears on window focus and resize |
 | Xfce4-terminal    | Yes     |

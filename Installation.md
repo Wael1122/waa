@@ -214,7 +214,7 @@ Download the files from [SlackBuilds](https://slackbuilds.org/repository/14.2/de
 
 ## Solus
 
-Use the Software Center or type `sudo eopkg it neofetch`.
+You can find neofetch in software center under System Software > System Utilities or type `sudo eopkg it neofetch`.
 
 
 ## Ubuntu

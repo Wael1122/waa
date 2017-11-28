@@ -57,7 +57,7 @@ the dependencies installed.
 ## Image source
 
 Neofetch by default will try to use your current wallpaper as the image. If the
-wallpaper detection fails we fallback to ascii mode, when ths happens you should
+wallpaper detection fails we fallback to ascii mode, when that happens you should
 try and launch neofetch with `--w3m --source path/to/image` or `--w3m --source path/to/dir/`.
 
 The list below shows the current wallpaper setters we support.

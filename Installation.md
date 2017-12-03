@@ -71,11 +71,9 @@ This section lists neofetch packages that have been made for specific OS/Distros
 
 ## Alpine Linux (edge)
 
-1. Neofetch is available in "testing" repository,
-you need to first enable it in `/etc/apk/repositories`
-2. Update repositories
+1. Update repositories
     - `apk update`
-3. Install the package
+2. Install the package
     - `apk add neofetch`
 
 

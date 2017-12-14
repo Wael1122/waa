@@ -114,6 +114,8 @@ prin "Date" "$(date)"
 # Print a custom message and color it blue
 prin "$(color 4)That's not my name"
 
+# Print the current weather
+prin "Weather" "$(curl wttr.in/?0?q?T | awk '/°(C|F)/ {printf $3 $4 " ("a")"} /,/ {a=$0}')"
 ```
 
 ### color

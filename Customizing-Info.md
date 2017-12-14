@@ -196,6 +196,12 @@ print_info() {
 
 ## More complex examples
 
+### Display the current weather
+
+```sh
+prin "Weather" "$(curl wttr.in/?0?q?T | awk '/°(C|F)/ {printf $3 $4 " ("a")"} /,/ {a=$0}')"
+```
+
 ### Print color blocks on the top and bottom
 
 ```sh

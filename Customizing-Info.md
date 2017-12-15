@@ -115,7 +115,7 @@ prin "Date" "$(date)"
 prin "$(color 4)That's not my name"
 
 # Print the current weather
-prin "Weather" "$(curl wttr.in/?0?q?T | awk '/°(C|F)/ {printf $3 $4 " ("a")"} /,/ {a=$0}')"
+prin "Weather" "$(curl wttr.in/?0?q?T | awk '/°(C|F)/ {printf $(NF-1) $(NF) " ("a")"} /,/ {a=$0}')"
 ```
 
 ### color
@@ -202,7 +202,7 @@ print_info() {
 ### Display the current weather
 
 ```sh
-prin "Weather" "$(curl wttr.in/?0?q?T | awk '/°(C|F)/ {printf $3 $4 " ("a")"} /,/ {a=$0}')"
+prin "Weather" "$(curl wttr.in/?0?q?T | awk '/°(C|F)/ {printf $(NF-1) $(NF) " ("a")"} /,/ {a=$0}')"
 ```
 
 ### Print color blocks on the top and bottom

@@ -57,6 +57,7 @@ the latest release and running the Makefile.
     - `make install`
     - **El Capitan**: `make PREFIX=/usr/local install`
     - **Haiku**: `make PREFIX=/boot/home/config/non-packaged install`
+    - **OpenIndiana**: `gmake install`
     - **NOTE**: You may have to run this as root.
 
 **NOTE:** Neofetch can be uninstalled easily using `make uninstall`. This removes

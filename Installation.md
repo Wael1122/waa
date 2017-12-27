@@ -44,6 +44,7 @@ the latest release and running the Makefile.
 2. Run `make install` inside the script directory to install the script.
     - **El Capitan**: `make PREFIX=/usr/local install`
     - **Haiku**: `make PREFIX=/boot/home/config/non-packaged install`
+    - **OpenIndiana**: `gmake install`
     - **NOTE**: You may have to run this as root.
 
 ## Latest Git Master (Bleeding Edge)

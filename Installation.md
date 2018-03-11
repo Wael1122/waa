@@ -45,7 +45,7 @@ the latest release and running the Makefile.
     - **El Capitan**: `make PREFIX=/usr/local install`
     - **Haiku**: `make PREFIX=/boot/home/config/non-packaged install`
     - **OpenIndiana**: `gmake install`
-    — **MinGW/MSys**: `make -i install`
+    - **MinGW/MSys**: `make -i install`
     - **NOTE**: You may have to run this as root.
 
 ## Latest Git Master (Bleeding Edge)
@@ -59,7 +59,7 @@ the latest release and running the Makefile.
     - **El Capitan**: `make PREFIX=/usr/local install`
     - **Haiku**: `make PREFIX=/boot/home/config/non-packaged install`
     - **OpenIndiana**: `gmake install`
-    — **MinGW/MSys**: `make -i install`
+    - **MinGW/MSys**: `make -i install`
     - **NOTE**: You may have to run this as root.
 
 **NOTE:** Neofetch can be uninstalled easily using `make uninstall`. This removes
@@ -256,7 +256,6 @@ This PPA contains daily builds of neofetch straight from master branch
 Install it from the official repositories
 
 - `sudo xbps-install -S neofetch`
-
 
 
 

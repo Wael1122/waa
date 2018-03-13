@@ -93,7 +93,10 @@ Neofetch is in Termux's default repos.
 
 ## Arch
 
-1. Install **[neofetch](https://aur.archlinux.org/packages/neofetch/)** or **[neofetch-git](https://aur.archlinux.org/packages/neofetch-git/)** from the aur.
+Neofetch is available in the official repos.
+
+1. Install the package
+    - `pacman -S neofetch`
 
 
 ## BunsenLabs

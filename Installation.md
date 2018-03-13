@@ -95,7 +95,7 @@ Neofetch is in Termux's default repos.
 
 Neofetch is available in the official repos.
 
-1. Install the package
+- Install the package
     - `pacman -S neofetch`
 
 

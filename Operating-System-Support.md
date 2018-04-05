@@ -53,6 +53,7 @@ IRIX 6.5 and any later version should be supported.
 
 - `Alpine`
 - `Amazon Linux AMI`
+- `Anarchy Linux`
 - `AntergOS`
 - `AntiX Linux`
 - `AOSC OS`
@@ -60,6 +61,7 @@ IRIX 6.5 and any later version should be supported.
 - `Arch`
 - `ArchBox`
 - `ArchLabs`
+- `ArchMerge`
 - `Arch XFerience`
 - `Artix Linux`
 - `AryaLinux`
@@ -67,12 +69,14 @@ IRIX 6.5 and any later version should be supported.
 - `Blag`
 - `Blankon`
 - `Bunsenlabs`
+- `Calculate Linux`
 - `CentOS`
 - `Chakra`
 - `ChaletOS`
 - `Chapeau`
 - `ChromeOS`
 - `CloverOS`
+- `Container Linux by CoreOS`
 - `CromeOS (Crouton)`
 - `Crux`
 - `Debian`
@@ -84,6 +88,7 @@ IRIX 6.5 and any later version should be supported.
 - `Endless OS`
 - `Exherbo`
 - `Fedora`
+- `FreeMint`
 - `Frugalware`
 - `Funtoo`
 - `GalliumOS`
@@ -92,6 +97,7 @@ IRIX 6.5 and any later version should be supported.
 - `GoboLinux`
 - `GrombyangOS`
 - `GuixSD`
+- `Hyperola`
 - `KDE Neon`
 - `Kali`
 - `KaOS`
@@ -99,10 +105,13 @@ IRIX 6.5 and any later version should be supported.
 - `Korora`
 - `Kubuntu`
 - `KS Linux`
+- `LEDE`
 - `LMDE`
 - `Linux Mint`
 - `Lubuntu`
+- `Lunar Linux`
 - `Mageia`
+- `MagpieOS`
 - `Manjaro`
 - `Maui`
 - `MX Linux`
@@ -110,8 +119,10 @@ IRIX 6.5 and any later version should be supported.
 - `Nitrux`
 - `NixOS`
 - `Nurunner`
+- `NuTyX`
 - `OBRevenge`
 - `OpenSuse`
+- `OpenSuse TumbleWeed`
 - `OpenIndiana`
 - `Openmandriva`
 - `Openwrt`
@@ -122,7 +133,9 @@ IRIX 6.5 and any later version should be supported.
 - `Parsix GNU/Linux`
 - `PclinuxOS`
 - `Peppermint`
+- `Pop!_OS`
 - `Porteus`
+- `PostMarketOS`
 - `Puppy`
 - `Qubes OS`
 - `Raspbian`

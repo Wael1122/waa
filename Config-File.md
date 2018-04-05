@@ -29,7 +29,7 @@ print_info() {
     info "GPU" gpu
     info "Memory" memory
 
-    # info "GPU Driver" gpu_driver  # Linux only
+    # info "GPU Driver" gpu_driver  # Linux/macOS only
     # info "CPU Usage" cpu_usage
     # info "Disk" disk
     # info "Battery" battery
@@ -351,6 +351,45 @@ disk_subtitle="mount"
 # Song
 
 
+# Manually specify a music player.
+#
+# Default: 'auto'
+# Values:  'auto', 'player-name'
+# Flag:    --music_player
+#
+# Available values for 'player-name':
+#
+# Google Play
+# Spotify
+# amarok
+# audacious
+# banshee
+# bluemindo
+# clementine
+# cmus
+# deadbeef
+# deepin-music
+# elisa
+# exaile
+# gnome-music
+# guayadeque
+# iTunes$
+# juk
+# lollypop
+# mocp
+# mopidy
+# mpd
+# pogo
+# pragha
+# qmmp
+# quodlibet
+# rhythmbox
+# spotify
+# tomahawk
+# xmms2d
+# yarock
+music_player="auto"
+
 # Print the Artist and Title on separate lines
 #
 # Default: 'off'
@@ -546,7 +585,7 @@ disk_display="off"
 # Image backend.
 #
 # Default:  'ascii'
-# Values:   'ascii', 'caca', 'catimg', 'jp2a', 'iterm2', 'off', 'tycat', 'w3m'
+# Values:   'ascii', 'caca', 'catimg', 'jp2a', 'iterm2', 'off', 'termpix', 'pixterm', 'tycat', 'w3m'
 # Flag:     --backend
 image_backend="ascii"
 
@@ -648,7 +687,7 @@ crop_offset="center"
 #          --size
 image_size="auto"
 
-# Ggap between image and text
+# Gap between image and text
 #
 # Default: '3'
 # Values:  'num', '-num'
@@ -732,5 +771,5 @@ stdout="off"
 #
 # NOTE: Don't change this value, neofetch reads this to determine
 # how to handle backwards compatibility.
-config_version="3.3.0"
+config_version="3.4.0"
 ```

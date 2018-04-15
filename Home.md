@@ -3,6 +3,7 @@ Welcome to the neofetch wiki.
 - **General**
     - [Dependencies](https://github.com/dylanaraps/neofetch/wiki/Dependencies)
     - [Installation](https://github.com/dylanaraps/neofetch/wiki/Installation)
+    - [Getting Started](https://github.com/dylanaraps/neofetch/wiki/Getting-Started)
     - [Frequently Asked Questions](https://github.com/dylanaraps/neofetch/wiki/Frequently-Asked-Questions)
     - [Operating System Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
     - [Neofetch vs Screenfetch](https://github.com/dylanaraps/neofetch/wiki/Neofetch-vs-Screenfetch)

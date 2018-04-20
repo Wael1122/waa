@@ -35,11 +35,12 @@ These dependencies are required for image mode to work.
 
 - Displaying images: 
     - `w3m-img` \[1\]
-    - `iTerm2`
+    - `iTerm2` \[2\]
+    - `Terminology` \[2\]
+    - `kitty` \[2\]
     - `libsixel`
     - `termpix`
     - `pixterm`
-    - `Terminology` \[2\] 
     - `catimg`
     - `jp2a`
     - `caca-utils` or `libcaca`.
@@ -48,7 +49,7 @@ These dependencies are required for image mode to work.
 
 \[1\] `w3m-img` is sometimes bundled together with `w3m`.
 
-\[2\] Image support is built into Terminology and iTerm2, and doesn't require w3m-img.
+\[2\] Image support is built into Terminology, iTerm2 and kitty, and doesn't require w3m-img.
 
 \[3\] See this wiki page for more information: [Images in the terminal](https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal)
 

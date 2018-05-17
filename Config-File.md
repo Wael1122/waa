@@ -1,10 +1,4 @@
-This is just an easy to read mirror of the default config file.
-
 ```sh
-# Neofetch config file
-# https://github.com/dylanaraps/neofetch
-
-
 # See this wiki page for more info:
 # https://github.com/dylanaraps/neofetch/wiki/Customizing-Info
 print_info() {
@@ -306,6 +300,7 @@ gtk3="on"
 public_ip_host="http://ident.me"
 
 
+
 # Disk
 
 
@@ -388,9 +383,21 @@ disk_subtitle="mount"
 # tomahawk
 # xmms2d
 # yarock
+# sayonara
+# vlc
 music_player="auto"
 
-# Print the Artist and Title on separate lines
+# Format to display song information.
+#
+# Default: '%artist% - %album% - %title%'
+# Values:  '%artist%', '%album%', '%title%'
+# Flag:    --song_format
+#
+# Example:
+# default: 'Song: Jet - Get Born - Sgt Major'
+song_format="%artist% - %album% - %title%"
+
+# Print the Artist, Album and Title on separate lines
 #
 # Default: 'off'
 # Values:  'on', 'off'
@@ -398,9 +405,10 @@ music_player="auto"
 #
 # Example:
 # on:  'Artist: The Fratellis'
+#      'Album: Costello Music'
 #      'Song: Chelsea Dagger'
 #
-# off: 'Song: The Fratellis - Chelsea Dagger'
+# off: 'Song: The Fratellis - Costello Music - Chelsea Dagger'
 song_shorthand="off"
 
 
@@ -771,5 +779,5 @@ stdout="off"
 #
 # NOTE: Don't change this value, neofetch reads this to determine
 # how to handle backwards compatibility.
-config_version="3.4.0"
+config_version="4.0.0"
 ```

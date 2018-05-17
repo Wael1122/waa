@@ -19,3 +19,4 @@ Welcome to the neofetch wiki.
     - [Ascii file format](https://github.com/dylanaraps/neofetch/wiki/Custom-Ascii-art-file-format)
 - **Other**
     - [Shellcheck Exclusions](https://github.com/dylanaraps/neofetch/wiki/Shellcheck-Exclusions)
+    - [Neofetch Branding](https://github.com/dylanaraps/neofetch-branding)

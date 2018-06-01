@@ -5,6 +5,7 @@ I've also created a few "helper" functions to make customization easier. The fun
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
+* [Config File Location](#config-file-location)
 * [Print Info Function](#print-info-function)
 * [Adding Custom Info](#adding-custom-info)
     * [info](#info)
@@ -19,6 +20,14 @@ I've also created a few "helper" functions to make customization easier. The fun
     * [Speed up the script by running the functions asynchronously](#speed-up-the-script-by-running-the-functions-asynchronously)
 
 <!-- vim-markdown-toc -->
+
+## Config File Location
+
+### GNU/Linux Systems
+
+The per-user location for neofetch's config is ${HOME}/.config/neofetch/config and neofetch will copy it's default config here on first run if installed correctly. (Using the Makefile or a Distro package)
+
+Neofetch also installs a system-wide editable config file at /etc/neofetch/config (This is where it copies the user config from)
 
 ## Print Info Function
 

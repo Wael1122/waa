@@ -25,9 +25,9 @@ I've also created a few "helper" functions to make customization easier. The fun
 
 ### GNU/Linux Systems
 
-The per-user location for neofetch's config is ${HOME}/.config/neofetch/config and neofetch will copy it's default config here on first run if installed correctly. (Using the Makefile or a Distro package)
+The per-user location for neofetch's config is `${HOME}/.config/neofetch/config` and neofetch will copy it's [default config](https://github.com/dylanaraps/neofetch/wiki/Config-File) here on first run if installed correctly (Using the Makefile or a Distro package).
 
-Neofetch also installs a system-wide editable config file at /etc/neofetch/config (This is where it copies the user config from)
+Neofetch also installs a system-wide editable config file at `/etc/neofetch/config` (This is where it copies the user config from).
 
 ## Print Info Function
 

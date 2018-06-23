@@ -44,12 +44,17 @@ what doesn't.
 | URxvt             | Yes     | Image disappears on window focus and resize |
 | Xfce4-terminal    | Yes     |
 | Xterm             | Yes     |
+| kitty             | N/A     | See \[3\] |
+
 
 \[1\] iTerm doesn't require `w3m-img` to display images. Instead it uses a
 set of escape sequences built into iTerm.
 
 \[2\] Terminology doesn't require `w3m-img` to display images. Instead it uses
 a builtin program called `tycat`.
+
+\[3\] kitty doesn't require `w3m-img` to display images. Instead it uses
+a builtin program called `kitty icat`.
 
 Note: For image mode to work, the `w3m-img` column must say `yes` and you must have
 the dependencies installed.

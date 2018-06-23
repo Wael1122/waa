@@ -16,7 +16,7 @@ You can either use the launch option `--w3m` (also `--w3m /path/to/img` / `--w3m
 - `w3m-img`
     - Image rendering in the terminal.
     - This is sometimes bundled together with `w3m`.
-    - `Terminology` and `iTerm` users don't need to install w3m-img.
+    - `kitty`, `Terminology` and `iTerm` users don't need to install w3m-img.
 
 - `imagemagick`
     - Generating thumbnails and cropping the images.

@@ -10,7 +10,8 @@ the latest release and running the Makefile.
     * [Latest Release](#latest-release)
     * [Latest Git Master (Bleeding Edge)](#latest-git-master-bleeding-edge)
 * [OS/Distro Packages](#osdistro-packages)
-    * [Alpine Linux (edge)](#alpine-linux-edge)
+    * [Alpine Linux](#alpine-linux)
+        * [Alpine Linux v3.8 and up](#alpine-linux-v38-and-up)
     * [Android (Termux)](#android-termux)
     * [Arch](#arch)
     * [BunsenLabs](#bunsenlabs)
@@ -72,7 +73,9 @@ does is move the files to a "sane" location. The Makefile is optional.
 This section lists neofetch packages that have been made for specific OS/Distros.
 
 
-## Alpine Linux (edge)
+## Alpine Linux
+
+### Alpine Linux v3.8 and up
 
 1. Update repositories
     - `apk update`

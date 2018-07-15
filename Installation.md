@@ -17,7 +17,6 @@ the latest release and running the Makefile.
     * [CRUX](#crux)
     * [Debian](#debian)
         * [Stretch / Sid (Unstable)](#stretch--sid-unstable)
-        * [All other versions](#all-other-versions)
     * [Fedora / RHEL / CentOS / Mageia](#fedora--rhel--centos--mageia)
     * [Gentoo / Funtoo](#gentoo--funtoo)
     * [GoboLinux](#gobolinux)
@@ -143,19 +142,8 @@ Neofetch is in Debian Stretch/Sid's official repositories.
 2. Install the package
     - `sudo apt-get install neofetch`
 
-NOTE: Debian `stretch` repo only contains version 2.0.2, use the third-party repo to update it to the latest version.
-
-
-### All other versions
-
-1. Add the 3rd party repo
-    - `echo "deb http://dl.bintray.com/dawidd6/neofetch stretch main" | sudo tee -a /etc/apt/sources.list`
-2. Add public key (you need to have curl and gnupg installed)
-    - `curl "https://bintray.com/user/downloadSubjectPublicKey?username=bintray" | sudo apt-key add -`
-3. Update repositories
-    - `sudo apt-get update`
-4. Install the package
-    - `sudo apt-get install neofetch`
+NOTE: Debian `stretch` repo only contains version 2.0.2.
+NOTE2: The third party bintray repo has been deprecated, if you want to stay up to date with neofetch on Debian stable, then you need to manually install newer packages from unstable or download neofetch directly from git repository since it's contained in single file.
 
 
 ## Fedora / RHEL / CentOS / Mageia

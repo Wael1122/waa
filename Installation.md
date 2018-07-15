@@ -143,6 +143,7 @@ Neofetch is in Debian Stretch/Sid's official repositories.
     - `sudo apt-get install neofetch`
 
 NOTE: Debian `stretch` repo only contains version 2.0.2.
+
 NOTE2: The third party bintray repo has been deprecated, if you want to stay up to date with neofetch on Debian stable, then you need to manually install newer packages from unstable or download neofetch directly from git repository since it's contained in single file.
 
 

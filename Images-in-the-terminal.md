@@ -54,7 +54,7 @@ set of escape sequences built into iTerm.
 a builtin program called `tycat`.
 
 \[3\] kitty doesn't require `w3m-img` to display images. Instead it uses
-a builtin program called `kitty icat`.
+a builtin program called `kitty +kitten icat`.
 
 Note: For image mode to work, the `w3m-img` column must say `yes` and you must have
 the dependencies installed.

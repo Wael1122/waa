@@ -31,6 +31,7 @@ the latest release and running the Makefile.
         * [Ubuntu 16.10 and below](#ubuntu-1610-and-below)
         * [Ubuntu daily builds](#ubuntu-daily-builds)
     * [Void Linux](#void-linux)
+    * [openSUSE](#openSUSE)
 
 <!-- vim-markdown-toc -->
 
@@ -252,9 +253,11 @@ Install it from the official repositories
 
 - `sudo xbps-install -S neofetch`
 
+## openSUSE (Leap or Tumbleweed)
 
+Install it from the official repositories
 
-
+- `sudo zypper in neofetch`
 
 
 

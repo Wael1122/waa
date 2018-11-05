@@ -31,7 +31,7 @@ the latest release and running the Makefile.
         * [Ubuntu 16.10 and below](#ubuntu-1610-and-below)
         * [Ubuntu daily builds](#ubuntu-daily-builds)
     * [Void Linux](#void-linux)
-    * [openSUSE](#openSUSE)
+    * [openSUSE](#openSUSE-Leap-or-Tumbleweed)
 
 <!-- vim-markdown-toc -->
 

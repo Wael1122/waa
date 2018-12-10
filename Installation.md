@@ -153,6 +153,12 @@ NOTE2: The third party bintray repo has been deprecated, if you want to stay up 
 
 ## Fedora / RHEL / CentOS / Mageia
 
+Neofetch is in Fedora's official repositories starting from Fedora 27.
+
+- `sudo dnf install neofetch`
+
+Alternatively, you can use a third-party repo:
+
 **NOTE**: If you are using RHEL/CentOS, change `dnf` into `yum`.
 
 1. Make sure you have installed `dnf-plugins-core`

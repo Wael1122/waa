@@ -104,7 +104,7 @@ Full list of functions:
 
 Special functions:
 
-`underline` `linebreak` `title`
+`underline` `line_break` `title`
 
 ### prin
 

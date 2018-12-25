@@ -29,6 +29,10 @@ The per-user location for neofetch's config is `${HOME}/.config/neofetch/config`
 
 Neofetch also installs a system-wide editable config file at `/etc/neofetch/config` (This is where it copies the user config from).
 
+ * For Debian Buster: (neofetch v5.0.0.1)
+   * `${HOME}/.config/neofetch/config.conf`
+   * No system-wide config installed.
+
 ## Print Info Function
 
 The strings in double quotes ("Model") are the subtitles for each info line and can be changed to whatever title you like or just removed altogether.

@@ -9,8 +9,6 @@ This page lists the programs/dependencies Neofetch needs to run.
 * [Image mode dependencies:](#image-mode-dependencies)
 * [Optional dependencies:](#optional-dependencies)
     * [Wallpaper](#wallpaper)
-    * [Screenshot](#screenshot)
-    * [Screenshot Uploading](#screenshot-uploading)
     * [Disk](#disk)
     * [Song](#song)
     * [Desktop Environment and Window Manager](#desktop-environment-and-window-manager)
@@ -67,29 +65,6 @@ These dependencies are required for image mode to work.
 **Windows and macOS**
 
 - No additional dependencies needed.
-
-
-### Screenshot
-
-**Any OS running an X Server**
-
-Neofetch will automatically use whatever tool is available.
-
-- `scrot`
-- `maim`
-- `imagemagick`
-- `imlib2_grab`
-- `gnome-screenshot`
-
-**macOS and Haiku**
-
-- No additional dependencies needed.
-
-
-### Screenshot Uploading
-
-- `curl`
-
 
 ### Disk
 

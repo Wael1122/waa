@@ -42,7 +42,7 @@ what doesn't.
 | Termite           | Yes     | Highlighting the image makes the highlighted parts disappear |
 | tilda             | No      |
 | URxvt             | Yes     | Image disappears on window focus and resize |
-| Xfce4-terminal    | Yes     |
+| Xfce4-terminal    | Yes     | Image disappears on window focus and resize
 | Xterm             | Yes     |
 | kitty             | N/A     | See \[3\] |
 

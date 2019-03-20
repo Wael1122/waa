@@ -108,6 +108,10 @@ Special functions:
 
 `underline` `title`
 
+Old functions:
+
+* `line_break` – removed in [85a1bd0](https://github.com/dylanaraps/neofetch/commit/85a1bd0af7e5b5752683c586305164f0d6444550), use `prin` instead
+
 ### prin
 
 You can also just use `printf` or `echo` but you'll have to format/color

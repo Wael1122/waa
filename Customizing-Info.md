@@ -44,7 +44,7 @@ print_info () {
     info title
     info underline
 
-    info "Model" model
+    info "Host" model
     info "OS" distro
     info "Kernel" kernel
     info "Uptime" uptime
@@ -77,9 +77,7 @@ print_info () {
     # info "Users" users
     # info "Birthday" birthday
 
-    info line_break
     info cols
-    info line_break
 }
 
 ```
@@ -108,7 +106,7 @@ Full list of functions:
 
 Special functions:
 
-`underline` `line_break` `title`
+`underline` `title`
 
 ### prin
 

@@ -192,13 +192,12 @@ You can also move the lines inside the `print_info()` function around to change 
 ```sh
 print_info() {
     info cols
-    info line_break
 
     info "OS" distro
     info "Uptime" uptime
     info "Kernel" kernel
 
-    info line_break
+    prin
 
     info "Model" model
     info "Packages" packages
@@ -224,9 +223,7 @@ prin "Weather" "$(curl wttr.in/?0?q?T | awk '/°(C|F)/ {printf $(NF-1) $(NF) " (
 
 ```sh
 print_info () {
-    info line_break
     info cols
-    info line_break
 
     info "Model" model
     info "OS" distro
@@ -239,9 +236,7 @@ print_info () {
     info "WM" wm
     info "WM Theme" wm_theme
 
-    info line_break
     info cols
-    info line_break
 }
 
 ```
@@ -269,9 +264,7 @@ print_info () {
     info "GPU" gpu &
     info "Memory" memory &
 
-    info line_break
     info cols
-    info line_break
 
     # Wait for the functions to complete
     wait

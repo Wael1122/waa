@@ -97,7 +97,7 @@ IRIX 6.5 and any later version should be supported.
 - `GoboLinux`
 - `GrombyangOS`
 - `GuixSD`
-- `Hyperola`
+- `Hyperbola`
 - `KDE Neon`
 - `Kali`
 - `KaOS`

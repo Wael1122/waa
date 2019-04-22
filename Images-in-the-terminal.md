@@ -87,5 +87,11 @@ Once you've installed `w3m-img`, `imagemagick`, have a terminal emulator that
 meets the criteria above and have a working image source, neofetch should
 display images correctly.
 
+if neofetch won't display the images check if the terminal support images. To do this you need to launch the command
+
+`w3m google.com`
+
+If you don't see it your terminal support only text, no image. 
+
 If neofetch still won't display the images then you should open a new issue on
 github and provide me with a verbose log.

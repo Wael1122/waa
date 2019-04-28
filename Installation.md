@@ -259,13 +259,6 @@ Install it from the official repositories
 
 - `sudo xbps-install -S neofetch`
 
-## openSUSE (Leap or Tumbleweed)
-
-Install it from the official repositories
-
-- `sudo zypper in neofetch`
-
-
 
 
 

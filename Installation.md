@@ -89,9 +89,9 @@ This section lists neofetch packages that have been made for specific OS/Distros
 Neofetch is in Termux's default repos.
 
 1. Update repositories
-    - `sudo apt-get update`
+    - `pkg update`
 2. Install the package
-    - `sudo apt-get install neofetch`
+    - `pkg install neofetch`
 
 
 ## Arch

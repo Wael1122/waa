@@ -1,15 +1,21 @@
-- **[Home](https://github.com/sasseries/mw2-cinematic-mod/wiki)**
+- **[Home](https://github.com/dylanaraps/neofetch/wiki)**
 - **General**
-    - [Prerequired](https://github.com/sasseries/mw2-cinematic-mod/wiki)
-    - [Installation](https://github.com/sasseries/mw2-cinematic-mod/wiki)
-    - [Getting Started](https://github.com/sasseries/mw2-cinematic-mod/wiki)
-- **Basic commands**
-    - [Bots](https://github.com/sasseries/mw2-cinematic-mod/wiki)
-    - [Environement](https://github.com/sasseries/mw2-cinematic-mod/wiki)
-    - [Misc](https://github.com/sasseries/mw2-cinematic-mod/wiki)
-- **Cameras**
-    - [Camera commands](https://github.com/sasseries/mw2-cinematic-mod/wiki)
-- **Actors**
-    - [Basic understanding](https://github.com/sasseries/mw2-cinematic-mod/wiki)
-    - [Commands](https://github.com/sasseries/mw2-cinematic-mod/wiki)
+    - [Dependencies](https://github.com/dylanaraps/neofetch/wiki/Dependencies)
+    - [Installation](https://github.com/dylanaraps/neofetch/wiki/Installation)
+    - [Getting Started](https://github.com/dylanaraps/neofetch/wiki/Getting-Started)
+    - [Frequently Asked Questions](https://github.com/dylanaraps/neofetch/wiki/Frequently-Asked-Questions)
+    - [Operating System Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
+    - [Neofetch vs Screenfetch](https://github.com/dylanaraps/neofetch/wiki/Neofetch-vs-Screenfetch)
+- **Info**
+    - [Customizing info](https://github.com/dylanaraps/neofetch/wiki/Customizing-Info)
+    - [Config File](https://github.com/dylanaraps/neofetch/wiki/Config-File)
+    - [Terminal and Terminal Font Detection](https://github.com/dylanaraps/neofetch/wiki/Terminal-and-Terminal-Font-detection)
+- **Images**
+    - [Images in the Terminal](https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal)
+    - [Image Backends](https://github.com/dylanaraps/neofetch/wiki/Image-Backends)
+    - [What is Waifu Crop?](https://github.com/dylanaraps/neofetch/wiki/What-is-Waifu-Crop%3F)
+- **Ascii**
+    - [Ascii file format](https://github.com/dylanaraps/neofetch/wiki/Custom-Ascii-art-file-format)
 - **Other**
+    - [Shellcheck Exclusions](https://github.com/dylanaraps/neofetch/wiki/Shellcheck-Exclusions)
+    - [Neofetch Branding](https://github.com/dylanaraps/neofetch-branding)

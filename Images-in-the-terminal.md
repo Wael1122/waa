@@ -33,7 +33,7 @@ what doesn't.
 | Terminal Emulator | w3m-img | Quirks |
 | ----------------- | ------- | ------ |
 | Gnome-terminal    | Yes     | - Image disappears on window focus and resize
-|                   |         | - Possible issues on Fedora, see #295
+|                   |         | - Possible issues on Fedora, see [#295](https://github.com/dylanaraps/neofetch/issues/295)
 | iTerm             | N/A     | See \[1\] |
 | konsole           | Yes     |
 | st                | Yes     | Image disappears on window focus and resize |

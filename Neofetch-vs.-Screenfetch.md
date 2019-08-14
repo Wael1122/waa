@@ -285,7 +285,7 @@ distro_more="$(< /usr/share/doc/tc/release.txt)"
 mydistro=$(echo -e "$labelcolor OS:$textcolor $distro $sysArch")
 
 # Correct way
-mydistro="$labelcolor OS:$textcolor $ditro $sysArch"
+mydistro="$labelcolor OS:$textcolor $distro $sysArch"
 
 # Screenfetch
 for l in $(echo $distrib_id); do

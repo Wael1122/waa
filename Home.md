@@ -6,7 +6,6 @@ Welcome to the neofetch wiki.
     - [Getting Started](https://github.com/dylanaraps/neofetch/wiki/Getting-Started)
     - [Frequently Asked Questions](https://github.com/dylanaraps/neofetch/wiki/Frequently-Asked-Questions)
     - [Operating System Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
-    - [Neofetch vs Screenfetch](https://github.com/dylanaraps/neofetch/wiki/Neofetch-vs-Screenfetch)
 - **Info**
     - [Customizing info](https://github.com/dylanaraps/neofetch/wiki/Customizing-Info)
     - [Config File](https://github.com/dylanaraps/neofetch/wiki/Config-File)

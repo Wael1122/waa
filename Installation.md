@@ -192,13 +192,6 @@ Install it with the official recipe.
 
 - `sudo Compile neofetch`
 
-
-## iOS
-
-1. Add `http://dylanaraps.com/repo` to your cydia sources.
-2. Install `neofetch` through cydia.
-
-
 ## macOS (Homebrew)
 
 1. Install `neofetch` with Homebrew

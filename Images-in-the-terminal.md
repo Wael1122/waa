@@ -73,7 +73,7 @@ The list below shows the current wallpaper setters we support.
 - nitrogen
 - gsettings
 
-**Mac OS X / Windows**
+**macOS / Windows**
 
 - Builtin wallpaper setter
 

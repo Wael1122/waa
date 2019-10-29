@@ -1,40 +1,33 @@
-This is the format neofetch uses for it's ascii art files and the format you should follow when adding ascii art to neofetch or when specifying custom ascii art with: `--ascii /path/to/ascii_file`.
-
-The ascii art is read as plaintext so the only character you have to escape is the backslash `\`.
+This is the format neofetch uses for it's ascii art files and the format you should follow when adding ascii art to onefetch.
 
 #### Here's an example:
 
 ```sh
-# ascii/distro/redstar
-${c1}                    ..
-                  .oK0l
-                 :0KKKKd.
-               .xKO0KKKKd
-              ,Od' .d0000l
-             .c;.   .'''...           ..'.
-.,:cloddxxxkkkkOOOOkkkkkkkkxxxxxxxxxkkkx:
-;kOOOOOOOkxOkc'...',;;;;,,,'',;;:cllc:,.
- .okkkkd,.lko  .......',;:cllc:;,,'''''.
-   .cdo. :xd' cd:.  ..';'',,,'',,;;;,'.
-      . .ddl.;doooc'..;oc;'..';::;,'.
-        coo;.oooolllllllcccc:'.  .
-       .ool''lllllccccccc:::::;.
-       ;lll. .':cccc:::::::;;;;'
-       :lcc:'',..';::::;;;;;;;,,.
-       :cccc::::;...';;;;;,,,,,,.
-       ,::::::;;;,'.  ..',,,,'''.
-        ........          ......
+# resources/racket.ascii
+{0}            {2}.:--::////::--.`
+{0}        {1}`/yNMMNho{2}////////////:.
+{0}      {1}`+NMMMMMMMMmy{2}/////////////:`
+{0}    `-:::{1}ohNMMMMMMMNy{2}/////////////:`
+{0}   .::::::::{1}odMMMMMMMNy{2}/////////////-
+{0}  -:::::::::::{1}/hMMMMMMMmo{2}////////////-
+{0} .::::::::::::::{1}oMMMMMMMMh{2}////////////-
+{0}`:::::::::::::{1}/dMMMMMMMMMMNo{2}///////////`
+{0}-::::::::::::{1}sMMMMMMmMMMMMMMy{2}//////////-
+{0}-::::::::::{1}/dMMMMMMs{0}:{1}+NMMMMMMd{2}/////////:
+{0}-:::::::::{1}+NMMMMMm/{0}:::{1}/dMMMMMMm+{2}///////:
+{0}-::::::::{1}sMMMMMMh{0}:::::::{1}dMMMMMMm+{2}//////-
+{0}`:::::::{1}sMMMMMMy{0}:::::::::{1}dMMMMMMm+{2}/////`
+{0} .:::::{1}sMMMMMMs{0}:::::::::::{1}mMMMMMMd{2}////-
+{0}  -:::{1}sMMMMMMy{0}::::::::::::{1}/NMMMMMMh{2}//-
+{0}   .:{1}+MMMMMMd{0}::::::::::::::{1}oMMMMMMMo{2}-
+{0}    {1}`yMMMMMN/{0}:::::::::::::::{1}hMMMMMh.
+{0}      {1}-yMMMo{0}::::::::::::::::{1}/MMMy-
+{0}        {1}`/s{0}::::::::::::::::::{1}o/`
+{0}            ``.---::::---..`
 ```
-
-#### Rules:
-
-- You have to escape `\`. (eg `\\`)
 
 #### Features:
 
-- You can use `${c1}` to `${c6}`to color the ascii.
-    - These are evaluated *after* we read the file.
-- You can pass the flag `--ascii_colors 1 2 3 4 5 6` to set the colors.
-    - This changes the values of `${c1}` to `${c6}`
-    - `--ascii_colors 2 5 6 1` changes `${c1}` to `Green`, `${c2}` to `Magenta` and etc.
-
+- You can use `{0}` to `{X}`to color the ascii, with X > 0.
+- You can pass the flag `-c, --colors 2 5 ...` to set your own colors.
+    - Look at the visual marker to know the color order.

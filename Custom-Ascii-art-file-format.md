@@ -1,7 +1,8 @@
 This is the format neofetch uses for it's ascii art files and the format you should follow when adding ascii art to neofetch or when specifying custom ascii art with:` --ascii /path/to/ascii_file`.
 
 The ascii art is read as plaintext so the only character you have to escape is the backslash `\`.
-Here's an example:
+
+### Here's an example:
 
 ```sh
 # ascii/distro/redstar

@@ -28,7 +28,6 @@ the latest release and running the Makefile.
     * [Ubuntu](#ubuntu)
         * [Ubuntu 17.04 and up](#ubuntu-1704-and-up)
         * [Ubuntu 16.10 and below](#ubuntu-1610-and-below)
-        * [Ubuntu daily builds](#ubuntu-daily-builds)
     * [Void Linux](#void-linux)
     * [openSUSE](#openSUSE-Leap-or-Tumbleweed)
 
@@ -232,18 +231,6 @@ Install it from the official repositories.
     - `sudo apt update`
 3. Install the package
     - `sudo apt install neofetch`
-
-### Ubuntu daily builds
-
-This PPA contains daily builds of neofetch straight from master branch
-
-1. Add PPA
-    - `sudo add-apt-repository ppa:dawidd0811/neofetch-daily`
-2. Update repositories
-    - `sudo apt update`
-3. Install the package
-    - `sudo apt install neofetch`
-
 
 ## Void Linux
 

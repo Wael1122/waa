@@ -28,6 +28,9 @@ All versions of Android should be supported.
 - `NetBSD`
 - `OpenBSD`
 
+### FreeMiNT
+
+Any FreeMiNT distribution based on SpareMiNT (including EasyMiNT) with updated Bash should be supported. 
 
 ### GNU Hurd
 
@@ -88,7 +91,6 @@ IRIX 6.5 and any later version should be supported.
 - `Endless OS`
 - `Exherbo`
 - `Fedora`
-- `FreeMint`
 - `Frugalware`
 - `Funtoo`
 - `GalliumOS`

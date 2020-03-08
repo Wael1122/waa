@@ -7,7 +7,6 @@
     - [Operating System Support](https://github.com/dylanaraps/neofetch/wiki/Operating-System-Support)
 - **Info**
     - [Customizing info](https://github.com/dylanaraps/neofetch/wiki/Customizing-Info)
-    - [Config File](https://github.com/dylanaraps/neofetch/wiki/Config-File)
     - [Terminal and Terminal Font Detection](https://github.com/dylanaraps/neofetch/wiki/Terminal-and-Terminal-Font-detection)
 - **Images**
     - [Images in the Terminal](https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal)

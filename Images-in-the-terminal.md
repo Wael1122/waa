@@ -45,7 +45,7 @@ what doesn't.
 | Xfce4-terminal    | Yes     | Image disappears on window focus and resize
 | Xterm             | Yes     |
 | kitty             | N/A     | See \[3\] |
-
+| alacritty         | No      | 
 
 \[1\] iTerm doesn't require `w3m-img` to display images. Instead it uses a
 set of escape sequences built into iTerm.

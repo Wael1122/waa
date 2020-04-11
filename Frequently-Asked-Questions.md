@@ -34,7 +34,7 @@ A good distro will always provide their own `lsb-release` file, otherwise they w
 
 Yes, actually. You'd have to remove your `lsb-release` (or any equivalent) package. (That is, if the distro filled their `/etc/*-release` properly. Contact your distro's maintainers if they don't).
 
-### [Linux/FreeBSD] Why does getgpu doesn't show my exact video card name?
+### [Linux/FreeBSD] Why doesn't getgpu show my exact video card model?
 
 If your `lspci | grep "VGA"` (Linux) output looks like this:
 

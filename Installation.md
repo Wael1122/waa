@@ -21,6 +21,7 @@ the latest release and running the Makefile.
     * [Fedora / RHEL / CentOS / Mageia](#fedora--rhel--centos--mageia)
     * [Gentoo / Funtoo](#gentoo--funtoo)
     * [GoboLinux](#gobolinux)
+    * [iOS/iPadOS](#ios/ipados)
     * [macOS (Homebrew)](#macos-homebrew)
     * [NixOS](#nixos)
     * [Slackware](#slackware)
@@ -189,6 +190,13 @@ To install the git version of neofetch, use `=app-misc/neofetch-9999` instead.
 Install it with the official recipe.
 
 - `sudo Compile neofetch`
+
+## iOS/iPadOS
+
+1. Add this repo to your package manager e.g. Cydia
+    - `https://repo.packix.com/`
+2. Install `NeoFetch-iOS` from your package manager 
+**NOTE**: This package isn’t the official release, and seems offline by 2020/4/14. 
 
 ## macOS (Homebrew)
 

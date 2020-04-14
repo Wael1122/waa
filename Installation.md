@@ -196,7 +196,8 @@ Install it with the official recipe.
 1. Add this repo to your package manager e.g. Cydia
     - `https://repo.packix.com/`
 2. Install `NeoFetch-iOS` from your package manager 
-**NOTE**: This package isn’t the official release, and seems offline by 2020/4/14. 
+
+**NOTE**: This package isn’t the official release, and seems offline by 2020/4/14. Device must be jailbroken! 
 
 ## macOS (Homebrew)
 

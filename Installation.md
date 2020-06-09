@@ -21,7 +21,7 @@ the latest release and running the Makefile.
     * [Fedora / RHEL / CentOS / Mageia](#fedora--rhel--centos--mageia)
     * [Gentoo / Funtoo](#gentoo--funtoo)
     * [GoboLinux](#gobolinux)
-    * [iOS/iPadOS](#ios/ipados)
+    * [iOS/iPadOS](#iosipados)
     * [macOS (Homebrew)](#macos-homebrew)
     * [NixOS](#nixos)
     * [Slackware](#slackware)

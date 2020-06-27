@@ -237,9 +237,9 @@ Install it from the official repositories.
 1. Add PPA
     - `sudo add-apt-repository ppa:dawidd0811/neofetch`
 2. Update repositories
-    - `sudo apt update`
+    - `sudo apt-get update`
 3. Install the package
-    - `sudo apt install neofetch`
+    - `sudo apt-get install neofetch`
 
 ## Void Linux
 

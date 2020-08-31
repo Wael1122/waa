@@ -193,11 +193,17 @@ Install it with the official recipe.
 
 ## iOS/iPadOS
 
+### Jailbreaks with the Procursus Repo
+
+1. Just install `neofetch` from your perfered package manager e.g. Sileo
+
+### Jailbreaks without the Procursus Repo
+
 1. Add this repo to your package manager e.g. Cydia
     - `https://repo.packix.com/`
 2. Install `NeoFetch-iOS` from your package manager 
 
-**NOTE**: This package isn’t the official release, and seems offline by 2020-04-14. Device MUST be jailbroken! 
+**NOTE**: The package on Packix isn’t the official release, and seems offline by 2020-04-14. Device MUST be jailbroken!  
 
 ## macOS (Homebrew)
 

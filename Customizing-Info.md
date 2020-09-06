@@ -264,9 +264,9 @@ print_info () {
     info "GPU" gpu &
     info "Memory" memory &
 
-    info cols
-
     # Wait for the functions to complete
     wait
+
+    info cols
 }
 ```

@@ -39,7 +39,6 @@ These dependencies are required for image mode to work.
     - `libsixel`
     - `termpix`
     - `pixterm`
-    - `catimg`
     - `jp2a`
     - `caca-utils` or `libcaca`.
 - Thumbnail creation: `imagemagick`

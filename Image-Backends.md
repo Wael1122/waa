@@ -1,4 +1,4 @@
-Neofetch 3.0 included a rewrite of how we handle different modes (`image`, `ascii` and etc) which allowed us to add 3 additional image backends to Neofetch. Neofetch now supports displaying images using [`catimg`](https://github.com/posva/catimg), [`libcaca`](http://caca.zoy.org/wiki/libcaca), [`kitty`](https://github.com/kovidgoyal/kitty) and [`jp2a`](https://csl.name/jp2a/).
+Neofetch 3.0 included a rewrite of how we handle different modes (`image`, `ascii` and etc) which allowed us to add 3 additional image backends to Neofetch. Neofetch now supports displaying images using [`libcaca`](http://caca.zoy.org/wiki/libcaca), [`kitty`](https://github.com/kovidgoyal/kitty) and [`jp2a`](https://csl.name/jp2a/).
 
 
 ## Image Backends
@@ -25,17 +25,6 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 ```
 
 ![caca](http://i.imgur.com/SBDQgxx.png)
-
-
-### Catimg
-
-```sh
-# Usage: neofetch --catimg 
-#        neofetch --catimg /path/to/img
-#        neofetch --catimg /path/to/dir/
-```
-
-![catimg](http://i.imgur.com/qOcCNxU.png)
 
 
 ### iTerm2

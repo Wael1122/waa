@@ -39,8 +39,9 @@ These dependencies are required for image mode to work.
     - `libsixel`
     - `termpix`
     - `pixterm`
+    - `catimg`
     - `jp2a`
-    - `caca-utils` or `libcaca`. 
+    - `caca-utils` or `libcaca`.
 - Thumbnail creation: `imagemagick`
 - Window size: A terminal emulator that supports `\033[14t` \[3\] or `xdotool` or `xwininfo + xprop` or `xwininfo + xdpyinfo`
 

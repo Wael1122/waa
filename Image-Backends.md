@@ -1,4 +1,4 @@
-Neofetch 3.0 included a rewrite of how we handle different modes (`image`, `ascii` and etc) which allowed us to add 3 additional image backends to Neofetch. Neofetch now supports displaying images using [`libcaca`](http://caca.zoy.org/wiki/libcaca), [`kitty`](https://github.com/kovidgoyal/kitty) and [`jp2a`](https://csl.name/jp2a/).
+Neofetch 3.0 included a rewrite of how we handle different modes (`image`, `ascii` and etc) which allowed us to add additional image backends to Neofetch. Neofetch now supports displaying images using [`catimg`](https://github.com/posva/catimg), [`libcaca`](http://caca.zoy.org/wiki/libcaca), [`chafa`](https://github.com/hpjansson/chafa), [`iterm2`](https://github.com/gnachman/iTerm2), [`jp2a`](https://csl.name/jp2a/), [`kitty`](https://github.com/kovidgoyal/kitty), [`pixterm`](https://github.com/eliukblau/pixterm), [`pot`](https://github.com/SeungheonOh/pot), [`libsixel`](https://github.com/saitoha/libsixel), [`termpix`](https://github.com/hopey-dishwasher/termpix), [`tycat`](https://www.enlightenment.org/about-terminology), and [`w3m`](https://github.com/tats/w3m).
 
 
 ## Image Backends
@@ -13,7 +13,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 #        neofetch --ascii /path/to/ascii
 ```
 
-![ascii](http://i.imgur.com/pHU40xh.png)
+![ascii](https://i.imgur.com/pHU40xh.png)
 
 
 ### Caca
@@ -24,7 +24,21 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 #        neofetch --caca /path/to/dir/
 ```
 
-![caca](http://i.imgur.com/SBDQgxx.png)
+![caca](https://i.imgur.com/SBDQgxx.png)
+
+
+### Catimg
+
+```sh
+# Usage: neofetch --catimg 
+#        neofetch --catimg /path/to/img
+#        neofetch --catimg /path/to/dir/
+#        neofetch --catimg --catimg_size 1/2
+#        neofetch --catimg /path/to/img --catimg_size 1/2
+#        neofetch --catimg /path/to/dir --catimg_size 1/2
+```
+
+![catimg](https://i.imgur.com/qOcCNxU.png)
 
 
 ### iTerm2
@@ -35,7 +49,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 #        neofetch --iterm2 /path/to/dir/
 ```
 
-![iterm2](http://i.imgur.com/ys5R5cu.png)
+![iterm2](https://i.imgur.com/ys5R5cu.png)
 
 
 ### Jp2a
@@ -46,7 +60,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 #        neofetch --jp2a /path/to/dir/
 ```
 
-![jp2a](http://i.imgur.com/d5jVIGY.png)
+![jp2a](https://i.imgur.com/d5jVIGY.png)
 
 
 ### Pixterm
@@ -57,7 +71,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 #        neofetch --pixterm /path/to/dir/
 ```
 
-![pixterm](http://i.imgur.com/Fk4L5tm.png)
+![pixterm](https://i.imgur.com/Fk4L5tm.png)
 
 
 ### Sixel
@@ -68,7 +82,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 #        neofetch --sixel /path/to/dir/
 ```
 
-![sixel](http://i.imgur.com/ys5R5cu.png)
+![sixel](https://i.imgur.com/ys5R5cu.png)
 
 
 ### Tycat
@@ -79,7 +93,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 #        neofetch --tycat /path/to/dir/
 ```
 
-![tycat](http://i.imgur.com/ys5R5cu.png)
+![tycat](https://i.imgur.com/ys5R5cu.png)
 
 
 ### W3m
@@ -90,7 +104,7 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 #        neofetch --w3m /path/to/dir/
 ```
 
-![w3m](http://i.imgur.com/ys5R5cu.png)
+![w3m](https://i.imgur.com/ys5R5cu.png)
 
 
 ### Off
@@ -99,4 +113,4 @@ Note: The screenshot for `iterm2`, `tycat`, `sixel` and `w3m` is the same since 
 # Usage: neofetch --off
 ```
 
-![off](http://i.imgur.com/7hzZrJi.png)
+![off](https://i.imgur.com/7hzZrJi.png)

@@ -88,6 +88,7 @@ IRIX 6.5 and any later version should be supported.
 - `Devuan`
 - `DracOS`
 - `Elementary OS`
+- `EndeavourOS`
 - `Endless OS`
 - `Exherbo`
 - `Fedora`

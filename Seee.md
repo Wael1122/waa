@@ -1,1 +1,0 @@
-# [S](Www.googh.com)

@@ -31,6 +31,7 @@ the latest release and running the Makefile.
         * [Ubuntu 16.10 and below](#ubuntu-1610-and-below)
     * [Void Linux](#void-linux)
     * [openSUSE](#openSUSE-Leap-or-Tumbleweed)
+    * [Windows](#windows)
 
 <!-- vim-markdown-toc -->
 
@@ -258,6 +259,12 @@ Install it from the official repositories
 Install it from the official repositories.
 
 - `sudo zypper install neofetch`
+
+## Windows
+
+Install it from the [Scoop](https://github.com/lukesampson/scoop).
+
+- `scoop install neofetch`
 
 
 

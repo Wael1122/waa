@@ -57,7 +57,7 @@ the latest release and running the Makefile.
     - `cd neofetch`
 3. Install neofetch using the Makefile.
     - `make install`
-    - **El Capitan**: `make PREFIX=/usr/local install`
+    - **MacOS**: `make PREFIX=/usr/local install`
     - **Haiku**: `make PREFIX=/boot/home/config/non-packaged install`
     - **OpenIndiana**: `gmake install`
     - **MinGW/MSys**: `make -i install`

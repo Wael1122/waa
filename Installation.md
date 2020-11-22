@@ -43,7 +43,7 @@ the latest release and running the Makefile.
 1. Download the latest release.
     - https://github.com/dylanaraps/neofetch/releases/latest
 2. Run `make install` inside the script directory to install the script.
-    - **El Capitan**: `make PREFIX=/usr/local install`
+    - **MacOS**: `make PREFIX=/usr/local install`
     - **Haiku**: `make PREFIX=/boot/home/config/non-packaged install`
     - **OpenIndiana**: `gmake install`
     - **MinGW/MSys**: `make -i install`

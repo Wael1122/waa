@@ -18,7 +18,7 @@ the latest release and running the Makefile.
     * [CRUX](#crux)
     * [Debian](#debian)
         * [Stretch / Sid (Unstable)](#stretch--sid-unstable)
-    * [Fedora / RHEL / CentOS / Mageia](#fedora--rhel--centos--mageia)
+    * [Fedora / RHEL / CentOS / Mageia / OpenMandriva](#fedora--rhel--centos--mageia--openmandriva)
     * [Gentoo / Funtoo](#gentoo--funtoo)
     * [GoboLinux](#gobolinux)
     * [iOS/iPadOS](#iosipados)
@@ -151,7 +151,7 @@ NOTE: Debian `stretch` repo only contains version 2.0.2.
 NOTE2: The third party bintray repo has been deprecated, if you want to stay up to date with neofetch on Debian stable, then you need to manually install newer packages from unstable or download neofetch directly from git repository since it's contained in single file.
 
 
-## Fedora / RHEL / CentOS / Mageia
+## Fedora / RHEL / CentOS / Mageia / OpenMandriva
 
 Neofetch is in Fedora's official repositories starting from Fedora 27.
 

@@ -239,14 +239,7 @@ Install it from the official repositories.
 2. Install the package
     - `sudo apt install neofetch`
 
-### Ubuntu 16.10 and below
-
-1. Add PPA
-    - `sudo add-apt-repository ppa:dawidd0811/neofetch`
-2. Update repositories
-    - `sudo apt-get update`
-3. Install the package
-    - `sudo apt-get install neofetch`
+NOTE: The third party PPA has been deprecated and could be deleted anytime without notice.
 
 ## Void Linux
 

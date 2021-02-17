@@ -1,3 +1,6 @@
+This is the default config file from neofetch 7.1.0:
+
+```
 # See this wiki page for more info:
 # https://github.com/dylanaraps/neofetch/wiki/Customizing-Info
 print_info() {
@@ -878,3 +881,4 @@ background_color=
 # Default: 'off'
 # Values: 'on', 'off'
 stdout="off"
+```

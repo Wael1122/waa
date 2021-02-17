@@ -9,9 +9,6 @@ You can launch the script without a config file by using the flag `--config none
 
 See this wiki page for an example config: https://github.com/dylanaraps/neofetch/wiki/Config-File
 
-
 ### Customizing what info gets displayed
 
 https://github.com/dylanaraps/neofetch/wiki/Customizing-Info
-
-

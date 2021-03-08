@@ -80,7 +80,7 @@ IRIX 6.5 and any later version should be supported.
 - `ChromeOS`
 - `CloverOS`
 - `Container Linux by CoreOS`
-- `CromeOS (Crouton)`
+- `ChromeOS (developer shell)`
 - `Crux`
 - `Debian`
 - `Deepin`

@@ -19,6 +19,7 @@ the latest release and running the Makefile.
     * [Debian](#debian)
         * [Stretch / Sid (Unstable)](#stretch--sid-unstable)
     * [Fedora / RHEL / CentOS / Mageia / OpenMandriva](#fedora--rhel--centos--mageia--openmandriva)
+    * [FreeBSD](#freebsd)
     * [Gentoo / Funtoo](#gentoo--funtoo)
     * [GoboLinux](#gobolinux)
     * [iOS/iPadOS](#iosipados)
@@ -178,6 +179,11 @@ Alternatively:
 3. Install the package
     - `sudo dnf install neofetch`
 
+## FreeBSD
+
+Install it from the official pkg repository:
+
+- `sudo pkg install neofetch`
 
 ## Gentoo / Funtoo
 

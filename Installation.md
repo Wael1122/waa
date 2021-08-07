@@ -261,7 +261,7 @@ Install it from the official repositories.
 
 ## Windows
 
-Install it from the [Scoop](https://linkify.me/EIm84xd).
+Install it from the [Scoop](https://github.com/lukesampson/scoop).
 
 - `scoop install neofetch`
 
